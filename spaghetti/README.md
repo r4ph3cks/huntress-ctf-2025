@@ -15,7 +15,7 @@
 > [!IMPORTANT]
 > The ZIP archive password is `infected`
 
-## Initial Analysis
+## Analysis
 
 We started by extracting the zip file with the given password, which contained two files named `spaghetti` and `AYGIW.tmp`. After analyzing both files, we concluded that `spaghetti` is a PowerShell script file and the other is an ASCII file containing an enormous string.
 
