@@ -1,19 +1,26 @@
-# Spaghetti -- Huntress CTF 2025
+# Huntress CTF 2025 -- 🐞 Spaghetti 
 
-**Category:** Malware
+- **Team:** r4ph3cks
+- **Date:** 02/10/2025
 
-**Description:**
+## Challenge Information
 
+- **Category:** 🐞 Malware
+
+- **Description:**
 > You know, I've been thinking... at the end of the day, spaghetti is really just strings of pasta!
 > Anyway, we saw this weird file running on startup. Can you figure out what this is?
 > I'm sure you'll understand the questions below better as you explore!
 
-**Author:** [John Hammond](https://www.youtube.com/@_JohnHammond)
+- **Author:** [John Hammond](https://www.youtube.com/@_JohnHammond)
 
-**Given:** [spaghetti.zip](https://github.com/r4ph3cks/huntress-ctf-2025/tree/6231ada10f6551d22c718e4842bd58ba4d840f35/spaghetti/assets/spaghetti.zip)
+- **Given:** [spaghetti.zip](https://github.com/r4ph3cks/huntress-ctf-2025/tree/6231ada10f6551d22c718e4842bd58ba4d840f35/spaghetti/assets/spaghetti.zip)
 
 > [!IMPORTANT]
 > The ZIP archive password is `infected`
+
+> [!NOTE]
+> You may find a public paste URL that is expired. This is an artifact of the original malware sample and is intentional. This URL is not necessary for the challenge.
 
 ## Initial Analysis
 
