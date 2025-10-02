@@ -65,6 +65,9 @@ Function HombaAmigo([String] $IN) {
 This function replaces characters, then parses the string two characters at a time as hexadecimal digits and returns a byte array. Although PowerShell is cross-platform, we decided to translate the code to Python:
 
 ```python
+INPUT_FILE = 'AYGIW.tmp'
+OUTPUT_FILE = 'decoded_file'
+
 def homba_amigo(input_string):
     run_rbtx1 = input_string.replace('~', '000').replace('%', '4')
     
@@ -77,14 +80,12 @@ def homba_amigo(input_string):
     return bytes(bytes_array)
 
 if __name__ == "__main__":
-    with open('AYGIW.tmp', 'r') as file:
+    with open(INPUT_FILE, 'r') as file:
         data = file.read().rstrip()
     
     result = homba_amigo(data.replace('WT','00'))
 
-    output_filename = 'decoded_file'
-
-    with open(output_filename, 'w') as output_file:
+    with open(OUTPUT_FILE, 'w') as output_file:
         output_file.write(result.decode(errors='ignore'))
 ```
 
