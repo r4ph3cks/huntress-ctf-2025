@@ -196,7 +196,7 @@ D:H4sK'c@^jAiC%1K}1^V65i/Upa*U(mEU'(Va'b/nt_*vgYH.^_V_Td5AgNoIWlD9jvOZ3oKhm/WwX+
 Very nice! That was Base 92. Many decoders do not ignore whitespace, so you may need to remove line breaks before decoding. Tip: Base92 uses a wide printable set but excludes spaces and newlines; strip them before decoding. Here is another flag: flag{0c97042d855d7b353dc87c91ea902129}
 ```
 
-# Last Representation
+### Last Representation
 
 **Description:** The data below looks super weird! Don't panic if your editor can't render every symbol. Can you tell what it is?
 
