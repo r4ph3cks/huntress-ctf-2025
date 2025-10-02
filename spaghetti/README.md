@@ -22,7 +22,7 @@
 > [!NOTE]
 > You may find a public paste URL that is expired. This is an artifact of the original malware sample and is intentional. This URL is not necessary for the challenge.
 
-## Initial Analysis
+## Analysis and Solution
 
 We started by extracting the zip file with the given password, which contained two files named `spaghetti` and `AYGIW.tmp`. After analyzing both files, we concluded that `spaghetti` is a PowerShell script file and the other is an ASCII file containing an enormous string.
 
