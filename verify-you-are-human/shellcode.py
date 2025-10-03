@@ -1,4 +1,3 @@
-import ctypes
 import base64
 import binascii
 
