@@ -14,7 +14,7 @@
 
 - **Author:** [John Hammond](https://www.youtube.com/@_JohnHammond)
 
-- **Given:** [spaghetti.zip](https://github.com/r4ph3cks/huntress-ctf-2025/tree/6231ada10f6551d22c718e4842bd58ba4d840f35/spaghetti/assets/spaghetti.zip)
+- **Given:** [spaghetti.zip](https://github.com/r4ph3cks/huntress-ctf-2025/blob/main/spaghetti/assets/spaghetti.zip)
 
 > [!IMPORTANT]
 > The ZIP archive password is `infected`
