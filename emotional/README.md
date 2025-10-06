@@ -90,7 +90,7 @@ This works because:
 
 ### Flag Extraction
 
-The final exploitation process is implemented in [`solve.sh`](assets/solve.sh):
+The final exploitation process is implemented in [`solve.sh`](scripts/solve.sh):
 
 ```bash
 #!/bin/bash
