@@ -30,12 +30,12 @@ This challenge demonstrates a sophisticated multi-stage malware delivery chain t
 ### Initial Web Analysis
 
 Given the website challenge, we start by examining the provided HTML file:
-![Website Screenshot](assets/website.png)
+![Website Screenshot](images/website.png)
 
 The page presents itself as a legitimate Microsoft Teams update requiring a Cloudflare CAPTCHA verification. This is a common social engineering technique that exploits user trust in well-known services.
 
 Clicking the "Verify You Are Human" button redirects to an instruction page:
-![Redirected Page Screenshot](assets/redirected_page.png)
+![Redirected Page Screenshot](images/redirected_page.png)
 
 **Attack Vector Identification:**
 This page instructs users to:
@@ -210,7 +210,7 @@ shellcode = bytearray(xor_decrypt(base64.b64decode('zGdgT6GHR9uXJ682kdam1A5TbvJP
 print(binascii.hexlify(shellcode))
 ```
 
-This produces the hexadecimal representation in [`hexa.txt`](assets/hexa.txt):
+This produces the hexadecimal representation in [`hexa`](assets/hexa):
 ```
 5589e581ec800000006893d884846890c3c69768c39093926890c4c3c7689c939c9368c09cc6c66897c69c936894c79dc168dec1969168c3c9c4c2b90a00000089e78137a5a5a5a583c7044975f4c644242600c6857fffffff0089e68d7d80b9260000008a06880746474975f7c607008d3c24b940000000b0018807474975fac9c3
 ```
@@ -323,7 +323,7 @@ This C code simulates what the shellcode is doing. It initializes a buffer with 
 
 ### Flag Extraction
 
-The shellcode implements a simple XOR decryption routine. We reverse this process in [`generate_flag.py`](assets/generate_flag.py):
+The shellcode implements a simple XOR decryption routine. We reverse this process in [`generate_flag.py`](scripts/generate_flag.py):
 ```python
 from pwn import *
 
@@ -353,7 +353,7 @@ print(f"Flag: {flag}")
 3. **Byte Order**: Convert to little-endian format for proper string reconstruction
 4. **String Assembly**: Concatenate decrypted parts to form the flag
 
-Running this script reveals the hidden flag.
+Running the script [`generate_flag.py`](scripts/generate_flag.py) reveals the hidden flag.
 
 Flag:
 
