@@ -10,7 +10,7 @@
 - **Description:**
 > Can you make sense of all the different data below? Each one has a different representation!
 
-- **Author:** [John Hammond](https://www.youtube.com/@_JohnHammond)
+- **Author:** Don't be shy, show your emotions! Get emotional if you have to! Uncover the flag.
 
 ## Analysis and Solution
 
