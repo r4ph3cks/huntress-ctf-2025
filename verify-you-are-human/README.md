@@ -45,7 +45,7 @@ Seeing what is being downloaded, we can use `curl` or `wget` to fetch the script
 curl -o output.ps1 "https://65cdd3d3.proxy.coursestack.com/?tic=1"
 ```
 
-This gives us the PowerShell script [output.ps1](assets/output.ps1).
+This gives us the PowerShell script [`output.ps1`](assets/output.ps1).
 
 This script had the following information:
 
@@ -62,7 +62,7 @@ Downloading the supposed PDF file (again, removing the port 443):
 curl -o document.pdf "https://65cdd3d3.proxy.coursestack.com/?tic=2"
 ```
 
-This gives us the file [document.pdf](assets/document.pdf) which is actually a ZIP file. Renaming it to `document.zip` gives us [document.zip](assets/document.zip) which we can extract to get the files present inside [document_extracted/](assets/document_extracted/).
+This gives us the file [`document.pdf`](assets/document.pdf) which is actually a ZIP file. Renaming it to `document.zip` gives us [`document.zip`](assets/document.zip) which we can extract to get the files present inside [`document_extracted/`](assets/document_extracted/).
 
 From all the extracted files, the main one is `cpython-3134.pyc`, which is a compiled Python file. We can use `uncompyle6` to decompile it:
 
@@ -70,7 +70,7 @@ From all the extracted files, the main one is `cpython-3134.pyc`, which is a com
 uncompyle6 cpython-3134.pyc > decompiled.py
 ```
 
-[decompiled.py](assets/decompiled.py) contains the following code:
+[`decompiled.py`](assets/decompiled.py) contains the following code:
 
 ```python
 import base64
@@ -79,7 +79,7 @@ exec(base64.b64decode("aW1wb3J0IGN0eXBlcwoKZGVmIHhvcl9kZWNyeXB0KGNpcGhlcnRleHRfY
 #g0emgoemboemoetmboemomeio
 ```
 
-Decoding the base64 string inside the `exec` using [CyberChef](https://gchq.github.io/CyberChef/) we get [script.py](assets/script.py) with the following code:
+Decoding the base64 string inside the `exec` using [`CyberChef`](https://gchq.github.io/CyberChef/) we get [`script.py`](assets/script.py) with the following code:
 
 ```python
 import ctypes
@@ -103,7 +103,7 @@ fn()
 
 This script contains an `xor_decrypt` function that decrypts the provided shellcode using XOR with a key. The shellcode is base64 encoded and then XOR encrypted.
 
-Simplifying the script to just decrypt and print the shellcode we created [shellcode.py](assets/shellcode.py):
+Simplifying the script to just decrypt and print the shellcode we created [`shellcode.py`](assets/shellcode.py):
 
 ```python
 import base64
@@ -121,13 +121,13 @@ shellcode = bytearray(xor_decrypt(base64.b64decode('zGdgT6GHR9uXJ682kdam1A5TbvJP
 print(binascii.hexlify(shellcode))
 ```
 
-We used `binascii.hexlify` to print the shellcode in hexadecimal format. Running this script gives us the output [hexa.txt](assets/hexa.txt):
+We used `binascii.hexlify` to print the shellcode in hexadecimal format. Running this script gives us the output [`hexa.txt`](assets/hexa.txt):
 
 ```
 5589e581ec800000006893d884846890c3c69768c39093926890c4c3c7689c939c9368c09cc6c66897c69c936894c79dc168dec1969168c3c9c4c2b90a00000089e78137a5a5a5a583c7044975f4c644242600c6857fffffff0089e68d7d80b9260000008a06880746474975f7c607008d3c24b940000000b0018807474975fac9c3
 ```
 
-We then convert this hex string to assembly instructions using [CyberChef](https://gchq.github.io/CyberChef/) getting [assembly.txt](assets/assembly.txt):
+We then convert this hex string to assembly instructions using [`CyberChef`](https://gchq.github.io/CyberChef/) getting [`assembly.txt`](assets/assembly.txt):
 
 ```assembly
 0000000000000000 55                              PUSH RBP
@@ -168,7 +168,7 @@ We then convert this hex string to assembly instructions using [CyberChef](https
 
 This shellcode is a typical Windows x86-64 shellcode that decodes and executes a second stage payload. The decoded payload is usually another piece of shellcode or a small executable that performs the main malicious activity.
 
-We used the website [CodeConvert](https://www.codeconvert.ai/assembly-to-c-converter?id=b7394f88-494d-480e-9bb8-21bf297b9f61) to convert the assembly to C code to be easier to read what was happening, we then got [outputCode.c](assets/outputCode.c):
+We used the website [`CodeConvert`](https://www.codeconvert.ai/assembly-to-c-converter?id=b7394f88-494d-480e-9bb8-21bf297b9f61) to convert the assembly to C code to be easier to read what was happening, we then got [`outputCode.c`](assets/outputCode.c):
 
 ```c
 #include <stdint.h>
@@ -225,7 +225,7 @@ void main() {
 
 This C code simulates what the shellcode is doing. It initializes a buffer with specific values, XORs them with a key, and performs some memory operations.
 
-We noticed that the 10 DWORD values pushed onto the stack are XORed with `0xA5A5A5A5`. Reversing this XOR operation on python with the script [generate_flag.py](assets/generate_flag.py):
+We noticed that the 10 DWORD values pushed onto the stack are XORed with `0xA5A5A5A5`. Reversing this XOR operation on python with the script [`generate_flag.py`](assets/generate_flag.py):
 
 ```python
 from pwn import *
