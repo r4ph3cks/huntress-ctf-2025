@@ -16,29 +16,31 @@
 
 ## Analysis and Solution
 
-We were given a virtual machine to launch, that after starting completion, showed this html page:
+We were given a virtual machine to launch, which, after initialization, displayed the following HTML page:
 
 ![Site Preview](images/site_preview.png)
 
-We were not given any source code of the page. We tried checking html, scripts and networks requests and realized that the possible attack vector was sending requests to a endpoint ```/submit```. This endpoint is used to send what the user inputs in the text box and sends it like ```/submit?flag=flag{this_flag_is_cool}``` with a GET method.
+We did not receive any source code for the page. By inspecting the HTML, scripts, and network requests, we determined that the likely attack vector was sending requests to the ```/submit``` endpoint. This endpoint takes user input from the text box and sends it using a GET request in the format ```/submit?flag=flag{this_flag_is_cool}```.
 
-After testing command injection and other techinques, we tried an attack using timing responses. We tought of this because of the message below the text box, ```Brute forcing won't work, we got a new security team.```. Usually, this is not an attack that is common in CTF's but it was worth the try.
+After testing for command injection and other techniques, we decided to try a timing-based attack. We chose this approach because of the message displayed below the text box: __“Brute forcing won't work, we got a new security team.”__ Although timing attacks are uncommon in CTFs, it seemed worth a try.
 
-We started by sending a char to see the response time, like ```/submit?flag=a```. At first we didn't realized that there were a ```x-response-time``` header in the response. This is important because this header is manually sent by the server, and is not the browser that puts it. So this is the "precise" time calculated by the server, and if the network has any noise or failures, that header is the precise time and not the calculated by the browser. So sending the request we got this:
+We started by sending a single character to observe the response time, for example ```/submit?flag=a```. Initially, we didn’t notice the ```x-response-time``` header in the response. This header is important because it’s manually set by the server—not by the browser. That means it represents the actual processing time on the server, unaffected by network noise or delays. Sending a request gave us the following response:
 
 ![Site Negative Response](images/response.png)
 
 ![Simple Request Headers](images/simple_request_headers.png)
 
-The last header tells us that the response time calculated by the server is ```0.001048 seconds```. If we try to send ```flag{``` we should have a higher response time:
+The last header shows the server’s calculated response time as ```0.001048 seconds```. When we sent ```flag{```, we observed a noticeably higher response time:
 
 ![Flag Start Headers](images/flag_start_headers.png)
 
-There is a different response time. So if we start sending characters after ```flag{``` we should be able to see differents between the response times of the characters. The flags are MD5 hashes so the length is 32 inside the ```{}``` and the possible characters are ```0123456789abcdef```. Unfortunally we realized that, after 11 requests, our IP is blacklisted, forbidding us to send more requests:
+The difference in response times suggested that by appending characters after ```flag{```, we could detect variations corresponding to correct characters. Since the flag was an MD5 hash, its length inside the braces was 32 characters, using the charset ```0123456789abcdef```.
+
+Unfortunately, after 11 requests, our IP was blacklisted, preventing us from sending further requests:
 
 ![IP Blocked](images/blocked_ip.png)
 
-So we only could get to the character ```a```. We can resolve this in the simplest way by resetting the VM and getting a new url and continue the testing. For this we made a python script:
+At that point, we had only reached the character ```a```. The simplest workaround was to reset the VM, obtain a new URL, and continue testing. For this, we created the following Python script:
 
 ```python
 import requests
@@ -90,9 +92,9 @@ if __name__ == '__main__':
     print(f'Final FLAG: {FLAG}')
 ```
 
-This scripts iterates every char possible for the flag requesting a URL when all the tries are tried. This probably could be done in a simpler way but we sticked with this. 
+This script iterates through every possible character for the flag and requests a new URL whenever all attempts are exhausted. Although the implementation could be simplified, it served our purpose.
 
-When executing we could check that when a character is the right one, there is a ```0.1``` diff between the other requests. By doing this for a good amount of time ;) we found the flag:
+During execution, we observed that when a character was correct, the response time was approximately ```0.1 seconds``` longer than the others. By continuing this process for a while, we successfully discovered the flag.
 
 ### Flag:
 
