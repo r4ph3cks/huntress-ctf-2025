@@ -1,0 +1,472 @@
+Volatility 3 Framework 2.26.2
+
+PID	Process	Block	Variable	Value
+
+860	lsass.exe	0x20f141049c0	ALLUSERSPROFILE	C:\ProgramData
+860	lsass.exe	0x20f141049c0	CommonProgramFiles	C:\Program Files\Common Files
+860	lsass.exe	0x20f141049c0	CommonProgramFiles(x86)	C:\Program Files (x86)\Common Files
+860	lsass.exe	0x20f141049c0	CommonProgramW6432	C:\Program Files\Common Files
+860	lsass.exe	0x20f141049c0	COMPUTERNAME	WINDOWS
+860	lsass.exe	0x20f141049c0	ComSpec	C:\WINDOWS\system32\cmd.exe
+860	lsass.exe	0x20f141049c0	DriverData	C:\Windows\System32\Drivers\DriverData
+860	lsass.exe	0x20f141049c0	NUMBER_OF_PROCESSORS	2
+860	lsass.exe	0x20f141049c0	OS	Windows_NT
+860	lsass.exe	0x20f141049c0	Path	C:\WINDOWS\System32
+860	lsass.exe	0x20f141049c0	PATHEXT	.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+860	lsass.exe	0x20f141049c0	PROCESSOR_ARCHITECTURE	AMD64
+860	lsass.exe	0x20f141049c0	PROCESSOR_IDENTIFIER	Intel64 Family 6 Model 170 Stepping 4, GenuineIntel
+860	lsass.exe	0x20f141049c0	PROCESSOR_LEVEL	6
+860	lsass.exe	0x20f141049c0	PROCESSOR_REVISION	aa04
+860	lsass.exe	0x20f141049c0	ProgramData	C:\ProgramData
+860	lsass.exe	0x20f141049c0	ProgramFiles	C:\Program Files
+860	lsass.exe	0x20f141049c0	ProgramFiles(x86)	C:\Program Files (x86)
+860	lsass.exe	0x20f141049c0	ProgramW6432	C:\Program Files
+860	lsass.exe	0x20f141049c0	PSModulePath	%ProgramFiles%\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+860	lsass.exe	0x20f141049c0	PUBLIC	C:\Users\Public
+860	lsass.exe	0x20f141049c0	SystemDrive	C:
+860	lsass.exe	0x20f141049c0	SystemRoot	C:\WINDOWS
+860	lsass.exe	0x20f141049c0	TEMP	C:\WINDOWS\TEMP
+860	lsass.exe	0x20f141049c0	TMP	C:\WINDOWS\TEMP
+860	lsass.exe	0x20f141049c0	USERNAME	SYSTEM
+860	lsass.exe	0x20f141049c0	USERPROFILE	C:\WINDOWS\system32\config\systemprofile
+860	lsass.exe	0x20f141049c0	windir	C:\WINDOWS
+860	lsass.exe	0x20f141049c0	TMP	C:\WINDOWS\TEMP
+860	lsass.exe	0x20f141049c0	USERNAME	SYSTEM
+860	lsass.exe	0x20f141049c0	USERPROFILE	C:\WINDOWS\system32\config\systemprofile
+860	lsass.exe	0x20f141049c0	windir	C:\WINDOWS
+976	svchost.exe	0x1a480104b90	ALLUSERSPROFILE	C:\ProgramData
+976	svchost.exe	0x1a480104b90	APPDATA	C:\WINDOWS\system32\config\systemprofile\AppData\Roaming
+976	svchost.exe	0x1a480104b90	CommonProgramFiles	C:\Program Files\Common Files
+976	svchost.exe	0x1a480104b90	CommonProgramFiles(x86)	C:\Program Files (x86)\Common Files
+976	svchost.exe	0x1a480104b90	CommonProgramW6432	C:\Program Files\Common Files
+976	svchost.exe	0x1a480104b90	COMPUTERNAME	WINDOWS
+976	svchost.exe	0x1a480104b90	ComSpec	C:\WINDOWS\system32\cmd.exe
+976	svchost.exe	0x1a480104b90	DriverData	C:\Windows\System32\Drivers\DriverData
+976	svchost.exe	0x1a480104b90	LOCALAPPDATA	C:\WINDOWS\system32\config\systemprofile\AppData\Local
+976	svchost.exe	0x1a480104b90	NUMBER_OF_PROCESSORS	2
+976	svchost.exe	0x1a480104b90	OS	Windows_NT
+976	svchost.exe	0x1a480104b90	Path	C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+976	svchost.exe	0x1a480104b90	PATHEXT	.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+976	svchost.exe	0x1a480104b90	PROCESSOR_ARCHITECTURE	AMD64
+976	svchost.exe	0x1a480104b90	PROCESSOR_IDENTIFIER	Intel64 Family 6 Model 170 Stepping 4, GenuineIntel
+976	svchost.exe	0x1a480104b90	PROCESSOR_LEVEL	6
+976	svchost.exe	0x1a480104b90	PROCESSOR_REVISION	aa04
+976	svchost.exe	0x1a480104b90	ProgramData	C:\ProgramData
+976	svchost.exe	0x1a480104b90	ProgramFiles	C:\Program Files
+976	svchost.exe	0x1a480104b90	ProgramFiles(x86)	C:\Program Files (x86)
+976	svchost.exe	0x1a480104b90	ProgramW6432	C:\Program Files
+976	svchost.exe	0x1a480104b90	PSModulePath	%ProgramFiles%\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+976	svchost.exe	0x1a480104b90	PUBLIC	C:\Users\Public
+976	svchost.exe	0x1a480104b90	SystemDrive	C:
+976	svchost.exe	0x1a480104b90	SystemRoot	C:\WINDOWS
+976	svchost.exe	0x1a480104b90	TEMP	C:\WINDOWS\TEMP
+976	svchost.exe	0x1a480104b90	TMP	C:\WINDOWS\TEMP
+976	svchost.exe	0x1a480104b90	USERDOMAIN	WORKGROUP
+976	svchost.exe	0x1a480104b90	USERNAME	WINDOWS$
+976	svchost.exe	0x1a480104b90	USERPROFILE	C:\WINDOWS\system32\config\systemprofile
+976	svchost.exe	0x1a480104b90	windir	C:\WINDOWS
+624	svchost.exe	0x170d5104c20	ALLUSERSPROFILE	C:\ProgramData
+624	svchost.exe	0x170d5104c20	APPDATA	C:\WINDOWS\ServiceProfiles\NetworkService\AppData\Roaming
+624	svchost.exe	0x170d5104c20	CommonProgramFiles	C:\Program Files\Common Files
+624	svchost.exe	0x170d5104c20	CommonProgramFiles(x86)	C:\Program Files (x86)\Common Files
+624	svchost.exe	0x170d5104c20	CommonProgramW6432	C:\Program Files\Common Files
+624	svchost.exe	0x170d5104c20	COMPUTERNAME	WINDOWS
+624	svchost.exe	0x170d5104c20	ComSpec	C:\WINDOWS\system32\cmd.exe
+624	svchost.exe	0x170d5104c20	DriverData	C:\Windows\System32\Drivers\DriverData
+624	svchost.exe	0x170d5104c20	LOCALAPPDATA	C:\WINDOWS\ServiceProfiles\NetworkService\AppData\Local
+624	svchost.exe	0x170d5104c20	NUMBER_OF_PROCESSORS	2
+624	svchost.exe	0x170d5104c20	OS	Windows_NT
+624	svchost.exe	0x170d5104c20	Path	C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS\ServiceProfiles\NetworkService\AppData\Local\Microsoft\WindowsApps
+624	svchost.exe	0x170d5104c20	PATHEXT	.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+624	svchost.exe	0x170d5104c20	PROCESSOR_ARCHITECTURE	AMD64
+624	svchost.exe	0x170d5104c20	PROCESSOR_IDENTIFIER	Intel64 Family 6 Model 170 Stepping 4, GenuineIntel
+624	svchost.exe	0x170d5104c20	PROCESSOR_LEVEL	6
+624	svchost.exe	0x170d5104c20	PROCESSOR_REVISION	aa04
+624	svchost.exe	0x170d5104c20	ProgramData	C:\ProgramData
+624	svchost.exe	0x170d5104c20	ProgramFiles	C:\Program Files
+624	svchost.exe	0x170d5104c20	ProgramFiles(x86)	C:\Program Files (x86)
+624	svchost.exe	0x170d5104c20	ProgramW6432	C:\Program Files
+624	svchost.exe	0x170d5104c20	PSModulePath	%ProgramFiles%\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+624	svchost.exe	0x170d5104c20	PUBLIC	C:\Users\Public
+624	svchost.exe	0x170d5104c20	SystemDrive	C:
+624	svchost.exe	0x170d5104c20	SystemRoot	C:\WINDOWS
+624	svchost.exe	0x170d5104c20	TEMP	C:\WINDOWS\SERVIC~1\NETWOR~1\AppData\Local\Temp
+624	svchost.exe	0x170d5104c20	TMP	C:\WINDOWS\SERVIC~1\NETWOR~1\AppData\Local\Temp
+624	svchost.exe	0x170d5104c20	USERDOMAIN	WORKGROUP
+624	svchost.exe	0x170d5104c20	USERNAME	WINDOWS$
+624	svchost.exe	0x170d5104c20	USERPROFILE	C:\WINDOWS\ServiceProfiles\NetworkService
+624	svchost.exe	0x170d5104c20	windir	C:\WINDOWS
+1076	dwm.exe	0x266ac1049c0	ALLUSERSPROFILE	C:\ProgramData
+1076	dwm.exe	0x266ac1049c0	CommonProgramFiles	C:\Program Files\Common Files
+1076	dwm.exe	0x266ac1049c0	CommonProgramFiles(x86)	C:\Program Files (x86)\Common Files
+1076	dwm.exe	0x266ac1049c0	CommonProgramW6432	C:\Program Files\Common Files
+1076	dwm.exe	0x266ac1049c0	COMPUTERNAME	WINDOWS
+1076	dwm.exe	0x266ac1049c0	ComSpec	C:\WINDOWS\system32\cmd.exe
+1076	dwm.exe	0x266ac1049c0	DriverData	C:\Windows\System32\Drivers\DriverData
+1076	dwm.exe	0x266ac1049c0	NUMBER_OF_PROCESSORS	2
+1076	dwm.exe	0x266ac1049c0	OS	Windows_NT
+1076	dwm.exe	0x266ac1049c0	Path	C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\
+1076	dwm.exe	0x266ac1049c0	PATHEXT	.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+1076	dwm.exe	0x266ac1049c0	PROCESSOR_ARCHITECTURE	AMD64
+1076	dwm.exe	0x266ac1049c0	PROCESSOR_IDENTIFIER	Intel64 Family 6 Model 170 Stepping 4, GenuineIntel
+1076	dwm.exe	0x266ac1049c0	PROCESSOR_LEVEL	6
+1076	dwm.exe	0x266ac1049c0	PROCESSOR_REVISION	aa04
+1076	dwm.exe	0x266ac1049c0	ProgramData	C:\ProgramData
+1076	dwm.exe	0x266ac1049c0	ProgramFiles	C:\Program Files
+1076	dwm.exe	0x266ac1049c0	ProgramFiles(x86)	C:\Program Files (x86)
+1076	dwm.exe	0x266ac1049c0	ProgramW6432	C:\Program Files
+1076	dwm.exe	0x266ac1049c0	PSModulePath	%ProgramFiles%\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+1076	dwm.exe	0x266ac1049c0	PUBLIC	C:\Users\Public
+1076	dwm.exe	0x266ac1049c0	SystemDrive	C:
+1076	dwm.exe	0x266ac1049c0	SystemRoot	C:\WINDOWS
+1076	dwm.exe	0x266ac1049c0	TEMP	C:\WINDOWS\TEMP
+1076	dwm.exe	0x266ac1049c0	TMP	C:\WINDOWS\TEMP
+1076	dwm.exe	0x266ac1049c0	USERNAME	SYSTEM
+1076	dwm.exe	0x266ac1049c0	USERPROFILE	C:\WINDOWS\system32\config\systemprofile
+1076	dwm.exe	0x266ac1049c0	windir	C:\WINDOWS
+1192	svchost.exe	0x265d9104c20	ALLUSERSPROFILE	C:\ProgramData
+1192	svchost.exe	0x265d9104c20	APPDATA	C:\WINDOWS\ServiceProfiles\NetworkService\AppData\Roaming
+1192	svchost.exe	0x265d9104c20	CommonProgramFiles	C:\Program Files\Common Files
+1192	svchost.exe	0x265d9104c20	CommonProgramFiles(x86)	C:\Program Files (x86)\Common Files
+1192	svchost.exe	0x265d9104c20	CommonProgramW6432	C:\Program Files\Common Files
+1192	svchost.exe	0x265d9104c20	COMPUTERNAME	WINDOWS
+1192	svchost.exe	0x265d9104c20	ComSpec	C:\WINDOWS\system32\cmd.exe
+1192	svchost.exe	0x265d9104c20	DriverData	C:\Windows\System32\Drivers\DriverData
+1192	svchost.exe	0x265d9104c20	LOCALAPPDATA	C:\WINDOWS\ServiceProfiles\NetworkService\AppData\Local
+1192	svchost.exe	0x265d9104c20	NUMBER_OF_PROCESSORS	2
+1192	svchost.exe	0x265d9104c20	OS	Windows_NT
+1192	svchost.exe	0x265d9104c20	Path	C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS\ServiceProfiles\NetworkService\AppData\Local\Microsoft\WindowsApps
+1192	svchost.exe	0x265d9104c20	PATHEXT	.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+1192	svchost.exe	0x265d9104c20	PROCESSOR_ARCHITECTURE	AMD64
+1192	svchost.exe	0x265d9104c20	PROCESSOR_IDENTIFIER	Intel64 Family 6 Model 170 Stepping 4, GenuineIntel
+1192	svchost.exe	0x265d9104c20	PROCESSOR_LEVEL	6
+1192	svchost.exe	0x265d9104c20	PROCESSOR_REVISION	aa04
+1192	svchost.exe	0x265d9104c20	ProgramData	C:\ProgramData
+1192	svchost.exe	0x265d9104c20	ProgramFiles	C:\Program Files
+1192	svchost.exe	0x265d9104c20	ProgramFiles(x86)	C:\Program Files (x86)
+1192	svchost.exe	0x265d9104c20	ProgramW6432	C:\Program Files
+1192	svchost.exe	0x265d9104c20	PSModulePath	%ProgramFiles%\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+1192	svchost.exe	0x265d9104c20	PUBLIC	C:\Users\Public
+1192	svchost.exe	0x265d9104c20	SystemDrive	C:
+1192	svchost.exe	0x265d9104c20	SystemRoot	C:\WINDOWS
+1192	svchost.exe	0x265d9104c20	TEMP	C:\WINDOWS\SERVIC~1\NETWOR~1\AppData\Local\Temp
+1192	svchost.exe	0x265d9104c20	TMP	C:\WINDOWS\SERVIC~1\NETWOR~1\AppData\Local\Temp
+1192	svchost.exe	0x265d9104c20	USERDOMAIN	WORKGROUP
+1192	svchost.exe	0x265d9104c20	USERNAME	WINDOWS$
+1192	svchost.exe	0x265d9104c20	USERPROFILE	C:\WINDOWS\ServiceProfiles\NetworkService
+1192	svchost.exe	0x265d9104c20	windir	C:\WINDOWS
+1192	svchost.exe	0x265d9104c20	:\WINDOWS\ServiceProfiles\NetworkServic	:\WINDOWS\ServiceProfiles\NetworkService
+1192	svchost.exe	0x265d9104c20	windir	C:\WINDOWS
+1192	svchost.exe	0x265d9104c20	s\NetworkServic	s\NetworkService
+1192	svchost.exe	0x265d9104c20	windir	C:\WINDOWS
+1192	svchost.exe	0x265d9104c20	m	mp
+1192	svchost.exe	0x265d9104c20	USERDOMAIN	WORKGROUP
+1192	svchost.exe	0x265d9104c20	USERNAME	WINDOWS$
+1192	svchost.exe	0x265d9104c20	USERPROFILE	C:\WINDOWS\ServiceProfiles\NetworkService
+1192	svchost.exe	0x265d9104c20	windir	C:\WINDOWS
+1192	svchost.exe	0x265d9104c20	RPROFILE	C:\WINDOWS\ServiceProfiles\NetworkService
+1192	svchost.exe	0x265d9104c20	windir	C:\WINDOWS
+1192	svchost.exe	0x265d9104c20	DOWS\ServiceProfiles\NetworkServic	DOWS\ServiceProfiles\NetworkService
+1192	svchost.exe	0x265d9104c20	windir	C:\WINDOWS
+1192	svchost.exe	0x265d9104c20	es\NetworkServic	es\NetworkService
+1192	svchost.exe	0x265d9104c20	windir	C:\WINDOWS
+2596	svchost.exe	0x1f19f104b90	ALLUSERSPROFILE	C:\ProgramData
+2596	svchost.exe	0x1f19f104b90	APPDATA	C:\WINDOWS\system32\config\systemprofile\AppData\Roaming
+2596	svchost.exe	0x1f19f104b90	CommonProgramFiles	C:\Program Files\Common Files
+2596	svchost.exe	0x1f19f104b90	CommonProgramFiles(x86)	C:\Program Files (x86)\Common Files
+2596	svchost.exe	0x1f19f104b90	CommonProgramW6432	C:\Program Files\Common Files
+2596	svchost.exe	0x1f19f104b90	COMPUTERNAME	WINDOWS
+2596	svchost.exe	0x1f19f104b90	ComSpec	C:\WINDOWS\system32\cmd.exe
+2596	svchost.exe	0x1f19f104b90	DriverData	C:\Windows\System32\Drivers\DriverData
+2596	svchost.exe	0x1f19f104b90	LOCALAPPDATA	C:\WINDOWS\system32\config\systemprofile\AppData\Local
+2596	svchost.exe	0x1f19f104b90	NUMBER_OF_PROCESSORS	2
+2596	svchost.exe	0x1f19f104b90	OS	Windows_NT
+2596	svchost.exe	0x1f19f104b90	Path	C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+2596	svchost.exe	0x1f19f104b90	PATHEXT	.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+2596	svchost.exe	0x1f19f104b90	PROCESSOR_ARCHITECTURE	AMD64
+2596	svchost.exe	0x1f19f104b90	PROCESSOR_IDENTIFIER	Intel64 Family 6 Model 170 Stepping 4, GenuineIntel
+2596	svchost.exe	0x1f19f104b90	PROCESSOR_LEVEL	6
+2596	svchost.exe	0x1f19f104b90	PROCESSOR_REVISION	aa04
+2596	svchost.exe	0x1f19f104b90	ProgramData	C:\ProgramData
+2596	svchost.exe	0x1f19f104b90	ProgramFiles	C:\Program Files
+2596	svchost.exe	0x1f19f104b90	ProgramFiles(x86)	C:\Program Files (x86)
+2596	svchost.exe	0x1f19f104b90	ProgramW6432	C:\Program Files
+2596	svchost.exe	0x1f19f104b90	PSModulePath	%ProgramFiles%\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+2596	svchost.exe	0x1f19f104b90	PUBLIC	C:\Users\Public
+2596	svchost.exe	0x1f19f104b90	SystemDrive	C:
+2596	svchost.exe	0x1f19f104b90	SystemRoot	C:\WINDOWS
+2596	svchost.exe	0x1f19f104b90	TEMP	C:\WINDOWS\TEMP
+2596	svchost.exe	0x1f19f104b90	TMP	C:\WINDOWS\TEMP
+2596	svchost.exe	0x1f19f104b90	USERDOMAIN	WORKGROUP
+2596	svchost.exe	0x1f19f104b90	USERNAME	WINDOWS$
+2596	svchost.exe	0x1f19f104b90	USERPROFILE	C:\WINDOWS\system32\config\systemprofile
+2596	svchost.exe	0x1f19f104b90	windir	C:\WINDOWS
+4396	explorer.exe	0x8d78a0	ALLUSERSPROFILE	C:\ProgramData
+4396	explorer.exe	0x8d78a0	APPDATA	C:\Users\User\AppData\Roaming
+4396	explorer.exe	0x8d78a0	CommonProgramFiles	C:\Program Files\Common Files
+4396	explorer.exe	0x8d78a0	CommonProgramFiles(x86)	C:\Program Files (x86)\Common Files
+4396	explorer.exe	0x8d78a0	CommonProgramW6432	C:\Program Files\Common Files
+4396	explorer.exe	0x8d78a0	COMPUTERNAME	WINDOWS
+4396	explorer.exe	0x8d78a0	ComSpec	C:\WINDOWS\system32\cmd.exe
+4396	explorer.exe	0x8d78a0	DriverData	C:\Windows\System32\Drivers\DriverData
+4396	explorer.exe	0x8d78a0	EFC_4396_1262719628	1
+4396	explorer.exe	0x8d78a0	EFC_4396_1592913036	1
+4396	explorer.exe	0x8d78a0	EFC_4396_2283032206	1
+4396	explorer.exe	0x8d78a0	EFC_4396_2775293581	1
+4396	explorer.exe	0x8d78a0	EFC_4396_3789132940	1
+4396	explorer.exe	0x8d78a0	FPS_BROWSER_APP_PROFILE_STRING	Internet Explorer
+4396	explorer.exe	0x8d78a0	FPS_BROWSE	FPS_BROWSER
+4396	explorer.exe	0x8d78a0	轿	轿ǖ
+4396	explorer.exe	0x8d78a0	ڀ迚	ڀ迚ǖ
+4396	explorer.exe	0x8d78a0	轿	轿ǖ
+4396	explorer.exe	0x8d78a0	Ṁ轝	Ṁ轝ǖ
+4396	explorer.exe	0x8d78a0	ठ轨	ठ轨ǖ
+4396	explorer.exe	0x8d78a0	࿀迈ǖC:\Windows\System32\WindowsPowerShell\v1.0\powershell.ex	࿀迈ǖC:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+4396	explorer.exe	0x8d78a0	؀迈ǖ蠟	؀迈ǖ蠟ǖ
+4396	explorer.exe	0x8d78a0	蠟	蠟ǖ
+4396	explorer.exe	0x8d78a0	蠟	蠟ǖ
+4396	explorer.exe	0x8d78a0	蠟	蠟ǖ
+4396	explorer.exe	0x8d78a0	蠟	蠟ǖ
+4396	explorer.exe	0x8d78a0	蠟	蠟ǖ
+4396	explorer.exe	0x8d78a0	蠟	蠟ǖ
+4396	explorer.exe	0x8d78a0	蠟	蠟ǖ
+4396	explorer.exe	0x8d78a0	蠟	蠟ǖ
+4396	explorer.exe	0x8d78a0	蠟	蠟ǖ
+4396	explorer.exe	0x8d78a0	蠟	蠟ǖ
+4396	explorer.exe	0x8d78a0	蠟	蠟ǖ
+4396	explorer.exe	0x8d78a0	蠟	蠟ǖ
+4396	explorer.exe	0x8d78a0	蠟	蠟ǖ
+4396	explorer.exe	0x8d78a0	蠟	蠟ǖ
+4396	explorer.exe	0x8d78a0	蠟	蠟ǖ
+4396	explorer.exe	0x8d78a0	촰輎	촰輎ǖ
+4396	explorer.exe	0x8d78a0	촰輎	촰輎ǖ
+4396	explorer.exe	0x8d78a0	촰輎	촰輎ǖ
+4396	explorer.exe	0x8d78a0	촰輎	촰輎ǖ
+4396	explorer.exe	0x8d78a0	촰輎	촰輎ǖ
+4396	explorer.exe	0x8d78a0	촰輎	촰輎ǖ
+4396	explorer.exe	0x8d78a0	촰輎	촰輎ǖ
+4396	explorer.exe	0x8d78a0	촰輎	촰輎ǖ
+4396	explorer.exe	0x8d78a0	촰輎	촰輎ǖ
+4396	explorer.exe	0x8d78a0	촰輎	촰輎ǖ
+4396	explorer.exe	0x8d78a0	촰輎	촰輎ǖ
+4396	explorer.exe	0x8d78a0	촰輎	촰輎ǖ
+4396	explorer.exe	0x8d78a0	촰輎	촰輎ǖ
+4396	explorer.exe	0x8d78a0	촰輎	촰輎ǖ
+4396	explorer.exe	0x8d78a0	촰輎	촰輎ǖ
+4396	explorer.exe	0x8d78a0	촰輎	촰輎ǖ
+4396	explorer.exe	0x8d78a0	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.ex	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+4396	explorer.exe	0x8d78a0	䚠迚ǖ줐輎	䚠迚ǖ줐輎ǖ
+4396	explorer.exe	0x8d78a0	줐輎	줐輎ǖ
+4396	explorer.exe	0x8d78a0	줐輎	줐輎ǖ
+4396	explorer.exe	0x8d78a0	줐輎	줐輎ǖ
+4396	explorer.exe	0x8d78a0	줐輎	줐輎ǖ
+4396	explorer.exe	0x8d78a0	줐輎	줐輎ǖ
+4396	explorer.exe	0x8d78a0	줐輎	줐輎ǖ
+4396	explorer.exe	0x8d78a0	줐輎	줐輎ǖ
+4396	explorer.exe	0x8d78a0	줐輎	줐輎ǖ
+4396	explorer.exe	0x8d78a0	줐輎	줐輎ǖ
+4396	explorer.exe	0x8d78a0	줐輎	줐輎ǖ
+4396	explorer.exe	0x8d78a0	줐輎	줐輎ǖ
+4396	explorer.exe	0x8d78a0	줐輎	줐輎ǖ
+4396	explorer.exe	0x8d78a0	줐輎	줐輎ǖ
+4396	explorer.exe	0x8d78a0	줐輎	줐輎ǖ
+4396	explorer.exe	0x8d78a0	줐輎	줐輎ǖ
+4396	explorer.exe	0x8d78a0	碐迿	碐迿ǖ
+4396	explorer.exe	0x8d78a0	碐迿	碐迿ǖ
+4396	explorer.exe	0x8d78a0	碐迿	碐迿ǖ
+4396	explorer.exe	0x8d78a0	碐迿	碐迿ǖ
+4396	explorer.exe	0x8d78a0	碐迿	碐迿ǖ
+4396	explorer.exe	0x8d78a0	碐迿	碐迿ǖ
+4396	explorer.exe	0x8d78a0	碐迿	碐迿ǖ
+4396	explorer.exe	0x8d78a0	碐迿	碐迿ǖ
+4396	explorer.exe	0x8d78a0	碐迿	碐迿ǖ
+4396	explorer.exe	0x8d78a0	碐迿	碐迿ǖ
+4396	explorer.exe	0x8d78a0	碐迿	碐迿ǖ
+4396	explorer.exe	0x8d78a0	碐迿	碐迿ǖ
+4396	explorer.exe	0x8d78a0	碐迿	碐迿ǖ
+4396	explorer.exe	0x8d78a0	碐迿	碐迿ǖ
+4396	explorer.exe	0x8d78a0	碐迿	碐迿ǖ
+4396	explorer.exe	0x8d78a0	碐迿	碐迿ǖ
+4396	explorer.exe	0x8d78a0	销輰	销輰ǖ
+4396	explorer.exe	0x8d78a0	ĉ﯍敵敵ᑷ貆	ĉ﯍敵敵ᑷ貆ǖ
+4396	explorer.exe	0x8d78a0	Ꮳ貆	Ꮳ貆ǖ
+4396	explorer.exe	0x8d78a0	篴	篴ǖ
+4396	explorer.exe	0x8d78a0	㤠车	㤠车ǖ
+4396	explorer.exe	0x8d78a0	̀ഀ	̀ഀǖ
+4396	explorer.exe	0x8d78a0	㤠车ǖ젠輎	㤠车ǖ젠輎ǖ
+4396	explorer.exe	0x8d78a0	젠輎	젠輎ǖ
+4396	explorer.exe	0x8d78a0	᷐轭	᷐轭ǖ
+4396	explorer.exe	0x8d78a0	᷐轭	᷐轭ǖ
+4396	explorer.exe	0x8d78a0	젠輎	젠輎ǖ
+4396	explorer.exe	0x8d78a0	젠輎	젠輎ǖ
+4396	explorer.exe	0x8d78a0	쫰輎	쫰輎ǖ
+4396	explorer.exe	0x8d78a0	쫰輎	쫰輎ǖ
+4396	explorer.exe	0x8d78a0	젠輎	젠輎ǖ
+4396	explorer.exe	0x8d78a0	젠輎	젠輎ǖ
+4396	explorer.exe	0x8d78a0	젠輎	젠輎ǖ
+4396	explorer.exe	0x8d78a0	젠輎	젠輎ǖ
+4396	explorer.exe	0x8d78a0	젠輎	젠輎ǖ
+4396	explorer.exe	0x8d78a0	젠輎	젠輎ǖ
+4396	explorer.exe	0x8d78a0	젠輎	젠輎ǖ
+4396	explorer.exe	0x8d78a0	젠輎	젠輎ǖ
+4396	explorer.exe	0x8d78a0	C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.ex	C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+4396	explorer.exe	0x8d78a0	.0001ꄀ輰	.0001ꄀ輰ǖ
+4396	explorer.exe	0x8d78a0	ĉ	ĉ㋃
+4396	explorer.exe	0x8d78a0	ጓ貆	ጓ貆ǖ
+4396	explorer.exe	0x8d78a0	ቓ貆	ቓ貆ǖ
+4396	explorer.exe	0x8d78a0	篴	篴ǖ
+4396	explorer.exe	0x8d78a0	C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.ex	C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe
+4396	explorer.exe	0x8d78a0	䎠迈ǖ⛀迈	䎠迈ǖ⛀迈ǖ
+4396	explorer.exe	0x8d78a0	⛀迈	⛀迈ǖ
+4396	explorer.exe	0x8d78a0	⛀迈	⛀迈ǖ
+4396	explorer.exe	0x8d78a0	⛀迈	⛀迈ǖ
+4396	explorer.exe	0x8d78a0	⛀迈	⛀迈ǖ
+4396	explorer.exe	0x8d78a0	⛀迈	⛀迈ǖ
+4396	explorer.exe	0x8d78a0	⛀迈	⛀迈ǖ
+4396	explorer.exe	0x8d78a0	⛀迈	⛀迈ǖ
+4396	explorer.exe	0x8d78a0	⛀迈	⛀迈ǖ
+4396	explorer.exe	0x8d78a0	⛀迈	⛀迈ǖ
+4396	explorer.exe	0x8d78a0	⛀迈	⛀迈ǖ
+4396	explorer.exe	0x8d78a0	⛀迈	⛀迈ǖ
+4396	explorer.exe	0x8d78a0	⛀迈	⛀迈ǖ
+4396	explorer.exe	0x8d78a0	⛀迈	⛀迈ǖ
+4396	explorer.exe	0x8d78a0	♠迈	♠迈ǖ
+4396	explorer.exe	0x8d78a0	♠迈	♠迈ǖ
+4396	explorer.exe	0x8d78a0	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.ex	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+4396	explorer.exe	0x8d78a0	଀迈ǖ쨀輎	଀迈ǖ쨀輎ǖ
+4396	explorer.exe	0x8d78a0	쨀輎	쨀輎ǖ
+4396	explorer.exe	0x8d78a0	쨀輎	쨀輎ǖ
+4396	explorer.exe	0x8d78a0	쨀輎	쨀輎ǖ
+4396	explorer.exe	0x8d78a0	쨀輎	쨀輎ǖ
+4396	explorer.exe	0x8d78a0	쨀輎	쨀輎ǖ
+4396	explorer.exe	0x8d78a0	쨀輎	쨀輎ǖ
+4396	explorer.exe	0x8d78a0	쨀輎	쨀輎ǖ
+4396	explorer.exe	0x8d78a0	쨀輎	쨀輎ǖ
+4396	explorer.exe	0x8d78a0	쨀輎	쨀輎ǖ
+4396	explorer.exe	0x8d78a0	쨀輎	쨀輎ǖ
+4396	explorer.exe	0x8d78a0	쨀輎	쨀輎ǖ
+4396	explorer.exe	0x8d78a0	쨀輎	쨀輎ǖ
+4396	explorer.exe	0x8d78a0	쨀輎	쨀輎ǖ
+4396	explorer.exe	0x8d78a0	쨀輎	쨀輎ǖ
+4396	explorer.exe	0x8d78a0	쨀輎	쨀輎ǖ
+4396	explorer.exe	0x8d78a0	C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.ex	C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe
+4396	explorer.exe	0x8d78a0	硠輪ǖC:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.ex	硠輪ǖC:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+7524	SecurityHealth	0x20ed1104b90	ALLUSERSPROFILE	C:\ProgramData
+7524	SecurityHealth	0x20ed1104b90	APPDATA	C:\WINDOWS\system32\config\systemprofile\AppData\Roaming
+7524	SecurityHealth	0x20ed1104b90	CommonProgramFiles	C:\Program Files\Common Files
+7524	SecurityHealth	0x20ed1104b90	CommonProgramFiles(x86)	C:\Program Files (x86)\Common Files
+7524	SecurityHealth	0x20ed1104b90	CommonProgramW6432	C:\Program Files\Common Files
+7524	SecurityHealth	0x20ed1104b90	COMPUTERNAME	WINDOWS
+7524	SecurityHealth	0x20ed1104b90	ComSpec	C:\WINDOWS\system32\cmd.exe
+7524	SecurityHealth	0x20ed1104b90	DriverData	C:\Windows\System32\Drivers\DriverData
+7524	SecurityHealth	0x20ed1104b90	LOCALAPPDATA	C:\WINDOWS\system32\config\systemprofile\AppData\Local
+7524	SecurityHealth	0x20ed1104b90	NUMBER_OF_PROCESSORS	2
+7524	SecurityHealth	0x20ed1104b90	OS	Windows_NT
+7524	SecurityHealth	0x20ed1104b90	Path	C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+7524	SecurityHealth	0x20ed1104b90	PATHEXT	.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+7524	SecurityHealth	0x20ed1104b90	PROCESSOR_ARCHITECTURE	AMD64
+7524	SecurityHealth	0x20ed1104b90	PROCESSOR_IDENTIFIER	Intel64 Family 6 Model 170 Stepping 4, GenuineIntel
+7524	SecurityHealth	0x20ed1104b90	PROCESSOR_LEVEL	6
+7524	SecurityHealth	0x20ed1104b90	PROCESSOR_REVISION	aa04
+7524	SecurityHealth	0x20ed1104b90	ProgramData	C:\ProgramData
+7524	SecurityHealth	0x20ed1104b90	ProgramFiles	C:\Program Files
+7524	SecurityHealth	0x20ed1104b90	ProgramFiles(x86)	C:\Program Files (x86)
+7524	SecurityHealth	0x20ed1104b90	ProgramW6432	C:\Program Files
+7524	SecurityHealth	0x20ed1104b90	PSModulePath	%ProgramFiles%\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+7524	SecurityHealth	0x20ed1104b90	PUBLIC	C:\Users\Public
+7524	SecurityHealth	0x20ed1104b90	SystemDrive	C:
+7524	SecurityHealth	0x20ed1104b90	SystemRoot	C:\WINDOWS
+7524	SecurityHealth	0x20ed1104b90	TEMP	C:\WINDOWS\TEMP
+7524	SecurityHealth	0x20ed1104b90	TMP	C:\WINDOWS\TEMP
+7524	SecurityHealth	0x20ed1104b90	USERDOMAIN	WORKGROUP
+7524	SecurityHealth	0x20ed1104b90	USERNAME	WINDOWS$
+7524	SecurityHealth	0x20ed1104b90	USERPROFILE	C:\WINDOWS\system32\config\systemprofile
+7524	SecurityHealth	0x20ed1104b90	windir	C:\WINDOWS
+7524	SecurityHealth	0x20ed1104b90	C:\WINDOWS\system32\config\systemprofil	C:\WINDOWS\system32\config\systemprofile
+7524	SecurityHealth	0x20ed1104b90	windir	C:\WINDOWS
+7524	SecurityHealth	0x20ed1104b90	ig\systemprofil	ig\systemprofile
+7524	SecurityHealth	0x20ed1104b90	windir	C:\W
+7524	SecurityHealth	0x20ed1104b90	엗�	엗�￿
+7524	SecurityHealth	0x20ed1104b90	엗�￿	엗�￿ǟ
+7524	SecurityHealth	0x20ed1104b90	¼Ĩ	¼Ĩᔚ
+7524	SecurityHealth	0x20ed1104b90	｠적왍Ż	｠적왍Żᆷ
+7524	SecurityHealth	0x20ed1104b90	즽刹柰Ā	즽刹柰Āខ
+7524	SecurityHealth	0x20ed1104b90	䂪�ཎň	䂪�ཎň᳉
+7524	SecurityHealth	0x20ed1104b90	锠擵㄁*	锠擵㄁*ᕮ
+7524	SecurityHealth	0x20ed1104b90	녂鸧Ż	녂鸧Żቔ
+7524	SecurityHealth	0x20ed1104b90	皲䙛Ā	皲䙛Āᱻ
+7524	SecurityHealth	0x20ed1104b90	뚩羝ĎĨ	뚩羝ĎĨዿ
+7524	SecurityHealth	0x20ed1104b90	唸樋ľĨ	唸樋ľĨᓿ
+7524	SecurityHealth	0x20ed1104b90	Ῐ￿￿	Ῐ￿￿亁
+7524	SecurityHealth	0x20ed1104b90	溨낏 Ĩ	溨낏 ĨႢ
+7524	SecurityHealth	0x20ed1104b90	鮷儽칿Ż	鮷儽칿Żᅪ
+7524	SecurityHealth	0x20ed1104b90	꾑阙슋Ż	꾑阙슋Żᷘ
+7524	SecurityHealth	0x20ed1104b90	绁ପ￿￿	绁ପ￿￿㐔
+7524	SecurityHealth	0x20ed1104b90	খ￿￿	খ￿￿㐕
+7524	SecurityHealth	0x20ed1104b90	Ʞ㷷​Ĩ	Ʞ㷷​Ĩ᏷
+7524	SecurityHealth	0x20ed1104b90	ᔤ΂⁋Ĩ	ᔤ΂⁋Ĩᅖ
+7524	SecurityHealth	0x20ed1104b90	ꐖ泈⁡Ĩ	ꐖ泈⁡Ĩᇚ
+7524	SecurityHealth	0x20ed1104b90	鐈ٓĀ	鐈ٓĀ᩠
+7524	SecurityHealth	0x20ed1104b90	ꜫ崚ĵ	ꜫ崚ĵዾ
+7524	SecurityHealth	0x20ed1104b90	憆ᎃռĀ	憆ᎃռĀᵰ
+7524	SecurityHealth	0x20ed1104b90	።㮳벻Ż	።㮳벻Żლ
+7524	SecurityHealth	0x20ed1104b90	ⳖꜴ桩Ā	ⳖꜴ桩Ā᱿
+7524	SecurityHealth	0x20ed1104b90	繫㧠樁Ā	繫㧠樁ĀᲦ
+7524	SecurityHealth	0x20ed1104b90	푣׫ĵ	푣׫ĵ᙭
+7524	SecurityHealth	0x20ed1104b90	鞗Ȍꮏ	鞗ȌꮏὬ
+7524	SecurityHealth	0x20ed1104b90	꺎佊ĵ	꺎佊ĵᒵ
+7524	SecurityHealth	0x20ed1104b90	唝짎�Ż	唝짎�Żᤐ
+7524	SecurityHealth	0x20ed1104b90	쟀᭒쓹Ż	쟀᭒쓹Żᓫ
+7524	SecurityHealth	0x20ed1104b90	ﹸ䗸	ﹸ䗸က
+7524	SecurityHealth	0x20ed1104b90	零宵욄Ż	零宵욄Żᚂ
+7524	SecurityHealth	0x20ed1104b90	Ꙙ껬椱Ā	Ꙙ껬椱Ā᳴
+7524	SecurityHealth	0x20ed1104b90	쌲�ğ	쌲�ğᠥ
+7524	SecurityHealth	0x20ed1104b90	⹧㉟*	⹧㉟*᠌
+7524	SecurityHealth	0x20ed1104b90	᜖彥웭Ż	᜖彥웭Żኚ
+7524	SecurityHealth	0x20ed1104b90	␃鹅ĵ	␃鹅ĵᎹ
+7524	SecurityHealth	0x20ed1104b90	郠鏜�Ż	郠鏜�Żᨏ
+7524	SecurityHealth	0x20ed1104b90	㻉◂㇒*	㻉◂㇒*ᣄ
+7524	SecurityHealth	0x20ed1104b90	ꂥ᪺グ*	ꂥ᪺グ*ᔇ
+7524	SecurityHealth	0x20ed1104b90	鑑㔣ꡫā	鑑㔣ꡫāṡ
+7524	SecurityHealth	0x20ed1104b90	允ꥒā	允ꥒāᶴ
+7524	SecurityHealth	0x20ed1104b90	庍鰺ĵ	庍鰺ĵᕨ
+7524	SecurityHealth	0x20ed1104b90	璉፨ᆣł	璉፨ᆣłᤅ
+7524	SecurityHealth	0x20ed1104b90	렺ﲭĵ	렺ﲭĵ᝿
+7524	SecurityHealth	0x20ed1104b90	쫭鞍Ż	쫭鞍Żᕋ
+4036	WindowsTermina	0x1ca8b104bf0	ALLUSERSPROFILE	C:\ProgramData
+4036	WindowsTermina	0x1ca8b104bf0	APPDATA	C:\Users\User\AppData\Roaming
+4036	WindowsTermina	0x1ca8b104bf0	CommonProgramFiles	C:\Program Files\Common Files
+4036	WindowsTermina	0x1ca8b104bf0	CommonProgramFiles(x86)	C:\Program Files (x86)\Common Files
+4036	WindowsTermina	0x1ca8b104bf0	CommonProgramW6432	C:\Program Files\Common Files
+4036	WindowsTermina	0x1ca8b104bf0	COMPUTERNAME	WINDOWS
+4036	WindowsTermina	0x1ca8b104bf0	ComSpec	C:\WINDOWS\system32\cmd.exe
+4036	WindowsTermina	0x1ca8b104bf0	DriverData	C:\Windows\System32\Drivers\DriverData
+4036	WindowsTermina	0x1ca8b104bf0	HOMEDRIVE	C:
+4036	WindowsTermina	0x1ca8b104bf0	HOMEPATH	\Users\User
+4036	WindowsTermina	0x1ca8b104bf0	LOCALAPPDATA	C:\Users\User\AppData\Local
+4036	WindowsTermina	0x1ca8b104bf0	LOGONSERVER	\\WINDOWS
+4036	WindowsTermina	0x1ca8b104bf0	NUMBER_OF_PROCESSORS	2
+4036	WindowsTermina	0x1ca8b104bf0	OneDrive	C:\Users\User\OneDrive
+4036	WindowsTermina	0x1ca8b104bf0	OS	Windows_NT
+4036	WindowsTermina	0x1ca8b104bf0	Path	C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\User\AppData\Local\Microsoft\WindowsApps
+4036	WindowsTermina	0x1ca8b104bf0	PATHEXT	.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+4036	WindowsTermina	0x1ca8b104bf0	PROCESSOR_ARCHITECTURE	AMD64
+4036	WindowsTermina	0x1ca8b104bf0	PROCESSOR_IDENTIFIER	Intel64 Family 6 Model 170 Stepping 4, GenuineIntel
+4036	WindowsTermina	0x1ca8b104bf0	PROCESSOR_LEVEL	6
+4036	WindowsTermina	0x1ca8b104bf0	PROCESSOR_REVISION	aa04
+4036	WindowsTermina	0x1ca8b104bf0	ProgramData	C:\ProgramData
+4036	WindowsTermina	0x1ca8b104bf0	ProgramFiles	C:\Program Files
+4036	WindowsTermina	0x1ca8b104bf0	ProgramFiles(x86)	C:\Program Files (x86)
+4036	WindowsTermina	0x1ca8b104bf0	ProgramW6432	C:\Program Files
+4036	WindowsTermina	0x1ca8b104bf0	PSModulePath	C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+4036	WindowsTermina	0x1ca8b104bf0	PUBLIC	C:\Users\Public
+4036	WindowsTermina	0x1ca8b104bf0	SystemDrive	C:
+4036	WindowsTermina	0x1ca8b104bf0	SystemRoot	C:\WINDOWS
+4036	WindowsTermina	0x1ca8b104bf0	TEMP	C:\Users\User\AppData\Local\Temp
+4036	WindowsTermina	0x1ca8b104bf0	TMP	C:\Users\User\AppData\Local\Temp
+4036	WindowsTermina	0x1ca8b104bf0	USERDOMAIN	WINDOWS
+4036	WindowsTermina	0x1ca8b104bf0	USERDOMAIN_ROAMINGPROFILE	WINDOWS
+4036	WindowsTermina	0x1ca8b104bf0	USERNAME	User
+4036	WindowsTermina	0x1ca8b104bf0	USERPROFILE	C:\Users\User
+4036	WindowsTermina	0x1ca8b104bf0	windir	C:\WINDOWS
+4036	WindowsTermina	0x1ca8b104bf0	__COMPAT_LAYER	Installer

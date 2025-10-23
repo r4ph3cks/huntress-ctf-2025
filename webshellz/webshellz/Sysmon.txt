@@ -1,0 +1,3926 @@
+Record 1
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:20:06.837910Z">
+    </TimeCreated>
+    <EventRecordID>4308</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:20:06.832</Data>
+    <Data Name="ProcessGuid">8EED9800-8406-68E5-3801-000000006703</Data>
+    <Data Name="ProcessId">880</Data>
+    <Data Name="Image">C:\Program Files\Wireshark\dumpcap.exe</Data>
+    <Data Name="FileVersion">4.4.9</Data>
+    <Data Name="Description">Dumpcap</Data>
+    <Data Name="Product">Dumpcap</Data>
+    <Data Name="Company">The Wireshark developer community</Data>
+    <Data Name="OriginalFileName">Dumpcap.exe</Data>
+    <Data Name="CommandLine">&quot;C:\Program Files\Wireshark\dumpcap.exe&quot; --log-level MESSAGE -F pcapng -i \Device\NPF_{54B31D7E-36BF-4BBE-9AB2-106A939CD78C} --ifdescr Ethernet -y EN10MB --signal-pipe 4968 -Z 1776</Data>
+    <Data Name="CurrentDirectory">C:\Program Files\Wireshark\</Data>
+    <Data Name="User">EC2AMAZ-AGR00JO\Administrator</Data>
+    <Data Name="LogonGuid">8EED9800-8181-68E5-1AFA-020000000000</Data>
+    <Data Name="LogonId">0x2fa1a</Data>
+    <Data Name="TerminalSessionId">2</Data>
+    <Data Name="IntegrityLevel">High</Data>
+    <Data Name="Hashes">MD5=B1CF8C695330CB4C34C40B536BF0B58C,SHA256=C25B560313BC9B3FC6A8D7C32A5CB3F97D9A89918A1F3C698DC96A4CF58A794A,IMPHASH=676B7EB77D9BCEC59100AF330FEF41B7</Data>
+    <Data Name="ParentProcessGuid">8EED9800-821E-68E5-EC00-000000006703</Data>
+    <Data Name="ParentProcessId">4968</Data>
+    <Data Name="ParentImage">C:\Program Files\Wireshark\Wireshark.exe</Data>
+    <Data Name="ParentCommandLine">&quot;C:\Program Files\Wireshark\Wireshark.exe&quot;</Data>
+    <Data Name="ParentUser">EC2AMAZ-AGR00JO\Administrator</Data>
+  </EventData>
+</Event>
+Record 2
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:20:19.551982Z">
+    </TimeCreated>
+    <EventRecordID>4309</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:20:19.545</Data>
+    <Data Name="ProcessGuid">8EED9800-8413-68E5-3A01-000000006703</Data>
+    <Data Name="ProcessId">3480</Data>
+    <Data Name="Image">C:\Windows\System32\notepad.exe</Data>
+    <Data Name="FileVersion">10.0.17763.5328 (WinBuild.160101.0800)</Data>
+    <Data Name="Description">Notepad</Data>
+    <Data Name="Product">Microsoft® Windows® Operating System</Data>
+    <Data Name="Company">Microsoft Corporation</Data>
+    <Data Name="OriginalFileName">NOTEPAD.EXE</Data>
+    <Data Name="CommandLine">&quot;C:\Windows\system32\NOTEPAD.EXE&quot; C:\inetpub\logs\LogFiles\W3SVC2\u_ex251007.log</Data>
+    <Data Name="CurrentDirectory">C:\inetpub\logs\LogFiles\W3SVC2\</Data>
+    <Data Name="User">EC2AMAZ-AGR00JO\Administrator</Data>
+    <Data Name="LogonGuid">8EED9800-8181-68E5-1AFA-020000000000</Data>
+    <Data Name="LogonId">0x2fa1a</Data>
+    <Data Name="TerminalSessionId">2</Data>
+    <Data Name="IntegrityLevel">High</Data>
+    <Data Name="Hashes">MD5=C5B188AC73D5DCA677CF5712F65DE5AF,SHA256=714C533967FE9EA1C8AB7A9B31CFA13F0C1CEEBCD4BF4D365F9AE8E95764B983,IMPHASH=8F7DE39962C75ECC68F347EB42D61B66</Data>
+    <Data Name="ParentProcessGuid">8EED9800-8183-68E5-7D00-000000006703</Data>
+    <Data Name="ParentProcessId">2924</Data>
+    <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+    <Data Name="ParentCommandLine">C:\Windows\Explorer.EXE</Data>
+    <Data Name="ParentUser">EC2AMAZ-AGR00JO\Administrator</Data>
+  </EventData>
+</Event>
+Record 3
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:20:27.683125Z">
+    </TimeCreated>
+    <EventRecordID>4310</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:20:27.677</Data>
+    <Data Name="ProcessGuid">8EED9800-841B-68E5-3C01-000000006703</Data>
+    <Data Name="ProcessId">6036</Data>
+    <Data Name="Image">C:\Windows\System32\inetsrv\InetMgr.exe</Data>
+    <Data Name="FileVersion">10.0.17763.5830 (WinBuild.160101.0800)</Data>
+    <Data Name="Description">IIS Manager</Data>
+    <Data Name="Product">Internet Information Services</Data>
+    <Data Name="Company">Microsoft Corporation</Data>
+    <Data Name="OriginalFileName">InetMgr.exe</Data>
+    <Data Name="CommandLine">&quot;C:\Windows\system32\inetsrv\InetMgr.exe&quot;</Data>
+    <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+    <Data Name="User">EC2AMAZ-AGR00JO\Administrator</Data>
+    <Data Name="LogonGuid">8EED9800-8181-68E5-1AFA-020000000000</Data>
+    <Data Name="LogonId">0x2fa1a</Data>
+    <Data Name="TerminalSessionId">2</Data>
+    <Data Name="IntegrityLevel">High</Data>
+    <Data Name="Hashes">MD5=8FF3487302F811FA4CF958EF9B9DCC27,SHA256=1EFD520FF5B07C25C3B279F9297B3C10AC4F551182D941918C283D533820511C,IMPHASH=385203873B896522C9618B22DA6CD35D</Data>
+    <Data Name="ParentProcessGuid">8EED9800-8183-68E5-7D00-000000006703</Data>
+    <Data Name="ParentProcessId">2924</Data>
+    <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+    <Data Name="ParentCommandLine">C:\Windows\Explorer.EXE</Data>
+    <Data Name="ParentUser">EC2AMAZ-AGR00JO\Administrator</Data>
+  </EventData>
+</Event>
+Record 4
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>3</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>3</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:20:27.777942Z">
+    </TimeCreated>
+    <EventRecordID>4311</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2948">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">RDP</Data>
+    <Data Name="UtcTime">2025-10-07 21:20:26.050</Data>
+    <Data Name="ProcessGuid">8EED9800-8142-68E5-1300-000000006703</Data>
+    <Data Name="ProcessId">912</Data>
+    <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+    <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+    <Data Name="Protocol">tcp</Data>
+    <Data Name="Initiated">false</Data>
+    <Data Name="SourceIsIpv6">false</Data>
+    <Data Name="SourceIp">13.38.65.236</Data>
+    <Data Name="SourceHostname">ec2-13-38-65-236.eu-west-3.compute.amazonaws.com</Data>
+    <Data Name="SourcePort">64402</Data>
+    <Data Name="SourcePortName">-</Data>
+    <Data Name="DestinationIsIpv6">false</Data>
+    <Data Name="DestinationIp">172.31.9.222</Data>
+    <Data Name="DestinationHostname">EC2AMAZ-AGR00JO.eu-west-2.compute.internal</Data>
+    <Data Name="DestinationPort">3389</Data>
+    <Data Name="DestinationPortName">ms-wbt-server</Data>
+  </EventData>
+</Event>
+Record 5
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:20:55.779028Z">
+    </TimeCreated>
+    <EventRecordID>4312</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:20:55.778</Data>
+    <Data Name="ProcessGuid">8EED9800-8437-68E5-3F01-000000006703</Data>
+    <Data Name="ProcessId">5544</Data>
+    <Data Name="Image">C:\Program Files\Wireshark\dumpcap.exe</Data>
+    <Data Name="FileVersion">4.4.9</Data>
+    <Data Name="Description">Dumpcap</Data>
+    <Data Name="Product">Dumpcap</Data>
+    <Data Name="Company">The Wireshark developer community</Data>
+    <Data Name="OriginalFileName">Dumpcap.exe</Data>
+    <Data Name="CommandLine">&quot;C:\Program Files\Wireshark\dumpcap.exe&quot; --log-level MESSAGE -F pcapng -i \Device\NPF_{54B31D7E-36BF-4BBE-9AB2-106A939CD78C} --ifdescr Ethernet -y EN10MB --signal-pipe 4968 -Z 1452</Data>
+    <Data Name="CurrentDirectory">C:\Program Files\Wireshark\</Data>
+    <Data Name="User">EC2AMAZ-AGR00JO\Administrator</Data>
+    <Data Name="LogonGuid">8EED9800-8181-68E5-1AFA-020000000000</Data>
+    <Data Name="LogonId">0x2fa1a</Data>
+    <Data Name="TerminalSessionId">2</Data>
+    <Data Name="IntegrityLevel">High</Data>
+    <Data Name="Hashes">MD5=B1CF8C695330CB4C34C40B536BF0B58C,SHA256=C25B560313BC9B3FC6A8D7C32A5CB3F97D9A89918A1F3C698DC96A4CF58A794A,IMPHASH=676B7EB77D9BCEC59100AF330FEF41B7</Data>
+    <Data Name="ParentProcessGuid">8EED9800-821E-68E5-EC00-000000006703</Data>
+    <Data Name="ParentProcessId">4968</Data>
+    <Data Name="ParentImage">C:\Program Files\Wireshark\Wireshark.exe</Data>
+    <Data Name="ParentCommandLine">&quot;C:\Program Files\Wireshark\Wireshark.exe&quot;</Data>
+    <Data Name="ParentUser">EC2AMAZ-AGR00JO\Administrator</Data>
+  </EventData>
+</Event>
+Record 6
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:20:59.904114Z">
+    </TimeCreated>
+    <EventRecordID>4313</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:20:59.900</Data>
+    <Data Name="ProcessGuid">8EED9800-843B-68E5-4101-000000006703</Data>
+    <Data Name="ProcessId">5380</Data>
+    <Data Name="Image">C:\Windows\System32\LogonUI.exe</Data>
+    <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+    <Data Name="Description">Windows Logon User Interface Host</Data>
+    <Data Name="Product">Microsoft® Windows® Operating System</Data>
+    <Data Name="Company">Microsoft Corporation</Data>
+    <Data Name="OriginalFileName">logonui.exe</Data>
+    <Data Name="CommandLine">&quot;LogonUI.exe&quot; /flags:0x0 /state0:0xa3942855 /state1:0x41c64e6d</Data>
+    <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+    <Data Name="LogonGuid">8EED9800-8141-68E5-E703-000000000000</Data>
+    <Data Name="LogonId">0x3e7</Data>
+    <Data Name="TerminalSessionId">2</Data>
+    <Data Name="IntegrityLevel">System</Data>
+    <Data Name="Hashes">MD5=33F89DD9629CB0422A2C17268376232D,SHA256=9358EF8CB7FB08581D74274005263BD8FA2E6E0FC443930B25FD345CF6CE9071,IMPHASH=B9B0B64B08B38276711093CA94348D39</Data>
+    <Data Name="ParentProcessGuid">8EED9800-8180-68E5-6600-000000006703</Data>
+    <Data Name="ParentProcessId">4560</Data>
+    <Data Name="ParentImage">C:\Windows\System32\winlogon.exe</Data>
+    <Data Name="ParentCommandLine">winlogon.exe</Data>
+    <Data Name="ParentUser">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 7
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:20:59.920008Z">
+    </TimeCreated>
+    <EventRecordID>4314</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:20:59.918</Data>
+    <Data Name="ProcessGuid">8EED9800-843B-68E5-4201-000000006703</Data>
+    <Data Name="ProcessId">5816</Data>
+    <Data Name="Image">C:\Windows\System32\TSTheme.exe</Data>
+    <Data Name="FileVersion">10.0.17763.1697 (WinBuild.160101.0800)</Data>
+    <Data Name="Description">TSTheme Server Module</Data>
+    <Data Name="Product">Microsoft® Windows® Operating System</Data>
+    <Data Name="Company">Microsoft Corporation</Data>
+    <Data Name="OriginalFileName">TSThemeS.exe</Data>
+    <Data Name="CommandLine">C:\Windows\system32\TSTheme.exe -Embedding</Data>
+    <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+    <Data Name="User">EC2AMAZ-AGR00JO\Administrator</Data>
+    <Data Name="LogonGuid">8EED9800-8181-68E5-1AFA-020000000000</Data>
+    <Data Name="LogonId">0x2fa1a</Data>
+    <Data Name="TerminalSessionId">2</Data>
+    <Data Name="IntegrityLevel">High</Data>
+    <Data Name="Hashes">MD5=678B049F46799F3FA858CE79376EB7B5,SHA256=C1879B15C38D1C9BB86BCFD08A0B7D8A0809C553F8F1985659D7DA0C883EA4F7,IMPHASH=B70390445EE6DE87340DFE5CB7439893</Data>
+    <Data Name="ParentProcessGuid">8EED9800-8142-68E5-0E00-000000006703</Data>
+    <Data Name="ParentProcessId">916</Data>
+    <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+    <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k DcomLaunch -p</Data>
+    <Data Name="ParentUser">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 8
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:21:00.086029Z">
+    </TimeCreated>
+    <EventRecordID>4315</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:21:00.084</Data>
+    <Data Name="ProcessGuid">8EED9800-843C-68E5-4301-000000006703</Data>
+    <Data Name="ProcessId">500</Data>
+    <Data Name="Image">C:\Windows\System32\taskhostw.exe</Data>
+    <Data Name="FileVersion">10.0.17763.1852 (WinBuild.160101.0800)</Data>
+    <Data Name="Description">Host Process for Windows Tasks</Data>
+    <Data Name="Product">Microsoft® Windows® Operating System</Data>
+    <Data Name="Company">Microsoft Corporation</Data>
+    <Data Name="OriginalFileName">taskhostw.exe</Data>
+    <Data Name="CommandLine">taskhostw.exe KEYROAMING</Data>
+    <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+    <Data Name="User">EC2AMAZ-AGR00JO\Administrator</Data>
+    <Data Name="LogonGuid">8EED9800-8181-68E5-1AFA-020000000000</Data>
+    <Data Name="LogonId">0x2fa1a</Data>
+    <Data Name="TerminalSessionId">2</Data>
+    <Data Name="IntegrityLevel">High</Data>
+    <Data Name="Hashes">MD5=8BD7B08DA6BCA54DF9B595E4D9281BEB,SHA256=DE85F29A8BC7219F10A4AC88654C3901ABC329D7505B21CD95CBF780D1EBCCF4,IMPHASH=9839C7FD9649496B162F72128209528A</Data>
+    <Data Name="ParentProcessGuid">8EED9800-8143-68E5-2400-000000006703</Data>
+    <Data Name="ParentProcessId">1652</Data>
+    <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+    <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s Schedule</Data>
+    <Data Name="ParentUser">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 9
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:21:00.156947Z">
+    </TimeCreated>
+    <EventRecordID>4316</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">InvDB-DriverVer</Data>
+    <Data Name="EventType">SetValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:21:00.146</Data>
+    <Data Name="ProcessGuid">8EED9800-8143-68E5-3900-000000006703</Data>
+    <Data Name="ProcessId">2672</Data>
+    <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+    <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Printers\Microsoft Print to PDF (redirected 2)\DsDriver\driverVersion</Data>
+    <Data Name="Details">DWORD (0x00000401)</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 10
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>12</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>12</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:21:00.170418Z">
+    </TimeCreated>
+    <EventRecordID>4317</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">Context,DeviceConnectedOrUpdated</Data>
+    <Data Name="EventType">DeleteValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:21:00.162</Data>
+    <Data Name="ProcessGuid">8EED9800-8143-68E5-3900-000000006703</Data>
+    <Data Name="ProcessId">2672</Data>
+    <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+    <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\DeviceClasses\{0ecef634-6ef0-472a-8085-5ad023ecbccd}\##?#SWD#PRINTENUM#{FA04B239-C2C2-4449-8B30-0202EBCE4E46}#{0ecef634-6ef0-472a-8085-5ad023ecbccd}\#\Device Parameters\FriendlyName</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 11
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>12</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>12</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:21:00.172890Z">
+    </TimeCreated>
+    <EventRecordID>4318</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">InvDB-DriverVer</Data>
+    <Data Name="EventType">DeleteValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:21:00.162</Data>
+    <Data Name="ProcessGuid">8EED9800-8143-68E5-3900-000000006703</Data>
+    <Data Name="ProcessId">2672</Data>
+    <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+    <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\Class\{1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}\0003\DriverVersion</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 12
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>12</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>12</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:21:00.174694Z">
+    </TimeCreated>
+    <EventRecordID>4319</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">Context,DeviceConnectedOrUpdated</Data>
+    <Data Name="EventType">DeleteValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:21:00.162</Data>
+    <Data Name="ProcessGuid">8EED9800-8143-68E5-3900-000000006703</Data>
+    <Data Name="ProcessId">2672</Data>
+    <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+    <Data Name="TargetObject">HKLM\System\CurrentControlSet\Enum\SWD\PRINTENUM\{FA04B239-C2C2-4449-8B30-0202EBCE4E46}\FriendlyName</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 13
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:21:00.181704Z">
+    </TimeCreated>
+    <EventRecordID>4320</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">InvDB-DriverVer</Data>
+    <Data Name="EventType">SetValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:21:00.162</Data>
+    <Data Name="ProcessGuid">8EED9800-8143-68E5-3900-000000006703</Data>
+    <Data Name="ProcessId">2672</Data>
+    <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+    <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Printers\Microsoft Print to PDF (redirected 2),5\DsDriver\driverVersion</Data>
+    <Data Name="Details">DWORD (0x00000401)</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 14
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:21:00.268335Z">
+    </TimeCreated>
+    <EventRecordID>4321</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">InvDB-DriverVer</Data>
+    <Data Name="EventType">SetValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:21:00.255</Data>
+    <Data Name="ProcessGuid">8EED9800-8143-68E5-3900-000000006703</Data>
+    <Data Name="ProcessId">2672</Data>
+    <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+    <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Printers\Microsoft XPS Document Writer (redirected 2)\DsDriver\driverVersion</Data>
+    <Data Name="Details">DWORD (0x00000401)</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 15
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>12</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>12</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:21:00.280740Z">
+    </TimeCreated>
+    <EventRecordID>4322</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">Context,DeviceConnectedOrUpdated</Data>
+    <Data Name="EventType">DeleteValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:21:00.271</Data>
+    <Data Name="ProcessGuid">8EED9800-8143-68E5-3900-000000006703</Data>
+    <Data Name="ProcessId">2672</Data>
+    <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+    <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\DeviceClasses\{0ecef634-6ef0-472a-8085-5ad023ecbccd}\##?#SWD#PRINTENUM#{270B9AA7-8F74-40F3-AF9E-B941DB1548C6}#{0ecef634-6ef0-472a-8085-5ad023ecbccd}\#\Device Parameters\FriendlyName</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 16
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>12</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>12</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:21:00.283184Z">
+    </TimeCreated>
+    <EventRecordID>4323</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">InvDB-DriverVer</Data>
+    <Data Name="EventType">DeleteValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:21:00.271</Data>
+    <Data Name="ProcessGuid">8EED9800-8143-68E5-3900-000000006703</Data>
+    <Data Name="ProcessId">2672</Data>
+    <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+    <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\Class\{1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}\0004\DriverVersion</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 17
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>12</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>12</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:21:00.284977Z">
+    </TimeCreated>
+    <EventRecordID>4324</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">Context,DeviceConnectedOrUpdated</Data>
+    <Data Name="EventType">DeleteValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:21:00.271</Data>
+    <Data Name="ProcessGuid">8EED9800-8143-68E5-3900-000000006703</Data>
+    <Data Name="ProcessId">2672</Data>
+    <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+    <Data Name="TargetObject">HKLM\System\CurrentControlSet\Enum\SWD\PRINTENUM\{270B9AA7-8F74-40F3-AF9E-B941DB1548C6}\FriendlyName</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 18
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:21:00.292127Z">
+    </TimeCreated>
+    <EventRecordID>4325</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">InvDB-DriverVer</Data>
+    <Data Name="EventType">SetValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:21:00.287</Data>
+    <Data Name="ProcessGuid">8EED9800-8143-68E5-3900-000000006703</Data>
+    <Data Name="ProcessId">2672</Data>
+    <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+    <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Printers\Microsoft XPS Document Writer (redirected 2),6\DsDriver\driverVersion</Data>
+    <Data Name="Details">DWORD (0x00000401)</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 19
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:21:00.366444Z">
+    </TimeCreated>
+    <EventRecordID>4326</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">InvDB-DriverVer</Data>
+    <Data Name="EventType">SetValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:21:00.365</Data>
+    <Data Name="ProcessGuid">8EED9800-8143-68E5-3900-000000006703</Data>
+    <Data Name="ProcessId">2672</Data>
+    <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+    <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Printers\OneNote for Windows 10 (redirected 2)\DsDriver\driverVersion</Data>
+    <Data Name="Details">DWORD (0x00000401)</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 20
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>12</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>12</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:21:00.378423Z">
+    </TimeCreated>
+    <EventRecordID>4327</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">Context,DeviceConnectedOrUpdated</Data>
+    <Data Name="EventType">DeleteValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:21:00.365</Data>
+    <Data Name="ProcessGuid">8EED9800-8143-68E5-3900-000000006703</Data>
+    <Data Name="ProcessId">2672</Data>
+    <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+    <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\DeviceClasses\{0ecef634-6ef0-472a-8085-5ad023ecbccd}\##?#SWD#PRINTENUM#{D80BC162-830E-4E9D-BDFF-182A8A43F26B}#{0ecef634-6ef0-472a-8085-5ad023ecbccd}\#\Device Parameters\FriendlyName</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 21
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>12</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>12</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:21:00.380993Z">
+    </TimeCreated>
+    <EventRecordID>4328</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">InvDB-DriverVer</Data>
+    <Data Name="EventType">DeleteValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:21:00.365</Data>
+    <Data Name="ProcessGuid">8EED9800-8143-68E5-3900-000000006703</Data>
+    <Data Name="ProcessId">2672</Data>
+    <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+    <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\Class\{1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}\0005\DriverVersion</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 22
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>12</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>12</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:21:00.382800Z">
+    </TimeCreated>
+    <EventRecordID>4329</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">Context,DeviceConnectedOrUpdated</Data>
+    <Data Name="EventType">DeleteValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:21:00.365</Data>
+    <Data Name="ProcessGuid">8EED9800-8143-68E5-3900-000000006703</Data>
+    <Data Name="ProcessId">2672</Data>
+    <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+    <Data Name="TargetObject">HKLM\System\CurrentControlSet\Enum\SWD\PRINTENUM\{D80BC162-830E-4E9D-BDFF-182A8A43F26B}\FriendlyName</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 23
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:21:00.389865Z">
+    </TimeCreated>
+    <EventRecordID>4330</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">InvDB-DriverVer</Data>
+    <Data Name="EventType">SetValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:21:00.380</Data>
+    <Data Name="ProcessGuid">8EED9800-8143-68E5-3900-000000006703</Data>
+    <Data Name="ProcessId">2672</Data>
+    <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+    <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Printers\OneNote for Windows 10 (redirected 2),7\DsDriver\driverVersion</Data>
+    <Data Name="Details">DWORD (0x00000401)</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 24
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:21:00.438707Z">
+    </TimeCreated>
+    <EventRecordID>4331</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">InvDB-DriverVer</Data>
+    <Data Name="EventType">SetValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:21:00.427</Data>
+    <Data Name="ProcessGuid">8EED9800-8143-68E5-3900-000000006703</Data>
+    <Data Name="ProcessId">2672</Data>
+    <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+    <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Printers\Fax (redirected 2)\DsDriver\driverVersion</Data>
+    <Data Name="Details">DWORD (0x00000401)</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 25
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>12</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>12</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:21:00.448656Z">
+    </TimeCreated>
+    <EventRecordID>4332</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">Context,DeviceConnectedOrUpdated</Data>
+    <Data Name="EventType">DeleteValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:21:00.443</Data>
+    <Data Name="ProcessGuid">8EED9800-8143-68E5-3900-000000006703</Data>
+    <Data Name="ProcessId">2672</Data>
+    <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+    <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\DeviceClasses\{0ecef634-6ef0-472a-8085-5ad023ecbccd}\##?#SWD#PRINTENUM#{6EF8DC65-6B10-4757-B558-D5B87FF75B0A}#{0ecef634-6ef0-472a-8085-5ad023ecbccd}\#\Device Parameters\FriendlyName</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 26
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>12</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>12</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:21:00.451126Z">
+    </TimeCreated>
+    <EventRecordID>4333</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">InvDB-DriverVer</Data>
+    <Data Name="EventType">DeleteValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:21:00.443</Data>
+    <Data Name="ProcessGuid">8EED9800-8143-68E5-3900-000000006703</Data>
+    <Data Name="ProcessId">2672</Data>
+    <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+    <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\Class\{1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}\0006\DriverVersion</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 27
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>12</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>12</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:21:00.452976Z">
+    </TimeCreated>
+    <EventRecordID>4334</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">Context,DeviceConnectedOrUpdated</Data>
+    <Data Name="EventType">DeleteValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:21:00.443</Data>
+    <Data Name="ProcessGuid">8EED9800-8143-68E5-3900-000000006703</Data>
+    <Data Name="ProcessId">2672</Data>
+    <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+    <Data Name="TargetObject">HKLM\System\CurrentControlSet\Enum\SWD\PRINTENUM\{6EF8DC65-6B10-4757-B558-D5B87FF75B0A}\FriendlyName</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 28
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:21:00.459463Z">
+    </TimeCreated>
+    <EventRecordID>4335</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">InvDB-DriverVer</Data>
+    <Data Name="EventType">SetValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:21:00.443</Data>
+    <Data Name="ProcessGuid">8EED9800-8143-68E5-3900-000000006703</Data>
+    <Data Name="ProcessId">2672</Data>
+    <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+    <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Printers\Fax (redirected 2),8\DsDriver\driverVersion</Data>
+    <Data Name="Details">DWORD (0x00000401)</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 29
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:21:00.530821Z">
+    </TimeCreated>
+    <EventRecordID>4336</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">InvDB-DriverVer</Data>
+    <Data Name="EventType">SetValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:21:00.521</Data>
+    <Data Name="ProcessGuid">8EED9800-8143-68E5-3900-000000006703</Data>
+    <Data Name="ProcessId">2672</Data>
+    <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+    <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Printers\OneNote (redirected 2)\DsDriver\driverVersion</Data>
+    <Data Name="Details">DWORD (0x00000401)</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 30
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>12</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>12</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:21:00.542945Z">
+    </TimeCreated>
+    <EventRecordID>4337</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">Context,DeviceConnectedOrUpdated</Data>
+    <Data Name="EventType">DeleteValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:21:00.537</Data>
+    <Data Name="ProcessGuid">8EED9800-8143-68E5-3900-000000006703</Data>
+    <Data Name="ProcessId">2672</Data>
+    <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+    <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\DeviceClasses\{0ecef634-6ef0-472a-8085-5ad023ecbccd}\##?#SWD#PRINTENUM#{144C735C-4B44-478B-AA18-68F9EFBA7EE9}#{0ecef634-6ef0-472a-8085-5ad023ecbccd}\#\Device Parameters\FriendlyName</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 31
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>12</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>12</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:21:00.545432Z">
+    </TimeCreated>
+    <EventRecordID>4338</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">InvDB-DriverVer</Data>
+    <Data Name="EventType">DeleteValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:21:00.537</Data>
+    <Data Name="ProcessGuid">8EED9800-8143-68E5-3900-000000006703</Data>
+    <Data Name="ProcessId">2672</Data>
+    <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+    <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\Class\{1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}\0007\DriverVersion</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 32
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>12</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>12</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:21:00.547165Z">
+    </TimeCreated>
+    <EventRecordID>4339</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">Context,DeviceConnectedOrUpdated</Data>
+    <Data Name="EventType">DeleteValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:21:00.537</Data>
+    <Data Name="ProcessGuid">8EED9800-8143-68E5-3900-000000006703</Data>
+    <Data Name="ProcessId">2672</Data>
+    <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+    <Data Name="TargetObject">HKLM\System\CurrentControlSet\Enum\SWD\PRINTENUM\{144C735C-4B44-478B-AA18-68F9EFBA7EE9}\FriendlyName</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 33
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:21:00.555025Z">
+    </TimeCreated>
+    <EventRecordID>4340</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">InvDB-DriverVer</Data>
+    <Data Name="EventType">SetValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:21:00.537</Data>
+    <Data Name="ProcessGuid">8EED9800-8143-68E5-3900-000000006703</Data>
+    <Data Name="ProcessId">2672</Data>
+    <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+    <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Printers\OneNote (redirected 2),9\DsDriver\driverVersion</Data>
+    <Data Name="Details">DWORD (0x00000401)</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 34
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:24:23.305246Z">
+    </TimeCreated>
+    <EventRecordID>4341</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:24:23.304</Data>
+    <Data Name="ProcessGuid">8EED9800-8507-68E5-4401-000000006703</Data>
+    <Data Name="ProcessId">4232</Data>
+    <Data Name="Image">C:\Windows\System32\taskhostw.exe</Data>
+    <Data Name="FileVersion">10.0.17763.1852 (WinBuild.160101.0800)</Data>
+    <Data Name="Description">Host Process for Windows Tasks</Data>
+    <Data Name="Product">Microsoft® Windows® Operating System</Data>
+    <Data Name="Company">Microsoft Corporation</Data>
+    <Data Name="OriginalFileName">taskhostw.exe</Data>
+    <Data Name="CommandLine">taskhostw.exe Install $(Arg0)</Data>
+    <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+    <Data Name="User">EC2AMAZ-AGR00JO\Administrator</Data>
+    <Data Name="LogonGuid">8EED9800-8181-68E5-1AFA-020000000000</Data>
+    <Data Name="LogonId">0x2fa1a</Data>
+    <Data Name="TerminalSessionId">2</Data>
+    <Data Name="IntegrityLevel">High</Data>
+    <Data Name="Hashes">MD5=8BD7B08DA6BCA54DF9B595E4D9281BEB,SHA256=DE85F29A8BC7219F10A4AC88654C3901ABC329D7505B21CD95CBF780D1EBCCF4,IMPHASH=9839C7FD9649496B162F72128209528A</Data>
+    <Data Name="ParentProcessGuid">8EED9800-8143-68E5-2400-000000006703</Data>
+    <Data Name="ParentProcessId">1652</Data>
+    <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+    <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s Schedule</Data>
+    <Data Name="ParentUser">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 35
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:24:23.325131Z">
+    </TimeCreated>
+    <EventRecordID>4342</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:24:23.324</Data>
+    <Data Name="ProcessGuid">8EED9800-8507-68E5-4501-000000006703</Data>
+    <Data Name="ProcessId">4320</Data>
+    <Data Name="Image">C:\Windows\servicing\TrustedInstaller.exe</Data>
+    <Data Name="FileVersion">10.0.17763.5696 (WinBuild.160101.0800)</Data>
+    <Data Name="Description">Windows Modules Installer</Data>
+    <Data Name="Product">Microsoft® Windows® Operating System</Data>
+    <Data Name="Company">Microsoft Corporation</Data>
+    <Data Name="OriginalFileName">TrustedInstaller.exe</Data>
+    <Data Name="CommandLine">C:\Windows\servicing\TrustedInstaller.exe</Data>
+    <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+    <Data Name="LogonGuid">8EED9800-8141-68E5-E703-000000000000</Data>
+    <Data Name="LogonId">0x3e7</Data>
+    <Data Name="TerminalSessionId">0</Data>
+    <Data Name="IntegrityLevel">System</Data>
+    <Data Name="Hashes">MD5=C06D6841B1802CD3179F6B2704BD5DBE,SHA256=8F6CF99AD477026F881E86250C5ECC3C1071DFB774C94A4202CCACE827E7E8AA,IMPHASH=AF5CC27E8B69DC8109BAB73613D3A12A</Data>
+    <Data Name="ParentProcessGuid">8EED9800-8141-68E5-0B00-000000006703</Data>
+    <Data Name="ParentProcessId">772</Data>
+    <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+    <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    <Data Name="ParentUser">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 36
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:24:23.344952Z">
+    </TimeCreated>
+    <EventRecordID>4343</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:24:23.343</Data>
+    <Data Name="ProcessGuid">8EED9800-8507-68E5-4601-000000006703</Data>
+    <Data Name="ProcessId">1372</Data>
+    <Data Name="Image">C:\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.17763.7781_none_56c91c1199339d12\TiWorker.exe</Data>
+    <Data Name="FileVersion">10.0.17763.7781 (WinBuild.160101.0800)</Data>
+    <Data Name="Description">Windows Modules Installer Worker</Data>
+    <Data Name="Product">Microsoft® Windows® Operating System</Data>
+    <Data Name="Company">Microsoft Corporation</Data>
+    <Data Name="OriginalFileName">TiWorker.exe</Data>
+    <Data Name="CommandLine">C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.17763.7781_none_56c91c1199339d12\TiWorker.exe -Embedding</Data>
+    <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+    <Data Name="LogonGuid">8EED9800-8141-68E5-E703-000000000000</Data>
+    <Data Name="LogonId">0x3e7</Data>
+    <Data Name="TerminalSessionId">0</Data>
+    <Data Name="IntegrityLevel">System</Data>
+    <Data Name="Hashes">MD5=33EA21DE0E7A90D3E9C954F2256BA759,SHA256=C7B96F52481CDB0773A324AD66D25BC04B953D363DD95E408D555F6FE9DB7B64,IMPHASH=1CBCFAF36C2AD99E911D299737C12477</Data>
+    <Data Name="ParentProcessGuid">8EED9800-8142-68E5-0E00-000000006703</Data>
+    <Data Name="ParentProcessId">916</Data>
+    <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+    <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k DcomLaunch -p</Data>
+    <Data Name="ParentUser">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 37
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:25:52.109512Z">
+    </TimeCreated>
+    <EventRecordID>4344</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:25:52.107</Data>
+    <Data Name="ProcessGuid">8EED9800-8202-68E5-BA00-000000006703</Data>
+    <Data Name="ProcessId">4036</Data>
+    <Data Name="Image">c:\windows\system32\inetsrv\w3wp.exe</Data>
+    <Data Name="TargetFilename">C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e867663a\d997750a\4ud1gfd1.cmdline</Data>
+    <Data Name="CreationUtcTime">2025-10-07 21:25:52.107</Data>
+    <Data Name="User">IIS APPPOOL\MyAppPool</Data>
+  </EventData>
+</Event>
+Record 38
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:25:52.112153Z">
+    </TimeCreated>
+    <EventRecordID>4345</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:25:52.111</Data>
+    <Data Name="ProcessGuid">8EED9800-8560-68E5-4701-000000006703</Data>
+    <Data Name="ProcessId">3672</Data>
+    <Data Name="Image">C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe</Data>
+    <Data Name="FileVersion">4.8.3761.0 built by: NET48REL1</Data>
+    <Data Name="Description">Visual C# Command Line Compiler</Data>
+    <Data Name="Product">Microsoft® .NET Framework</Data>
+    <Data Name="Company">Microsoft Corporation</Data>
+    <Data Name="OriginalFileName">csc.exe</Data>
+    <Data Name="CommandLine">&quot;C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe&quot; /noconfig /fullpaths @&quot;C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e867663a\d997750a\4ud1gfd1.cmdline&quot;</Data>
+    <Data Name="CurrentDirectory">c:\windows\system32\inetsrv\</Data>
+    <Data Name="User">IIS APPPOOL\MyAppPool</Data>
+    <Data Name="LogonGuid">8EED9800-8202-68E5-9229-080000000000</Data>
+    <Data Name="LogonId">0x82992</Data>
+    <Data Name="TerminalSessionId">0</Data>
+    <Data Name="IntegrityLevel">High</Data>
+    <Data Name="Hashes">MD5=23EE3D381CFE3B9F6229483E2CE2F9E1,SHA256=4240A12E0B246C9D69AF1F697488FE7DA1B497DF20F4A6F95135B4D5FE180A57,IMPHASH=EE1E569AD02AA1F7AECA80AC0601D80D</Data>
+    <Data Name="ParentProcessGuid">8EED9800-8202-68E5-BA00-000000006703</Data>
+    <Data Name="ParentProcessId">4036</Data>
+    <Data Name="ParentImage">C:\Windows\System32\inetsrv\w3wp.exe</Data>
+    <Data Name="ParentCommandLine">c:\windows\system32\inetsrv\w3wp.exe -ap &quot;MyAppPool&quot; -v &quot;v4.0&quot; -l &quot;webengine4.dll&quot; -a \\.\pipe\iisipm11b827af-d73b-4f68-9bd8-f8a2d723e1e3 -h &quot;C:\inetpub\temp\apppools\MyAppPool\MyAppPool.config&quot; -w &quot;&quot; -m 0 -t 20 -ta 0</Data>
+    <Data Name="ParentUser">IIS APPPOOL\MyAppPool</Data>
+  </EventData>
+</Event>
+Record 39
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:25:52.454927Z">
+    </TimeCreated>
+    <EventRecordID>4346</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:25:52.454</Data>
+    <Data Name="ProcessGuid">8EED9800-8560-68E5-4901-000000006703</Data>
+    <Data Name="ProcessId">3184</Data>
+    <Data Name="Image">C:\Windows\Microsoft.NET\Framework64\v4.0.30319\cvtres.exe</Data>
+    <Data Name="FileVersion">14.10.25028.0 built by: VCTOOLSD15RTM</Data>
+    <Data Name="Description">Microsoft® Resource File To COFF Object Conversion Utility</Data>
+    <Data Name="Product">Microsoft® .NET Framework</Data>
+    <Data Name="Company">Microsoft Corporation</Data>
+    <Data Name="OriginalFileName">CVTRES.EXE</Data>
+    <Data Name="CommandLine">C:\Windows\Microsoft.NET\Framework64\v4.0.30319\cvtres.exe /NOLOGO /READONLY /MACHINE:IX86 &quot;/OUT:C:\Windows\TEMP\RES3450.tmp&quot; &quot;c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e867663a\d997750a\4ud1gfd1.res&quot;</Data>
+    <Data Name="CurrentDirectory">c:\windows\system32\inetsrv\</Data>
+    <Data Name="User">IIS APPPOOL\MyAppPool</Data>
+    <Data Name="LogonGuid">8EED9800-8202-68E5-9229-080000000000</Data>
+    <Data Name="LogonId">0x82992</Data>
+    <Data Name="TerminalSessionId">0</Data>
+    <Data Name="IntegrityLevel">High</Data>
+    <Data Name="Hashes">MD5=C877CBB966EA5939AA2A17B6A5160950,SHA256=1FE531EAC592B480AA4BD16052B909C3431434F17E7AE163D248355558CE43A6,IMPHASH=55D76ADE7FFEA0F41FF2B55505C2B362</Data>
+    <Data Name="ParentProcessGuid">8EED9800-8560-68E5-4701-000000006703</Data>
+    <Data Name="ParentProcessId">3672</Data>
+    <Data Name="ParentImage">C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe</Data>
+    <Data Name="ParentCommandLine">&quot;C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe&quot; /noconfig /fullpaths @&quot;C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e867663a\d997750a\4ud1gfd1.cmdline&quot;</Data>
+    <Data Name="ParentUser">IIS APPPOOL\MyAppPool</Data>
+  </EventData>
+</Event>
+Record 40
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:25:52.466110Z">
+    </TimeCreated>
+    <EventRecordID>4347</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">DLL</Data>
+    <Data Name="UtcTime">2025-10-07 21:25:52.451</Data>
+    <Data Name="ProcessGuid">8EED9800-8560-68E5-4701-000000006703</Data>
+    <Data Name="ProcessId">3672</Data>
+    <Data Name="Image">C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe</Data>
+    <Data Name="TargetFilename">C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e867663a\d997750a\App_Web_4ud1gfd1.dll</Data>
+    <Data Name="CreationUtcTime">2025-10-07 21:25:52.451</Data>
+    <Data Name="User">IIS APPPOOL\MyAppPool</Data>
+  </EventData>
+</Event>
+Record 41
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:26:25.675179Z">
+    </TimeCreated>
+    <EventRecordID>4348</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:26:25.674</Data>
+    <Data Name="ProcessGuid">8EED9800-8581-68E5-4A01-000000006703</Data>
+    <Data Name="ProcessId">4168</Data>
+    <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+    <Data Name="FileVersion">10.0.17763.1697 (WinBuild.160101.0800)</Data>
+    <Data Name="Description">Windows Command Processor</Data>
+    <Data Name="Product">Microsoft® Windows® Operating System</Data>
+    <Data Name="Company">Microsoft Corporation</Data>
+    <Data Name="OriginalFileName">Cmd.Exe</Data>
+    <Data Name="CommandLine">&quot;c:\windows\system32\cmd.exe&quot; /c net user</Data>
+    <Data Name="CurrentDirectory">c:\windows\system32\inetsrv\</Data>
+    <Data Name="User">IIS APPPOOL\MyAppPool</Data>
+    <Data Name="LogonGuid">8EED9800-8202-68E5-9229-080000000000</Data>
+    <Data Name="LogonId">0x82992</Data>
+    <Data Name="TerminalSessionId">0</Data>
+    <Data Name="IntegrityLevel">High</Data>
+    <Data Name="Hashes">MD5=911D039E71583A07320B32BDE22F8E22,SHA256=BC866CFCDDA37E24DC2634DC282C7A0E6F55209DA17A8FA105B07414C0E7C527,IMPHASH=272245E2988E1E430500B852C4FB5E18</Data>
+    <Data Name="ParentProcessGuid">8EED9800-8202-68E5-BA00-000000006703</Data>
+    <Data Name="ParentProcessId">4036</Data>
+    <Data Name="ParentImage">C:\Windows\System32\inetsrv\w3wp.exe</Data>
+    <Data Name="ParentCommandLine">c:\windows\system32\inetsrv\w3wp.exe -ap &quot;MyAppPool&quot; -v &quot;v4.0&quot; -l &quot;webengine4.dll&quot; -a \\.\pipe\iisipm11b827af-d73b-4f68-9bd8-f8a2d723e1e3 -h &quot;C:\inetpub\temp\apppools\MyAppPool\MyAppPool.config&quot; -w &quot;&quot; -m 0 -t 20 -ta 0</Data>
+    <Data Name="ParentUser">IIS APPPOOL\MyAppPool</Data>
+  </EventData>
+</Event>
+Record 42
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:26:25.709300Z">
+    </TimeCreated>
+    <EventRecordID>4349</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:26:25.708</Data>
+    <Data Name="ProcessGuid">8EED9800-8581-68E5-4C01-000000006703</Data>
+    <Data Name="ProcessId">2312</Data>
+    <Data Name="Image">C:\Windows\System32\net.exe</Data>
+    <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+    <Data Name="Description">Net Command</Data>
+    <Data Name="Product">Microsoft® Windows® Operating System</Data>
+    <Data Name="Company">Microsoft Corporation</Data>
+    <Data Name="OriginalFileName">net.exe</Data>
+    <Data Name="CommandLine">net  user</Data>
+    <Data Name="CurrentDirectory">c:\windows\system32\inetsrv\</Data>
+    <Data Name="User">IIS APPPOOL\MyAppPool</Data>
+    <Data Name="LogonGuid">8EED9800-8202-68E5-9229-080000000000</Data>
+    <Data Name="LogonId">0x82992</Data>
+    <Data Name="TerminalSessionId">0</Data>
+    <Data Name="IntegrityLevel">High</Data>
+    <Data Name="Hashes">MD5=AE61D8F04BCDE8158304067913160B31,SHA256=25C8266D2BC1D5626DCDF72419838B397D28D44D00AC09F02FF4E421B43EC369,IMPHASH=57F0C47AE2A1A2C06C8B987372AB0B07</Data>
+    <Data Name="ParentProcessGuid">8EED9800-8581-68E5-4A01-000000006703</Data>
+    <Data Name="ParentProcessId">4168</Data>
+    <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+    <Data Name="ParentCommandLine">&quot;c:\windows\system32\cmd.exe&quot; /c net user</Data>
+    <Data Name="ParentUser">IIS APPPOOL\MyAppPool</Data>
+  </EventData>
+</Event>
+Record 43
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:26:25.716956Z">
+    </TimeCreated>
+    <EventRecordID>4350</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:26:25.716</Data>
+    <Data Name="ProcessGuid">8EED9800-8581-68E5-4D01-000000006703</Data>
+    <Data Name="ProcessId">2324</Data>
+    <Data Name="Image">C:\Windows\System32\net1.exe</Data>
+    <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+    <Data Name="Description">Net Command</Data>
+    <Data Name="Product">Microsoft® Windows® Operating System</Data>
+    <Data Name="Company">Microsoft Corporation</Data>
+    <Data Name="OriginalFileName">net1.exe</Data>
+    <Data Name="CommandLine">C:\Windows\system32\net1  user</Data>
+    <Data Name="CurrentDirectory">c:\windows\system32\inetsrv\</Data>
+    <Data Name="User">IIS APPPOOL\MyAppPool</Data>
+    <Data Name="LogonGuid">8EED9800-8202-68E5-9229-080000000000</Data>
+    <Data Name="LogonId">0x82992</Data>
+    <Data Name="TerminalSessionId">0</Data>
+    <Data Name="IntegrityLevel">High</Data>
+    <Data Name="Hashes">MD5=63DD4523677E62A73A8A7494DB321EA2,SHA256=C687157FD58EAA51757CDA87D06C30953A31F03F5356B9F5A9C004FA4BAD4BF5,IMPHASH=41DBA1AF77E1A2260F0CE46D59ADCB5E</Data>
+    <Data Name="ParentProcessGuid">8EED9800-8581-68E5-4C01-000000006703</Data>
+    <Data Name="ParentProcessId">2312</Data>
+    <Data Name="ParentImage">C:\Windows\System32\net.exe</Data>
+    <Data Name="ParentCommandLine">net  user</Data>
+    <Data Name="ParentUser">IIS APPPOOL\MyAppPool</Data>
+  </EventData>
+</Event>
+Record 44
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:26:31.211039Z">
+    </TimeCreated>
+    <EventRecordID>4351</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:26:31.210</Data>
+    <Data Name="ProcessGuid">8EED9800-8587-68E5-4E01-000000006703</Data>
+    <Data Name="ProcessId">1064</Data>
+    <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+    <Data Name="FileVersion">10.0.17763.1697 (WinBuild.160101.0800)</Data>
+    <Data Name="Description">Windows Command Processor</Data>
+    <Data Name="Product">Microsoft® Windows® Operating System</Data>
+    <Data Name="Company">Microsoft Corporation</Data>
+    <Data Name="OriginalFileName">Cmd.Exe</Data>
+    <Data Name="CommandLine">&quot;c:\windows\system32\cmd.exe&quot; /c systeminfo</Data>
+    <Data Name="CurrentDirectory">c:\windows\system32\inetsrv\</Data>
+    <Data Name="User">IIS APPPOOL\MyAppPool</Data>
+    <Data Name="LogonGuid">8EED9800-8202-68E5-9229-080000000000</Data>
+    <Data Name="LogonId">0x82992</Data>
+    <Data Name="TerminalSessionId">0</Data>
+    <Data Name="IntegrityLevel">High</Data>
+    <Data Name="Hashes">MD5=911D039E71583A07320B32BDE22F8E22,SHA256=BC866CFCDDA37E24DC2634DC282C7A0E6F55209DA17A8FA105B07414C0E7C527,IMPHASH=272245E2988E1E430500B852C4FB5E18</Data>
+    <Data Name="ParentProcessGuid">8EED9800-8202-68E5-BA00-000000006703</Data>
+    <Data Name="ParentProcessId">4036</Data>
+    <Data Name="ParentImage">C:\Windows\System32\inetsrv\w3wp.exe</Data>
+    <Data Name="ParentCommandLine">c:\windows\system32\inetsrv\w3wp.exe -ap &quot;MyAppPool&quot; -v &quot;v4.0&quot; -l &quot;webengine4.dll&quot; -a \\.\pipe\iisipm11b827af-d73b-4f68-9bd8-f8a2d723e1e3 -h &quot;C:\inetpub\temp\apppools\MyAppPool\MyAppPool.config&quot; -w &quot;&quot; -m 0 -t 20 -ta 0</Data>
+    <Data Name="ParentUser">IIS APPPOOL\MyAppPool</Data>
+  </EventData>
+</Event>
+Record 45
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:26:31.245831Z">
+    </TimeCreated>
+    <EventRecordID>4352</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:26:31.245</Data>
+    <Data Name="ProcessGuid">8EED9800-8587-68E5-5001-000000006703</Data>
+    <Data Name="ProcessId">5556</Data>
+    <Data Name="Image">C:\Windows\System32\systeminfo.exe</Data>
+    <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+    <Data Name="Description">Displays system information</Data>
+    <Data Name="Product">Microsoft® Windows® Operating System</Data>
+    <Data Name="Company">Microsoft Corporation</Data>
+    <Data Name="OriginalFileName">sysinfo.exe</Data>
+    <Data Name="CommandLine">systeminfo</Data>
+    <Data Name="CurrentDirectory">c:\windows\system32\inetsrv\</Data>
+    <Data Name="User">IIS APPPOOL\MyAppPool</Data>
+    <Data Name="LogonGuid">8EED9800-8202-68E5-9229-080000000000</Data>
+    <Data Name="LogonId">0x82992</Data>
+    <Data Name="TerminalSessionId">0</Data>
+    <Data Name="IntegrityLevel">High</Data>
+    <Data Name="Hashes">MD5=F2D7816271A27223945E8AE24B6F81F7,SHA256=1084ADF2DDBE903BD71A496720B0D6616882F120D1B3FFEAE8D47FEB0D9CC123,IMPHASH=C5985EAB8C1ED292344936A4595C1438</Data>
+    <Data Name="ParentProcessGuid">8EED9800-8587-68E5-4E01-000000006703</Data>
+    <Data Name="ParentProcessId">1064</Data>
+    <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+    <Data Name="ParentCommandLine">&quot;c:\windows\system32\cmd.exe&quot; /c systeminfo</Data>
+    <Data Name="ParentUser">IIS APPPOOL\MyAppPool</Data>
+  </EventData>
+</Event>
+Record 46
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:26:31.484543Z">
+    </TimeCreated>
+    <EventRecordID>4353</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:26:31.483</Data>
+    <Data Name="ProcessGuid">8EED9800-8587-68E5-5301-000000006703</Data>
+    <Data Name="ProcessId">1216</Data>
+    <Data Name="Image">C:\Windows\servicing\TrustedInstaller.exe</Data>
+    <Data Name="FileVersion">10.0.17763.5696 (WinBuild.160101.0800)</Data>
+    <Data Name="Description">Windows Modules Installer</Data>
+    <Data Name="Product">Microsoft® Windows® Operating System</Data>
+    <Data Name="Company">Microsoft Corporation</Data>
+    <Data Name="OriginalFileName">TrustedInstaller.exe</Data>
+    <Data Name="CommandLine">C:\Windows\servicing\TrustedInstaller.exe</Data>
+    <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+    <Data Name="LogonGuid">8EED9800-8141-68E5-E703-000000000000</Data>
+    <Data Name="LogonId">0x3e7</Data>
+    <Data Name="TerminalSessionId">0</Data>
+    <Data Name="IntegrityLevel">System</Data>
+    <Data Name="Hashes">MD5=C06D6841B1802CD3179F6B2704BD5DBE,SHA256=8F6CF99AD477026F881E86250C5ECC3C1071DFB774C94A4202CCACE827E7E8AA,IMPHASH=AF5CC27E8B69DC8109BAB73613D3A12A</Data>
+    <Data Name="ParentProcessGuid">8EED9800-8141-68E5-0B00-000000006703</Data>
+    <Data Name="ParentProcessId">772</Data>
+    <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+    <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    <Data Name="ParentUser">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 47
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:26:31.503445Z">
+    </TimeCreated>
+    <EventRecordID>4354</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:26:31.502</Data>
+    <Data Name="ProcessGuid">8EED9800-8587-68E5-5401-000000006703</Data>
+    <Data Name="ProcessId">4976</Data>
+    <Data Name="Image">C:\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.17763.7781_none_56c91c1199339d12\TiWorker.exe</Data>
+    <Data Name="FileVersion">10.0.17763.7781 (WinBuild.160101.0800)</Data>
+    <Data Name="Description">Windows Modules Installer Worker</Data>
+    <Data Name="Product">Microsoft® Windows® Operating System</Data>
+    <Data Name="Company">Microsoft Corporation</Data>
+    <Data Name="OriginalFileName">TiWorker.exe</Data>
+    <Data Name="CommandLine">C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.17763.7781_none_56c91c1199339d12\TiWorker.exe -Embedding</Data>
+    <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+    <Data Name="LogonGuid">8EED9800-8141-68E5-E703-000000000000</Data>
+    <Data Name="LogonId">0x3e7</Data>
+    <Data Name="TerminalSessionId">0</Data>
+    <Data Name="IntegrityLevel">System</Data>
+    <Data Name="Hashes">MD5=33EA21DE0E7A90D3E9C954F2256BA759,SHA256=C7B96F52481CDB0773A324AD66D25BC04B953D363DD95E408D555F6FE9DB7B64,IMPHASH=1CBCFAF36C2AD99E911D299737C12477</Data>
+    <Data Name="ParentProcessGuid">8EED9800-8142-68E5-0E00-000000006703</Data>
+    <Data Name="ParentProcessId">916</Data>
+    <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+    <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k DcomLaunch -p</Data>
+    <Data Name="ParentUser">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 48
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:26:36.672300Z">
+    </TimeCreated>
+    <EventRecordID>4355</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:26:36.671</Data>
+    <Data Name="ProcessGuid">8EED9800-858C-68E5-5501-000000006703</Data>
+    <Data Name="ProcessId">5280</Data>
+    <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+    <Data Name="FileVersion">10.0.17763.1697 (WinBuild.160101.0800)</Data>
+    <Data Name="Description">Windows Command Processor</Data>
+    <Data Name="Product">Microsoft® Windows® Operating System</Data>
+    <Data Name="Company">Microsoft Corporation</Data>
+    <Data Name="OriginalFileName">Cmd.Exe</Data>
+    <Data Name="CommandLine">&quot;c:\windows\system32\cmd.exe&quot; /c ipconfig /all</Data>
+    <Data Name="CurrentDirectory">c:\windows\system32\inetsrv\</Data>
+    <Data Name="User">IIS APPPOOL\MyAppPool</Data>
+    <Data Name="LogonGuid">8EED9800-8202-68E5-9229-080000000000</Data>
+    <Data Name="LogonId">0x82992</Data>
+    <Data Name="TerminalSessionId">0</Data>
+    <Data Name="IntegrityLevel">High</Data>
+    <Data Name="Hashes">MD5=911D039E71583A07320B32BDE22F8E22,SHA256=BC866CFCDDA37E24DC2634DC282C7A0E6F55209DA17A8FA105B07414C0E7C527,IMPHASH=272245E2988E1E430500B852C4FB5E18</Data>
+    <Data Name="ParentProcessGuid">8EED9800-8202-68E5-BA00-000000006703</Data>
+    <Data Name="ParentProcessId">4036</Data>
+    <Data Name="ParentImage">C:\Windows\System32\inetsrv\w3wp.exe</Data>
+    <Data Name="ParentCommandLine">c:\windows\system32\inetsrv\w3wp.exe -ap &quot;MyAppPool&quot; -v &quot;v4.0&quot; -l &quot;webengine4.dll&quot; -a \\.\pipe\iisipm11b827af-d73b-4f68-9bd8-f8a2d723e1e3 -h &quot;C:\inetpub\temp\apppools\MyAppPool\MyAppPool.config&quot; -w &quot;&quot; -m 0 -t 20 -ta 0</Data>
+    <Data Name="ParentUser">IIS APPPOOL\MyAppPool</Data>
+  </EventData>
+</Event>
+Record 49
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:26:36.707199Z">
+    </TimeCreated>
+    <EventRecordID>4356</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:26:36.705</Data>
+    <Data Name="ProcessGuid">8EED9800-858C-68E5-5701-000000006703</Data>
+    <Data Name="ProcessId">3736</Data>
+    <Data Name="Image">C:\Windows\System32\ipconfig.exe</Data>
+    <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+    <Data Name="Description">IP Configuration Utility</Data>
+    <Data Name="Product">Microsoft® Windows® Operating System</Data>
+    <Data Name="Company">Microsoft Corporation</Data>
+    <Data Name="OriginalFileName">ipconfig.exe</Data>
+    <Data Name="CommandLine">ipconfig  /all</Data>
+    <Data Name="CurrentDirectory">c:\windows\system32\inetsrv\</Data>
+    <Data Name="User">IIS APPPOOL\MyAppPool</Data>
+    <Data Name="LogonGuid">8EED9800-8202-68E5-9229-080000000000</Data>
+    <Data Name="LogonId">0x82992</Data>
+    <Data Name="TerminalSessionId">0</Data>
+    <Data Name="IntegrityLevel">High</Data>
+    <Data Name="Hashes">MD5=3D33188ECD39ECFEEA2E08996891C76E,SHA256=C5DBBDDD1193C7ADCA1E30CD17B8C7AF6A76C406DD84DC164BB959C135F1AA70,IMPHASH=15167A60983BFC39B2DA4F53B9B1F28C</Data>
+    <Data Name="ParentProcessGuid">8EED9800-858C-68E5-5501-000000006703</Data>
+    <Data Name="ParentProcessId">5280</Data>
+    <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+    <Data Name="ParentCommandLine">&quot;c:\windows\system32\cmd.exe&quot; /c ipconfig /all</Data>
+    <Data Name="ParentUser">IIS APPPOOL\MyAppPool</Data>
+  </EventData>
+</Event>
+Record 50
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:27:39.111043Z">
+    </TimeCreated>
+    <EventRecordID>4357</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">EXE</Data>
+    <Data Name="UtcTime">2025-10-07 21:27:39.100</Data>
+    <Data Name="ProcessGuid">8EED9800-8202-68E5-BA00-000000006703</Data>
+    <Data Name="ProcessId">4036</Data>
+    <Data Name="Image">c:\windows\system32\inetsrv\w3wp.exe</Data>
+    <Data Name="TargetFilename">C:\ProgramData\svchost.exe</Data>
+    <Data Name="CreationUtcTime">2025-10-07 21:27:39.100</Data>
+    <Data Name="User">IIS APPPOOL\MyAppPool</Data>
+  </EventData>
+</Event>
+Record 51
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:28:19.689107Z">
+    </TimeCreated>
+    <EventRecordID>4358</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:28:19.688</Data>
+    <Data Name="ProcessGuid">8EED9800-85F3-68E5-5801-000000006703</Data>
+    <Data Name="ProcessId">3452</Data>
+    <Data Name="Image">C:\ProgramData\svchost.exe</Data>
+    <Data Name="FileVersion">-</Data>
+    <Data Name="Description">-</Data>
+    <Data Name="Product">-</Data>
+    <Data Name="Company">-</Data>
+    <Data Name="OriginalFileName">-</Data>
+    <Data Name="CommandLine">&quot;C:\ProgramData\svchost.exe&quot;</Data>
+    <Data Name="CurrentDirectory">c:\windows\system32\inetsrv\</Data>
+    <Data Name="User">IIS APPPOOL\MyAppPool</Data>
+    <Data Name="LogonGuid">8EED9800-8202-68E5-9229-080000000000</Data>
+    <Data Name="LogonId">0x82992</Data>
+    <Data Name="TerminalSessionId">0</Data>
+    <Data Name="IntegrityLevel">High</Data>
+    <Data Name="Hashes">MD5=739B9892F5A3A83204C723C10620AC68,SHA256=6C9917933B3DD0DFFE63B0472F1F36BAA7508186099C1D8B669BA5CC20E2C224,IMPHASH=C2D02FC98F1D75D7B9457468EC75DA0E</Data>
+    <Data Name="ParentProcessGuid">8EED9800-8202-68E5-BA00-000000006703</Data>
+    <Data Name="ParentProcessId">4036</Data>
+    <Data Name="ParentImage">C:\Windows\System32\inetsrv\w3wp.exe</Data>
+    <Data Name="ParentCommandLine">c:\windows\system32\inetsrv\w3wp.exe -ap &quot;MyAppPool&quot; -v &quot;v4.0&quot; -l &quot;webengine4.dll&quot; -a \\.\pipe\iisipm11b827af-d73b-4f68-9bd8-f8a2d723e1e3 -h &quot;C:\inetpub\temp\apppools\MyAppPool\MyAppPool.config&quot; -w &quot;&quot; -m 0 -t 20 -ta 0</Data>
+    <Data Name="ParentUser">IIS APPPOOL\MyAppPool</Data>
+  </EventData>
+</Event>
+Record 52
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>3</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>3</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:28:31.885931Z">
+    </TimeCreated>
+    <EventRecordID>4359</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2948">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:28:29.548</Data>
+    <Data Name="ProcessGuid">8EED9800-85F3-68E5-5801-000000006703</Data>
+    <Data Name="ProcessId">3452</Data>
+    <Data Name="Image">C:\ProgramData\svchost.exe</Data>
+    <Data Name="User">IIS APPPOOL\MyAppPool</Data>
+    <Data Name="Protocol">tcp</Data>
+    <Data Name="Initiated">false</Data>
+    <Data Name="SourceIsIpv6">false</Data>
+    <Data Name="SourceIp">103.125.233.27</Data>
+    <Data Name="SourceHostname">-</Data>
+    <Data Name="SourcePort">37761</Data>
+    <Data Name="SourcePortName">-</Data>
+    <Data Name="DestinationIsIpv6">false</Data>
+    <Data Name="DestinationIp">172.31.9.222</Data>
+    <Data Name="DestinationHostname">EC2AMAZ-AGR00JO.eu-west-2.compute.internal</Data>
+    <Data Name="DestinationPort">8080</Data>
+    <Data Name="DestinationPortName">-</Data>
+  </EventData>
+</Event>
+Record 53
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:28:52.076381Z">
+    </TimeCreated>
+    <EventRecordID>4360</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:28:52.075</Data>
+    <Data Name="ProcessGuid">8EED9800-8614-68E5-5901-000000006703</Data>
+    <Data Name="ProcessId">4568</Data>
+    <Data Name="Image">C:\Windows\System32\taskhostw.exe</Data>
+    <Data Name="FileVersion">10.0.17763.1852 (WinBuild.160101.0800)</Data>
+    <Data Name="Description">Host Process for Windows Tasks</Data>
+    <Data Name="Product">Microsoft® Windows® Operating System</Data>
+    <Data Name="Company">Microsoft Corporation</Data>
+    <Data Name="OriginalFileName">taskhostw.exe</Data>
+    <Data Name="CommandLine">taskhostw.exe NGCKeyPregen</Data>
+    <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+    <Data Name="LogonGuid">8EED9800-8141-68E5-E703-000000000000</Data>
+    <Data Name="LogonId">0x3e7</Data>
+    <Data Name="TerminalSessionId">0</Data>
+    <Data Name="IntegrityLevel">System</Data>
+    <Data Name="Hashes">MD5=8BD7B08DA6BCA54DF9B595E4D9281BEB,SHA256=DE85F29A8BC7219F10A4AC88654C3901ABC329D7505B21CD95CBF780D1EBCCF4,IMPHASH=9839C7FD9649496B162F72128209528A</Data>
+    <Data Name="ParentProcessGuid">8EED9800-8143-68E5-2400-000000006703</Data>
+    <Data Name="ParentProcessId">1652</Data>
+    <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+    <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s Schedule</Data>
+    <Data Name="ParentUser">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 54
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:29:11.258093Z">
+    </TimeCreated>
+    <EventRecordID>4361</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">DLL</Data>
+    <Data Name="UtcTime">2025-10-07 21:29:11.245</Data>
+    <Data Name="ProcessGuid">8EED9800-85F3-68E5-5801-000000006703</Data>
+    <Data Name="ProcessId">3452</Data>
+    <Data Name="Image">C:\ProgramData\svchost.exe</Data>
+    <Data Name="TargetFilename">C:\Windows\Temp\uizdjh.dll</Data>
+    <Data Name="CreationUtcTime">2025-10-07 21:29:11.245</Data>
+    <Data Name="User">IIS APPPOOL\MyAppPool</Data>
+  </EventData>
+</Event>
+Record 55
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:29:22.871703Z">
+    </TimeCreated>
+    <EventRecordID>4362</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:29:22.870</Data>
+    <Data Name="ProcessGuid">8EED9800-8632-68E5-5A01-000000006703</Data>
+    <Data Name="ProcessId">5888</Data>
+    <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+    <Data Name="FileVersion">10.0.17763.1697 (WinBuild.160101.0800)</Data>
+    <Data Name="Description">Windows Command Processor</Data>
+    <Data Name="Product">Microsoft® Windows® Operating System</Data>
+    <Data Name="Company">Microsoft Corporation</Data>
+    <Data Name="OriginalFileName">Cmd.Exe</Data>
+    <Data Name="CommandLine">C:\Windows\system32\cmd.exe</Data>
+    <Data Name="CurrentDirectory">c:\windows\system32\inetsrv\</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+    <Data Name="LogonGuid">8EED9800-8141-68E5-E703-000000000000</Data>
+    <Data Name="LogonId">0x3e7</Data>
+    <Data Name="TerminalSessionId">0</Data>
+    <Data Name="IntegrityLevel">System</Data>
+    <Data Name="Hashes">MD5=911D039E71583A07320B32BDE22F8E22,SHA256=BC866CFCDDA37E24DC2634DC282C7A0E6F55209DA17A8FA105B07414C0E7C527,IMPHASH=272245E2988E1E430500B852C4FB5E18</Data>
+    <Data Name="ParentProcessGuid">8EED9800-85F3-68E5-5801-000000006703</Data>
+    <Data Name="ParentProcessId">3452</Data>
+    <Data Name="ParentImage">C:\ProgramData\svchost.exe</Data>
+    <Data Name="ParentCommandLine">&quot;C:\ProgramData\svchost.exe&quot;</Data>
+    <Data Name="ParentUser">IIS APPPOOL\MyAppPool</Data>
+  </EventData>
+</Event>
+Record 56
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:30:26.290524Z">
+    </TimeCreated>
+    <EventRecordID>4363</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:30:26.289</Data>
+    <Data Name="ProcessGuid">8EED9800-8672-68E5-5C01-000000006703</Data>
+    <Data Name="ProcessId">2548</Data>
+    <Data Name="Image">C:\Windows\System32\net.exe</Data>
+    <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+    <Data Name="Description">Net Command</Data>
+    <Data Name="Product">Microsoft® Windows® Operating System</Data>
+    <Data Name="Company">Microsoft Corporation</Data>
+    <Data Name="OriginalFileName">net.exe</Data>
+    <Data Name="CommandLine">net  user IIS_USER VJGSuERc6qYAYPdRc556JTHqxqWwLbPwzABc0XgIhgwYEWdQji1 /add</Data>
+    <Data Name="CurrentDirectory">C:\ProgramData\</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+    <Data Name="LogonGuid">8EED9800-8141-68E5-E703-000000000000</Data>
+    <Data Name="LogonId">0x3e7</Data>
+    <Data Name="TerminalSessionId">0</Data>
+    <Data Name="IntegrityLevel">System</Data>
+    <Data Name="Hashes">MD5=AE61D8F04BCDE8158304067913160B31,SHA256=25C8266D2BC1D5626DCDF72419838B397D28D44D00AC09F02FF4E421B43EC369,IMPHASH=57F0C47AE2A1A2C06C8B987372AB0B07</Data>
+    <Data Name="ParentProcessGuid">8EED9800-8632-68E5-5A01-000000006703</Data>
+    <Data Name="ParentProcessId">5888</Data>
+    <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+    <Data Name="ParentCommandLine">C:\Windows\system32\cmd.exe</Data>
+    <Data Name="ParentUser">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 57
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:30:26.297336Z">
+    </TimeCreated>
+    <EventRecordID>4364</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:30:26.296</Data>
+    <Data Name="ProcessGuid">8EED9800-8672-68E5-5D01-000000006703</Data>
+    <Data Name="ProcessId">412</Data>
+    <Data Name="Image">C:\Windows\System32\net1.exe</Data>
+    <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+    <Data Name="Description">Net Command</Data>
+    <Data Name="Product">Microsoft® Windows® Operating System</Data>
+    <Data Name="Company">Microsoft Corporation</Data>
+    <Data Name="OriginalFileName">net1.exe</Data>
+    <Data Name="CommandLine">C:\Windows\system32\net1  user IIS_USER VJGSuERc6qYAYPdRc556JTHqxqWwLbPwzABc0XgIhgwYEWdQji1 /add</Data>
+    <Data Name="CurrentDirectory">C:\ProgramData\</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+    <Data Name="LogonGuid">8EED9800-8141-68E5-E703-000000000000</Data>
+    <Data Name="LogonId">0x3e7</Data>
+    <Data Name="TerminalSessionId">0</Data>
+    <Data Name="IntegrityLevel">System</Data>
+    <Data Name="Hashes">MD5=63DD4523677E62A73A8A7494DB321EA2,SHA256=C687157FD58EAA51757CDA87D06C30953A31F03F5356B9F5A9C004FA4BAD4BF5,IMPHASH=41DBA1AF77E1A2260F0CE46D59ADCB5E</Data>
+    <Data Name="ParentProcessGuid">8EED9800-8672-68E5-5C01-000000006703</Data>
+    <Data Name="ParentProcessId">2548</Data>
+    <Data Name="ParentImage">C:\Windows\System32\net.exe</Data>
+    <Data Name="ParentCommandLine">net  user IIS_USER VJGSuERc6qYAYPdRc556JTHqxqWwLbPwzABc0XgIhgwYEWdQji1 /add</Data>
+    <Data Name="ParentUser">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 58
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:31:36.582672Z">
+    </TimeCreated>
+    <EventRecordID>4365</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">EXE</Data>
+    <Data Name="UtcTime">2025-10-07 21:31:36.570</Data>
+    <Data Name="ProcessGuid">8EED9800-8202-68E5-BA00-000000006703</Data>
+    <Data Name="ProcessId">4036</Data>
+    <Data Name="Image">c:\windows\system32\inetsrv\w3wp.exe</Data>
+    <Data Name="TargetFilename">C:\ProgramData\frpc.exe</Data>
+    <Data Name="CreationUtcTime">2025-10-07 21:31:36.570</Data>
+    <Data Name="User">IIS APPPOOL\MyAppPool</Data>
+  </EventData>
+</Event>
+Record 59
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:32:35.061708Z">
+    </TimeCreated>
+    <EventRecordID>4366</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:32:34.921</Data>
+    <Data Name="ProcessGuid">8EED9800-86F2-68E5-5E01-000000006703</Data>
+    <Data Name="ProcessId">5060</Data>
+    <Data Name="Image">C:\ProgramData\frpc.exe</Data>
+    <Data Name="FileVersion">-</Data>
+    <Data Name="Description">-</Data>
+    <Data Name="Product">-</Data>
+    <Data Name="Company">-</Data>
+    <Data Name="OriginalFileName">-</Data>
+    <Data Name="CommandLine">frpc.exe  -c frpc.ini</Data>
+    <Data Name="CurrentDirectory">C:\ProgramData\</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+    <Data Name="LogonGuid">8EED9800-8141-68E5-E703-000000000000</Data>
+    <Data Name="LogonId">0x3e7</Data>
+    <Data Name="TerminalSessionId">0</Data>
+    <Data Name="IntegrityLevel">System</Data>
+    <Data Name="Hashes">MD5=AD509C1002ED221F506C366654953BF6,SHA256=EF35CDD1FB4FA92121CEBAF1177BA6954571E08E47D7CFA228EABA5436BEE798,IMPHASH=B196866F0BF37F1F128FA153413B744F</Data>
+    <Data Name="ParentProcessGuid">8EED9800-8632-68E5-5A01-000000006703</Data>
+    <Data Name="ParentProcessId">5888</Data>
+    <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+    <Data Name="ParentCommandLine">C:\Windows\system32\cmd.exe</Data>
+    <Data Name="ParentUser">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 60
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>3</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>3</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:32:37.094266Z">
+    </TimeCreated>
+    <EventRecordID>4367</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2948">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:32:35.344</Data>
+    <Data Name="ProcessGuid">8EED9800-86F2-68E5-5E01-000000006703</Data>
+    <Data Name="ProcessId">5060</Data>
+    <Data Name="Image">C:\ProgramData\frpc.exe</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+    <Data Name="Protocol">tcp</Data>
+    <Data Name="Initiated">true</Data>
+    <Data Name="SourceIsIpv6">false</Data>
+    <Data Name="SourceIp">172.31.9.222</Data>
+    <Data Name="SourceHostname">EC2AMAZ-AGR00JO.eu-west-2.compute.internal</Data>
+    <Data Name="SourcePort">49713</Data>
+    <Data Name="SourcePortName">-</Data>
+    <Data Name="DestinationIsIpv6">false</Data>
+    <Data Name="DestinationIp">117.72.105.10</Data>
+    <Data Name="DestinationHostname">-</Data>
+    <Data Name="DestinationPort">7000</Data>
+    <Data Name="DestinationPortName">-</Data>
+  </EventData>
+</Event>
+Record 61
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>3</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>3</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:32:39.185922Z">
+    </TimeCreated>
+    <EventRecordID>4368</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2948">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">RDP</Data>
+    <Data Name="UtcTime">2025-10-07 21:32:37.675</Data>
+    <Data Name="ProcessGuid">8EED9800-8142-68E5-1300-000000006703</Data>
+    <Data Name="ProcessId">912</Data>
+    <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+    <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+    <Data Name="Protocol">tcp</Data>
+    <Data Name="Initiated">false</Data>
+    <Data Name="SourceIsIpv6">false</Data>
+    <Data Name="SourceIp">13.38.65.236</Data>
+    <Data Name="SourceHostname">ec2-13-38-65-236.eu-west-3.compute.amazonaws.com</Data>
+    <Data Name="SourcePort">61792</Data>
+    <Data Name="SourcePortName">-</Data>
+    <Data Name="DestinationIsIpv6">false</Data>
+    <Data Name="DestinationIp">172.31.9.222</Data>
+    <Data Name="DestinationHostname">EC2AMAZ-AGR00JO.eu-west-2.compute.internal</Data>
+    <Data Name="DestinationPort">3389</Data>
+    <Data Name="DestinationPortName">ms-wbt-server</Data>
+  </EventData>
+</Event>
+Record 62
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>3</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>3</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:33:19.720306Z">
+    </TimeCreated>
+    <EventRecordID>4369</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2948">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">RDP</Data>
+    <Data Name="UtcTime">2025-10-07 21:33:17.593</Data>
+    <Data Name="ProcessGuid">8EED9800-8142-68E5-1300-000000006703</Data>
+    <Data Name="ProcessId">912</Data>
+    <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+    <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+    <Data Name="Protocol">tcp</Data>
+    <Data Name="Initiated">false</Data>
+    <Data Name="SourceIsIpv6">false</Data>
+    <Data Name="SourceIp">185.195.232.172</Data>
+    <Data Name="SourceHostname">-</Data>
+    <Data Name="SourcePort">65280</Data>
+    <Data Name="SourcePortName">-</Data>
+    <Data Name="DestinationIsIpv6">false</Data>
+    <Data Name="DestinationIp">172.31.9.222</Data>
+    <Data Name="DestinationHostname">EC2AMAZ-AGR00JO.eu-west-2.compute.internal</Data>
+    <Data Name="DestinationPort">3389</Data>
+    <Data Name="DestinationPortName">ms-wbt-server</Data>
+  </EventData>
+</Event>
+Record 63
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>3</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>3</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:33:19.720327Z">
+    </TimeCreated>
+    <EventRecordID>4370</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2948">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">RDP</Data>
+    <Data Name="UtcTime">2025-10-07 21:33:17.761</Data>
+    <Data Name="ProcessGuid">8EED9800-8142-68E5-1300-000000006703</Data>
+    <Data Name="ProcessId">912</Data>
+    <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+    <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+    <Data Name="Protocol">tcp</Data>
+    <Data Name="Initiated">false</Data>
+    <Data Name="SourceIsIpv6">false</Data>
+    <Data Name="SourceIp">185.195.232.172</Data>
+    <Data Name="SourceHostname">-</Data>
+    <Data Name="SourcePort">65281</Data>
+    <Data Name="SourcePortName">-</Data>
+    <Data Name="DestinationIsIpv6">false</Data>
+    <Data Name="DestinationIp">172.31.9.222</Data>
+    <Data Name="DestinationHostname">EC2AMAZ-AGR00JO.eu-west-2.compute.internal</Data>
+    <Data Name="DestinationPort">3389</Data>
+    <Data Name="DestinationPortName">ms-wbt-server</Data>
+  </EventData>
+</Event>
+Record 64
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>3</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>3</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:33:19.720340Z">
+    </TimeCreated>
+    <EventRecordID>4371</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2948">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">RDP</Data>
+    <Data Name="UtcTime">2025-10-07 21:33:17.907</Data>
+    <Data Name="ProcessGuid">8EED9800-8142-68E5-1300-000000006703</Data>
+    <Data Name="ProcessId">912</Data>
+    <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+    <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+    <Data Name="Protocol">tcp</Data>
+    <Data Name="Initiated">false</Data>
+    <Data Name="SourceIsIpv6">false</Data>
+    <Data Name="SourceIp">185.195.232.172</Data>
+    <Data Name="SourceHostname">-</Data>
+    <Data Name="SourcePort">65282</Data>
+    <Data Name="SourcePortName">-</Data>
+    <Data Name="DestinationIsIpv6">false</Data>
+    <Data Name="DestinationIp">172.31.9.222</Data>
+    <Data Name="DestinationHostname">EC2AMAZ-AGR00JO.eu-west-2.compute.internal</Data>
+    <Data Name="DestinationPort">3389</Data>
+    <Data Name="DestinationPortName">ms-wbt-server</Data>
+  </EventData>
+</Event>
+Record 65
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:33:24.948210Z">
+    </TimeCreated>
+    <EventRecordID>4372</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:33:24.945</Data>
+    <Data Name="ProcessGuid">8EED9800-8724-68E5-5F01-000000006703</Data>
+    <Data Name="ProcessId">5248</Data>
+    <Data Name="Image">C:\Windows\System32\TSTheme.exe</Data>
+    <Data Name="FileVersion">10.0.17763.1697 (WinBuild.160101.0800)</Data>
+    <Data Name="Description">TSTheme Server Module</Data>
+    <Data Name="Product">Microsoft® Windows® Operating System</Data>
+    <Data Name="Company">Microsoft Corporation</Data>
+    <Data Name="OriginalFileName">TSThemeS.exe</Data>
+    <Data Name="CommandLine">C:\Windows\system32\TSTheme.exe -Embedding</Data>
+    <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+    <Data Name="User">EC2AMAZ-AGR00JO\Administrator</Data>
+    <Data Name="LogonGuid">8EED9800-8181-68E5-1AFA-020000000000</Data>
+    <Data Name="LogonId">0x2fa1a</Data>
+    <Data Name="TerminalSessionId">2</Data>
+    <Data Name="IntegrityLevel">High</Data>
+    <Data Name="Hashes">MD5=678B049F46799F3FA858CE79376EB7B5,SHA256=C1879B15C38D1C9BB86BCFD08A0B7D8A0809C553F8F1985659D7DA0C883EA4F7,IMPHASH=B70390445EE6DE87340DFE5CB7439893</Data>
+    <Data Name="ParentProcessGuid">8EED9800-8142-68E5-0E00-000000006703</Data>
+    <Data Name="ParentProcessId">916</Data>
+    <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+    <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k DcomLaunch -p</Data>
+    <Data Name="ParentUser">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 66
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:33:25.821530Z">
+    </TimeCreated>
+    <EventRecordID>4373</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:33:25.808</Data>
+    <Data Name="ProcessGuid">8EED9800-8725-68E5-6001-000000006703</Data>
+    <Data Name="ProcessId">5576</Data>
+    <Data Name="Image">C:\Windows\System32\AtBroker.exe</Data>
+    <Data Name="FileVersion">10.0.17763.2989 (WinBuild.160101.0800)</Data>
+    <Data Name="Description">Windows Assistive Technology Manager</Data>
+    <Data Name="Product">Microsoft® Windows® Operating System</Data>
+    <Data Name="Company">Microsoft Corporation</Data>
+    <Data Name="OriginalFileName">ATBroker.exe</Data>
+    <Data Name="CommandLine">atbroker.exe</Data>
+    <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+    <Data Name="LogonGuid">8EED9800-8141-68E5-E703-000000000000</Data>
+    <Data Name="LogonId">0x3e7</Data>
+    <Data Name="TerminalSessionId">2</Data>
+    <Data Name="IntegrityLevel">System</Data>
+    <Data Name="Hashes">MD5=BBC5AB2E360EA092AAAD0098FDECDC70,SHA256=CE21ACAE03A54FC15CBF6FD553CA87ED778755D41A68A701A134790CF2E14F45,IMPHASH=3656F386F76B194C623C1891C47EEC49</Data>
+    <Data Name="ParentProcessGuid">8EED9800-8180-68E5-6600-000000006703</Data>
+    <Data Name="ParentProcessId">4560</Data>
+    <Data Name="ParentImage">C:\Windows\System32\winlogon.exe</Data>
+    <Data Name="ParentCommandLine">winlogon.exe</Data>
+    <Data Name="ParentUser">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 67
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:33:25.822057Z">
+    </TimeCreated>
+    <EventRecordID>4374</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:33:25.810</Data>
+    <Data Name="ProcessGuid">8EED9800-8725-68E5-6101-000000006703</Data>
+    <Data Name="ProcessId">1576</Data>
+    <Data Name="Image">C:\Windows\System32\LogonUI.exe</Data>
+    <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+    <Data Name="Description">Windows Logon User Interface Host</Data>
+    <Data Name="Product">Microsoft® Windows® Operating System</Data>
+    <Data Name="Company">Microsoft Corporation</Data>
+    <Data Name="OriginalFileName">logonui.exe</Data>
+    <Data Name="CommandLine">&quot;LogonUI.exe&quot; /flags:0x0 /state0:0xa3954055 /state1:0x41c64e6d</Data>
+    <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+    <Data Name="LogonGuid">8EED9800-8141-68E5-E703-000000000000</Data>
+    <Data Name="LogonId">0x3e7</Data>
+    <Data Name="TerminalSessionId">2</Data>
+    <Data Name="IntegrityLevel">System</Data>
+    <Data Name="Hashes">MD5=33F89DD9629CB0422A2C17268376232D,SHA256=9358EF8CB7FB08581D74274005263BD8FA2E6E0FC443930B25FD345CF6CE9071,IMPHASH=B9B0B64B08B38276711093CA94348D39</Data>
+    <Data Name="ParentProcessGuid">8EED9800-8180-68E5-6600-000000006703</Data>
+    <Data Name="ParentProcessId">4560</Data>
+    <Data Name="ParentImage">C:\Windows\System32\winlogon.exe</Data>
+    <Data Name="ParentCommandLine">winlogon.exe</Data>
+    <Data Name="ParentUser">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 68
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:33:25.822455Z">
+    </TimeCreated>
+    <EventRecordID>4375</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:33:25.815</Data>
+    <Data Name="ProcessGuid">8EED9800-8725-68E5-6201-000000006703</Data>
+    <Data Name="ProcessId">2136</Data>
+    <Data Name="Image">C:\Windows\System32\rdpclip.exe</Data>
+    <Data Name="FileVersion">10.0.17763.6893 (WinBuild.160101.0800)</Data>
+    <Data Name="Description">RDP Clipboard Monitor</Data>
+    <Data Name="Product">Microsoft® Windows® Operating System</Data>
+    <Data Name="Company">Microsoft Corporation</Data>
+    <Data Name="OriginalFileName">rdpclip.exe</Data>
+    <Data Name="CommandLine">rdpclip</Data>
+    <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+    <Data Name="User">EC2AMAZ-AGR00JO\Administrator</Data>
+    <Data Name="LogonGuid">8EED9800-8181-68E5-1AFA-020000000000</Data>
+    <Data Name="LogonId">0x2fa1a</Data>
+    <Data Name="TerminalSessionId">2</Data>
+    <Data Name="IntegrityLevel">High</Data>
+    <Data Name="Hashes">MD5=95917675AE4832C088724FCB5D9D60BE,SHA256=64F23C32E116B70C17834A74E29CD6B549EFA23B5F40458AFBA8CDA0E1F89998,IMPHASH=E3F33CEBF67721DAC951AFBD20321206</Data>
+    <Data Name="ParentProcessGuid">8EED9800-8142-68E5-1300-000000006703</Data>
+    <Data Name="ParentProcessId">912</Data>
+    <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+    <Data Name="ParentCommandLine">C:\Windows\System32\svchost.exe -k termsvcs -s TermService</Data>
+    <Data Name="ParentUser">NT AUTHORITY\NETWORK SERVICE</Data>
+  </EventData>
+</Event>
+Record 69
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:33:26.270610Z">
+    </TimeCreated>
+    <EventRecordID>4376</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:33:26.263</Data>
+    <Data Name="ProcessGuid">8EED9800-8726-68E5-6301-000000006703</Data>
+    <Data Name="ProcessId">5668</Data>
+    <Data Name="Image">C:\Windows\System32\sethc.exe</Data>
+    <Data Name="FileVersion">10.0.17763.1339 (WinBuild.160101.0800)</Data>
+    <Data Name="Description">Accessibility shortcut keys</Data>
+    <Data Name="Product">Microsoft® Windows® Operating System</Data>
+    <Data Name="Company">Microsoft Corporation</Data>
+    <Data Name="OriginalFileName">sethc.exe</Data>
+    <Data Name="CommandLine">&quot;C:\Windows\System32\Sethc.exe&quot; /AccessibilitySoundAgent</Data>
+    <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+    <Data Name="LogonGuid">8EED9800-8141-68E5-E703-000000000000</Data>
+    <Data Name="LogonId">0x3e7</Data>
+    <Data Name="TerminalSessionId">2</Data>
+    <Data Name="IntegrityLevel">System</Data>
+    <Data Name="Hashes">MD5=062940BA26F1204EBD5F62DF37D0C3A7,SHA256=52A9E16B777D1FFBBA54A686F9D77AE0AA622EC2FD7A501CEA398B7A53E64793,IMPHASH=22FF4F8C831128EFE52978F175ADCEC0</Data>
+    <Data Name="ParentProcessGuid">8EED9800-8725-68E5-6001-000000006703</Data>
+    <Data Name="ParentProcessId">5576</Data>
+    <Data Name="ParentImage">C:\Windows\System32\AtBroker.exe</Data>
+    <Data Name="ParentCommandLine">atbroker.exe</Data>
+    <Data Name="ParentUser">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 70
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:33:26.357608Z">
+    </TimeCreated>
+    <EventRecordID>4377</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:33:26.351</Data>
+    <Data Name="ProcessGuid">8EED9800-8726-68E5-6401-000000006703</Data>
+    <Data Name="ProcessId">5988</Data>
+    <Data Name="Image">C:\Windows\System32\taskhostw.exe</Data>
+    <Data Name="FileVersion">10.0.17763.1852 (WinBuild.160101.0800)</Data>
+    <Data Name="Description">Host Process for Windows Tasks</Data>
+    <Data Name="Product">Microsoft® Windows® Operating System</Data>
+    <Data Name="Company">Microsoft Corporation</Data>
+    <Data Name="OriginalFileName">taskhostw.exe</Data>
+    <Data Name="CommandLine">taskhostw.exe KEYROAMING</Data>
+    <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+    <Data Name="User">EC2AMAZ-AGR00JO\Administrator</Data>
+    <Data Name="LogonGuid">8EED9800-8181-68E5-1AFA-020000000000</Data>
+    <Data Name="LogonId">0x2fa1a</Data>
+    <Data Name="TerminalSessionId">2</Data>
+    <Data Name="IntegrityLevel">High</Data>
+    <Data Name="Hashes">MD5=8BD7B08DA6BCA54DF9B595E4D9281BEB,SHA256=DE85F29A8BC7219F10A4AC88654C3901ABC329D7505B21CD95CBF780D1EBCCF4,IMPHASH=9839C7FD9649496B162F72128209528A</Data>
+    <Data Name="ParentProcessGuid">8EED9800-8143-68E5-2400-000000006703</Data>
+    <Data Name="ParentProcessId">1652</Data>
+    <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+    <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s Schedule</Data>
+    <Data Name="ParentUser">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 71
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:33:26.437668Z">
+    </TimeCreated>
+    <EventRecordID>4378</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:33:26.402</Data>
+    <Data Name="ProcessGuid">8EED9800-8726-68E5-6501-000000006703</Data>
+    <Data Name="ProcessId">5144</Data>
+    <Data Name="Image">C:\Windows\System32\AtBroker.exe</Data>
+    <Data Name="FileVersion">10.0.17763.2989 (WinBuild.160101.0800)</Data>
+    <Data Name="Description">Windows Assistive Technology Manager</Data>
+    <Data Name="Product">Microsoft® Windows® Operating System</Data>
+    <Data Name="Company">Microsoft Corporation</Data>
+    <Data Name="OriginalFileName">ATBroker.exe</Data>
+    <Data Name="CommandLine">atbroker.exe</Data>
+    <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+    <Data Name="User">EC2AMAZ-AGR00JO\Administrator</Data>
+    <Data Name="LogonGuid">8EED9800-8181-68E5-1AFA-020000000000</Data>
+    <Data Name="LogonId">0x2fa1a</Data>
+    <Data Name="TerminalSessionId">2</Data>
+    <Data Name="IntegrityLevel">High</Data>
+    <Data Name="Hashes">MD5=BBC5AB2E360EA092AAAD0098FDECDC70,SHA256=CE21ACAE03A54FC15CBF6FD553CA87ED778755D41A68A701A134790CF2E14F45,IMPHASH=3656F386F76B194C623C1891C47EEC49</Data>
+    <Data Name="ParentProcessGuid">8EED9800-8180-68E5-6600-000000006703</Data>
+    <Data Name="ParentProcessId">4560</Data>
+    <Data Name="ParentImage">C:\Windows\System32\winlogon.exe</Data>
+    <Data Name="ParentCommandLine">winlogon.exe</Data>
+    <Data Name="ParentUser">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 72
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>3</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>3</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:33:26.529997Z">
+    </TimeCreated>
+    <EventRecordID>4379</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2948">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">RDP</Data>
+    <Data Name="UtcTime">2025-10-07 21:33:24.681</Data>
+    <Data Name="ProcessGuid">8EED9800-8142-68E5-1300-000000006703</Data>
+    <Data Name="ProcessId">912</Data>
+    <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+    <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+    <Data Name="Protocol">tcp</Data>
+    <Data Name="Initiated">false</Data>
+    <Data Name="SourceIsIpv6">false</Data>
+    <Data Name="SourceIp">185.195.232.172</Data>
+    <Data Name="SourceHostname">-</Data>
+    <Data Name="SourcePort">65283</Data>
+    <Data Name="SourcePortName">-</Data>
+    <Data Name="DestinationIsIpv6">false</Data>
+    <Data Name="DestinationIp">172.31.9.222</Data>
+    <Data Name="DestinationHostname">EC2AMAZ-AGR00JO.eu-west-2.compute.internal</Data>
+    <Data Name="DestinationPort">3389</Data>
+    <Data Name="DestinationPortName">ms-wbt-server</Data>
+  </EventData>
+</Event>
+Record 73
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:33:28.202858Z">
+    </TimeCreated>
+    <EventRecordID>4380</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">InvDB-DriverVer</Data>
+    <Data Name="EventType">SetValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:33:28.197</Data>
+    <Data Name="ProcessGuid">8EED9800-8143-68E5-3900-000000006703</Data>
+    <Data Name="ProcessId">2672</Data>
+    <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+    <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Printers\Microsoft Print to PDF (redirected 2)\DsDriver\driverVersion</Data>
+    <Data Name="Details">DWORD (0x00000401)</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 74
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:33:28.214738Z">
+    </TimeCreated>
+    <EventRecordID>4381</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:33:28.212</Data>
+    <Data Name="ProcessGuid">8EED9800-8728-68E5-6601-000000006703</Data>
+    <Data Name="ProcessId">1216</Data>
+    <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+    <Data Name="FileVersion">10.0.17763.3346 (WinBuild.160101.0800)</Data>
+    <Data Name="Description">Host Process for Windows Services</Data>
+    <Data Name="Product">Microsoft® Windows® Operating System</Data>
+    <Data Name="Company">Microsoft Corporation</Data>
+    <Data Name="OriginalFileName">svchost.exe</Data>
+    <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s DsmSvc</Data>
+    <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+    <Data Name="LogonGuid">8EED9800-8141-68E5-E703-000000000000</Data>
+    <Data Name="LogonId">0x3e7</Data>
+    <Data Name="TerminalSessionId">0</Data>
+    <Data Name="IntegrityLevel">System</Data>
+    <Data Name="Hashes">MD5=4DD18F001AC31D5F48F50F99E4AA1761,SHA256=2B105FB153B1BCD619B95028612B3A93C60B953EEF6837D3BB0099E4207AAF6B,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+    <Data Name="ParentProcessGuid">8EED9800-8141-68E5-0B00-000000006703</Data>
+    <Data Name="ParentProcessId">772</Data>
+    <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+    <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    <Data Name="ParentUser">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 75
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:33:28.251415Z">
+    </TimeCreated>
+    <EventRecordID>4382</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">InvDB-DriverVer</Data>
+    <Data Name="EventType">SetValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:33:28.244</Data>
+    <Data Name="ProcessGuid">8EED9800-813F-68E5-EB03-000000000000</Data>
+    <Data Name="ProcessId">4</Data>
+    <Data Name="Image">System</Data>
+    <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\Class\{1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}\0003\DriverVersion</Data>
+    <Data Name="Details">10.0.17763.1</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 76
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:33:28.253404Z">
+    </TimeCreated>
+    <EventRecordID>4383</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">Context,DeviceConnectedOrUpdated</Data>
+    <Data Name="EventType">SetValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:33:28.244</Data>
+    <Data Name="ProcessGuid">8EED9800-813F-68E5-EB03-000000000000</Data>
+    <Data Name="ProcessId">4</Data>
+    <Data Name="Image">System</Data>
+    <Data Name="TargetObject">HKLM\System\CurrentControlSet\Enum\SWD\PRINTENUM\{9BCBE2C4-F9C4-4A49-8207-1FC01D8A58DB}\FriendlyName</Data>
+    <Data Name="Details">Microsoft Print to PDF (redirected 2)</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 77
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:33:28.257329Z">
+    </TimeCreated>
+    <EventRecordID>4384</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">Context,DeviceConnectedOrUpdated</Data>
+    <Data Name="EventType">SetValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:33:28.244</Data>
+    <Data Name="ProcessGuid">8EED9800-8143-68E5-3900-000000006703</Data>
+    <Data Name="ProcessId">2672</Data>
+    <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+    <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\DeviceClasses\{0ecef634-6ef0-472a-8085-5ad023ecbccd}\##?#SWD#PRINTENUM#{9BCBE2C4-F9C4-4A49-8207-1FC01D8A58DB}#{0ecef634-6ef0-472a-8085-5ad023ecbccd}\#\Device Parameters\FriendlyName</Data>
+    <Data Name="Details">Microsoft Print to PDF (redirected 2)</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 78
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:33:29.177626Z">
+    </TimeCreated>
+    <EventRecordID>4385</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">InvDB-DriverVer</Data>
+    <Data Name="EventType">SetValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:33:29.165</Data>
+    <Data Name="ProcessGuid">8EED9800-8143-68E5-3900-000000006703</Data>
+    <Data Name="ProcessId">2672</Data>
+    <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+    <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Printers\OneNote (redirected 2)\DsDriver\driverVersion</Data>
+    <Data Name="Details">DWORD (0x00000401)</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 79
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:33:29.187024Z">
+    </TimeCreated>
+    <EventRecordID>4386</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">InvDB-DriverVer</Data>
+    <Data Name="EventType">SetValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:33:29.181</Data>
+    <Data Name="ProcessGuid">8EED9800-813F-68E5-EB03-000000000000</Data>
+    <Data Name="ProcessId">4</Data>
+    <Data Name="Image">System</Data>
+    <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\Class\{1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}\0004\DriverVersion</Data>
+    <Data Name="Details">10.0.17763.1</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 80
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:33:29.188858Z">
+    </TimeCreated>
+    <EventRecordID>4387</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">Context,DeviceConnectedOrUpdated</Data>
+    <Data Name="EventType">SetValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:33:29.181</Data>
+    <Data Name="ProcessGuid">8EED9800-813F-68E5-EB03-000000000000</Data>
+    <Data Name="ProcessId">4</Data>
+    <Data Name="Image">System</Data>
+    <Data Name="TargetObject">HKLM\System\CurrentControlSet\Enum\SWD\PRINTENUM\{E99D6A22-249D-43B5-8392-938DECAC57A1}\FriendlyName</Data>
+    <Data Name="Details">OneNote (redirected 2)</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 81
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:33:29.193416Z">
+    </TimeCreated>
+    <EventRecordID>4388</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">Context,DeviceConnectedOrUpdated</Data>
+    <Data Name="EventType">SetValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:33:29.181</Data>
+    <Data Name="ProcessGuid">8EED9800-8143-68E5-3900-000000006703</Data>
+    <Data Name="ProcessId">2672</Data>
+    <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+    <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\DeviceClasses\{0ecef634-6ef0-472a-8085-5ad023ecbccd}\##?#SWD#PRINTENUM#{E99D6A22-249D-43B5-8392-938DECAC57A1}#{0ecef634-6ef0-472a-8085-5ad023ecbccd}\#\Device Parameters\FriendlyName</Data>
+    <Data Name="Details">OneNote (redirected 2)</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 82
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:33:30.900477Z">
+    </TimeCreated>
+    <EventRecordID>4389</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">InvDB-DriverVer</Data>
+    <Data Name="EventType">SetValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:33:30.885</Data>
+    <Data Name="ProcessGuid">8EED9800-8143-68E5-3900-000000006703</Data>
+    <Data Name="ProcessId">2672</Data>
+    <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+    <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Printers\OneNote for Windows 10 (redirected 2)\DsDriver\driverVersion</Data>
+    <Data Name="Details">DWORD (0x00000401)</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 83
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:33:30.910929Z">
+    </TimeCreated>
+    <EventRecordID>4390</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">InvDB-DriverVer</Data>
+    <Data Name="EventType">SetValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:33:30.901</Data>
+    <Data Name="ProcessGuid">8EED9800-813F-68E5-EB03-000000000000</Data>
+    <Data Name="ProcessId">4</Data>
+    <Data Name="Image">System</Data>
+    <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\Class\{1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}\0005\DriverVersion</Data>
+    <Data Name="Details">10.0.17763.1</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 84
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:33:30.914199Z">
+    </TimeCreated>
+    <EventRecordID>4391</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">Context,DeviceConnectedOrUpdated</Data>
+    <Data Name="EventType">SetValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:33:30.901</Data>
+    <Data Name="ProcessGuid">8EED9800-813F-68E5-EB03-000000000000</Data>
+    <Data Name="ProcessId">4</Data>
+    <Data Name="Image">System</Data>
+    <Data Name="TargetObject">HKLM\System\CurrentControlSet\Enum\SWD\PRINTENUM\{E1838D35-99E7-41D9-9092-99C4D963848E}\FriendlyName</Data>
+    <Data Name="Details">OneNote for Windows 10 (redirected 2)</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 85
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:33:30.920273Z">
+    </TimeCreated>
+    <EventRecordID>4392</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">Context,DeviceConnectedOrUpdated</Data>
+    <Data Name="EventType">SetValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:33:30.901</Data>
+    <Data Name="ProcessGuid">8EED9800-8143-68E5-3900-000000006703</Data>
+    <Data Name="ProcessId">2672</Data>
+    <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+    <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\DeviceClasses\{0ecef634-6ef0-472a-8085-5ad023ecbccd}\##?#SWD#PRINTENUM#{E1838D35-99E7-41D9-9092-99C4D963848E}#{0ecef634-6ef0-472a-8085-5ad023ecbccd}\#\Device Parameters\FriendlyName</Data>
+    <Data Name="Details">OneNote for Windows 10 (redirected 2)</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 86
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:33:32.378940Z">
+    </TimeCreated>
+    <EventRecordID>4393</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">InvDB-DriverVer</Data>
+    <Data Name="EventType">SetValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:33:32.364</Data>
+    <Data Name="ProcessGuid">8EED9800-8143-68E5-3900-000000006703</Data>
+    <Data Name="ProcessId">2672</Data>
+    <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+    <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Printers\Fax (redirected 2)\DsDriver\driverVersion</Data>
+    <Data Name="Details">DWORD (0x00000401)</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 87
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:33:32.388493Z">
+    </TimeCreated>
+    <EventRecordID>4394</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">InvDB-DriverVer</Data>
+    <Data Name="EventType">SetValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:33:32.380</Data>
+    <Data Name="ProcessGuid">8EED9800-813F-68E5-EB03-000000000000</Data>
+    <Data Name="ProcessId">4</Data>
+    <Data Name="Image">System</Data>
+    <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\Class\{1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}\0006\DriverVersion</Data>
+    <Data Name="Details">10.0.17763.1</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 88
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:33:32.390383Z">
+    </TimeCreated>
+    <EventRecordID>4395</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">Context,DeviceConnectedOrUpdated</Data>
+    <Data Name="EventType">SetValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:33:32.380</Data>
+    <Data Name="ProcessGuid">8EED9800-813F-68E5-EB03-000000000000</Data>
+    <Data Name="ProcessId">4</Data>
+    <Data Name="Image">System</Data>
+    <Data Name="TargetObject">HKLM\System\CurrentControlSet\Enum\SWD\PRINTENUM\{8B6A5574-D662-474C-BB4B-8248F0B8CBC6}\FriendlyName</Data>
+    <Data Name="Details">Fax (redirected 2)</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 89
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:33:32.394883Z">
+    </TimeCreated>
+    <EventRecordID>4396</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">Context,DeviceConnectedOrUpdated</Data>
+    <Data Name="EventType">SetValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:33:32.380</Data>
+    <Data Name="ProcessGuid">8EED9800-8143-68E5-3900-000000006703</Data>
+    <Data Name="ProcessId">2672</Data>
+    <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+    <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\DeviceClasses\{0ecef634-6ef0-472a-8085-5ad023ecbccd}\##?#SWD#PRINTENUM#{8B6A5574-D662-474C-BB4B-8248F0B8CBC6}#{0ecef634-6ef0-472a-8085-5ad023ecbccd}\#\Device Parameters\FriendlyName</Data>
+    <Data Name="Details">Fax (redirected 2)</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 90
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:33:34.506072Z">
+    </TimeCreated>
+    <EventRecordID>4397</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">InvDB-DriverVer</Data>
+    <Data Name="EventType">SetValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:33:34.495</Data>
+    <Data Name="ProcessGuid">8EED9800-8143-68E5-3900-000000006703</Data>
+    <Data Name="ProcessId">2672</Data>
+    <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+    <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Printers\Microsoft XPS Document Writer (redirected 2)\DsDriver\driverVersion</Data>
+    <Data Name="Details">DWORD (0x00000401)</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 91
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:33:34.521948Z">
+    </TimeCreated>
+    <EventRecordID>4398</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">InvDB-DriverVer</Data>
+    <Data Name="EventType">SetValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:33:34.510</Data>
+    <Data Name="ProcessGuid">8EED9800-813F-68E5-EB03-000000000000</Data>
+    <Data Name="ProcessId">4</Data>
+    <Data Name="Image">System</Data>
+    <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\Class\{1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}\0007\DriverVersion</Data>
+    <Data Name="Details">10.0.17763.1</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 92
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:33:34.523797Z">
+    </TimeCreated>
+    <EventRecordID>4399</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">Context,DeviceConnectedOrUpdated</Data>
+    <Data Name="EventType">SetValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:33:34.510</Data>
+    <Data Name="ProcessGuid">8EED9800-813F-68E5-EB03-000000000000</Data>
+    <Data Name="ProcessId">4</Data>
+    <Data Name="Image">System</Data>
+    <Data Name="TargetObject">HKLM\System\CurrentControlSet\Enum\SWD\PRINTENUM\{8D677A2F-2FA6-4A24-A748-14ACA365E06F}\FriendlyName</Data>
+    <Data Name="Details">Microsoft XPS Document Writer (redirected 2)</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 93
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:33:34.530428Z">
+    </TimeCreated>
+    <EventRecordID>4400</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="2596">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">Context,DeviceConnectedOrUpdated</Data>
+    <Data Name="EventType">SetValue</Data>
+    <Data Name="UtcTime">2025-10-07 21:33:34.526</Data>
+    <Data Name="ProcessGuid">8EED9800-8143-68E5-3900-000000006703</Data>
+    <Data Name="ProcessId">2672</Data>
+    <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+    <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\DeviceClasses\{0ecef634-6ef0-472a-8085-5ad023ecbccd}\##?#SWD#PRINTENUM#{8D677A2F-2FA6-4A24-A748-14ACA365E06F}#{0ecef634-6ef0-472a-8085-5ad023ecbccd}\#\Device Parameters\FriendlyName</Data>
+    <Data Name="Details">Microsoft XPS Document Writer (redirected 2)</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+Record 94
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="5770385F-C22A-43E0-BF4C-06F5698FFBD9">
+    </Provider>
+    <EventID>22</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>22</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-10-07T21:33:48.340630Z">
+    </TimeCreated>
+    <EventRecordID>4401</EventRecordID>
+    <Correlation>
+    </Correlation>
+    <Execution ProcessID="3016" ThreadID="4028">
+    </Execution>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>EC2AMAZ-AGR00JO</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-10-07 21:33:46.219</Data>
+    <Data Name="ProcessGuid">8EED9800-8144-68E5-3F00-000000006703</Data>
+    <Data Name="ProcessId">2828</Data>
+    <Data Name="QueryName">ssm.eu-west-2.amazonaws.com</Data>
+    <Data Name="QueryStatus">0</Data>
+    <Data Name="QueryResults">::ffff:13.43.45.150;</Data>
+    <Data Name="Image">C:\Program Files\Amazon\SSM\amazon-ssm-agent.exe</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>

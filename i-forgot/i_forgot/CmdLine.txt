@@ -1,0 +1,113 @@
+Volatility 3 Framework 2.26.2
+
+PID	Process	Args
+
+4	System	-
+96	Registry	-
+448	smss.exe	-
+620	csrss.exe	-
+696	wininit.exe	-
+716	csrss.exe	%SystemRoot%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16
+796	winlogon.exe	winlogon.exe
+832	services.exe	-
+860	lsass.exe	C:\WINDOWS\system32\lsass.exe
+976	svchost.exe	C:\WINDOWS\system32\svchost.exe -k DcomLaunch -p
+984	fontdrvhost.ex	-
+992	fontdrvhost.ex	-
+624	svchost.exe	C:\WINDOWS\system32\svchost.exe -k RPCSS -p
+1076	dwm.exe	"dwm.exe"
+1184	svchost.exe	-
+1192	svchost.exe	C:\WINDOWS\system32\svchost.exe -k NetworkService -p
+1204	svchost.exe	-
+1212	svchost.exe	-
+1312	svchost.exe	-
+1324	svchost.exe	-
+1368	svchost.exe	-
+1400	svchost.exe	-
+1528	svchost.exe	-
+1584	svchost.exe	-
+1696	svchost.exe	-
+1800	svchost.exe	-
+1816	taskhostw.exe	-
+1948	svchost.exe	-
+1984	svchost.exe	-
+1996	MemCompression	-
+1052	svchost.exe	-
+2088	svchost.exe	-
+2152	sihost.exe	sihost.exe
+2228	svchost.exe	-
+2272	svchost.exe	-
+2388	svchost.exe	-
+2432	svchost.exe	-
+2596	svchost.exe	C:\WINDOWS\system32\svchost.exe -k appmodel -p
+2616	taskhostw.exe	-
+2640	audiodg.exe	-
+2676	MicrosoftEdgeU	-
+2748	svchost.exe	-
+2876	spoolsv.exe	-
+2304	svchost.exe	-
+2964	svchost.exe	-
+3076	svchost.exe	C:\WINDOWS\System32\svchost.exe -k utcsvc -p
+3176	VGAuthService.	-
+3200	vmtoolsd.exe	"C:\Program Files\VMware\VMware Tools\vmtoolsd.exe"
+3212	vm3dservice.ex	-
+3228	MsMpEng.exe	"C:\Program Files\Windows Defender\MsMpEng.exe"
+3376	svchost.exe	-
+3516	vm3dservice.ex	-
+3728	dllhost.exe	-
+3924	dllhost.exe	-
+4004	WmiPrvSE.exe	-
+2468	ctfmon.exe	-
+2548	msdtc.exe	-
+2376	svchost.exe	-
+2456	svchost.exe	-
+4288	AggregatorHost	-
+4340	userinit.exe	-
+4396	explorer.exe	C:\WINDOWS\Explorer.EXE
+4520	svchost.exe	-
+4640	ShellHost.exe	-
+4804	CrossDeviceRes	-
+5052	VSSVC.exe	-
+868	svchost.exe	-
+5408	StartMenuExper	-
+5428	SearchHost.exe	"C:\WINDOWS\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\SearchHost.exe" -ServerName:CortanaUI.AppXstmwaab17q5s3y22tp6apqz7a45vwv65.mca
+5572	RuntimeBroker.	-
+5652	svchost.exe	-
+5664	RuntimeBroker.	-
+5752	Widgets.exe	-
+6036	msedgewebview2	"C:\Program Files (x86)\Microsoft\EdgeWebView\Application\140.0.3485.94\msedgewebview2.exe" --embedded-browser-webview=1 --webview-exe-name=SearchHost.exe --webview-exe-version=2125.21002.10.0 --user-data-dir="C:\Users\User\AppData\Local\Packages\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\LocalState\EBWebView" --noerrdialogs --disable-features=msSmartScreenProtection --edge-webview-enable-mojo-ipcz --enable-features=msEdgeFluentOverlayScrollbar --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; Cortana 1.18.9.23723; 10.0.0.0.26100.6584) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.26100 IsWebView2/True (WebView2Version 140.0.3485.94)" --lang=en-US --mojo-named-platform-channel-pipe=5428.5968.3769297163769707928 /pfhostedapp:ac4e660df40bc14709926fc65263f3df853a2ab7
+5284	msedgewebview2	-
+6564	msedgewebview2	-
+6656	msedgewebview2	-
+6684	msedgewebview2	-
+6844	msedgewebview2	-
+4484	NisSrv.exe	-
+4864	WmiPrvSE.exe	-
+4844	RuntimeBroker.	-
+3556	RuntimeBroker.	-
+7184	svchost.exe	-
+7464	smartscreen.ex	-
+7508	SecurityHealth	-
+7524	SecurityHealth	C:\WINDOWS\system32\SecurityHealthService.exe
+7832	WmiApSrv.exe	-
+8064	vmtoolsd.exe	-
+8176	msedge.exe	-
+3588	OneDrive.exe	-
+5852	Microsoft.Shar	-
+6816	SearchIndexer.	-
+3896	RuntimeBroker.	-
+4036	WindowsTermina	"C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.18.10301.0_x64__8wekyb3d8bbwe\WindowsTerminal.exe" 
+3956	SearchProtocol	-
+3024	SearchFilterHo	-
+6024	OpenConsole.ex	-
+5920	powershell.exe	C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+6708	RuntimeBroker.	-
+5760	taskhostw.exe	-
+1388	Notepad.exe	-
+1628	Notepad.exe	-
+2132	BackupHelper.e	-
+2332	conhost.exe	-
+7152	memdump.exe	-
+245224456028616		-
+14024712	(	-
+0		-
