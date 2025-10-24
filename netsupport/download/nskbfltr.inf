@@ -1,0 +1,24 @@
+; nskbfltr.inf
+;
+; NS Keyboard Filter
+; 
+;
+; This inf file installs the WDF Framework binaries
+
+[Version]
+Signature="$Windows NT$"
+Provider=NSL
+
+
+;
+;--- nskbfltr Coinstaller installation ------
+;
+
+
+[nskbfltr.NT.Wdf]
+KmdfService = nskbfltr, nskbfltr_wdfsect
+
+[nskbfltr_wdfsect]
+KmdfLibraryVersion = 1.5
+
+
