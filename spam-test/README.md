@@ -1,17 +1,17 @@
 # Huntress CTF 2025 - 👶 Spam Test
 
-- **Team:** r4ph3cks
-- **Date:** 01/10/2025
+- **Team:** `r4ph3cks`
+- **Date:** `01/10/2025`
 
 ## Challenge Information
 
-- **Category:** 👶 Warmups
+- **Category:** `👶 Warmups`
 
 - **Description:**
 > Time to do some careful Googling... what's the MD5 hash of the Generic Test for Unsolicited Bulk Email (GTUBE) string?
 > Submit the hash wrapped within the flag{ prefix and } suffix to match the standard flag format.
 
-- **Author:** [John Hammond](https://www.youtube.com/@_JohnHammond)
+- **Author:** [`John Hammond`](https://www.youtube.com/@_JohnHammond)
 
 ## Analysis and Solution
 

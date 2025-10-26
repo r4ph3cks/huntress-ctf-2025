@@ -1,16 +1,16 @@
 # Huntress CTF 2025 - 🌐 Emotional
 
-- **Team:** r4ph3cks
-- **Date:** 06/10/2025
+- **Team:** `r4ph3cks`
+- **Date:** `06/10/2025`
 
 ## Challenge Information
 
-- **Category:** 🌐 Web
+- **Category:** `🌐 Web`
 
 - **Description:**
 > Don't be shy, show your emotions! Get emotional if you have to! Uncover the flag.
 
-- **Author:** [John Hammond](https://www.youtube.com/@_JohnHammond)
+- **Author:** [`John Hammond`](https://www.youtube.com/@_JohnHammond)
 
 - **Given:** Website URL and source code in [`emotional.zip`](assets/emotional.zip)
 

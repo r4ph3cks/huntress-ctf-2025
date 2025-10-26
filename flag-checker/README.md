@@ -1,18 +1,18 @@
 # Huntress CTF 2025 - 🌐 Flag Checker
 
-- **Team:** r4ph3cks
-- **Date:** 01/10/2025
+- **Team:** `r4ph3cks`
+- **Date:** `01/10/2025`
 
 ## Challenge Information
 
-- **Category:** 🌐 Web
+- **Category:** `🌐 Web`
 
 - **Description:**
 > We've decided to make this challenge really straight forward. All you have to do is find out the flag!
 >
 > Juuuust make sure not to trip any of the security controls implemented to stop brute force attacks...
 
-- **Author:** [Soups71](https://github.com/Soups71)
+- **Author:** [`Soups71`](https://github.com/Soups71)
 
 ## Analysis and Solution
 

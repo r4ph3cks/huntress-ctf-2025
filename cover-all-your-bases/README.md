@@ -1,16 +1,16 @@
 # Huntress CTF 2025 - 👶 Cover All Your Bases
 
-- **Team:** r4ph3cks
-- **Date:** 01/10/2025
+- **Team:** `r4ph3cks`
+- **Date:** `01/10/2025`
 
 ## Challenge Information
 
-- **Category:** 👶 Warmups
+- **Category:** `👶 Warmups`
 
 - **Description:**
 > Can you make sense of all the different data below? Each one has a different representation!
 
-- **Author:** Don't be shy, show your emotions! Get emotional if you have to! Uncover the flag.
+- **Author:** [`John Hammond`](https://www.youtube.com/@_JohnHammond)
 
 ## Analysis and Solution
 

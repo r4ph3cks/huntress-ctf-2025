@@ -1,20 +1,20 @@
 # Huntress CTF 2025 - ℹ️ Read The Rules
 
-- **Team:** r4ph3cks
-- **Date:** 01/10/2025
+- **Team:** `r4ph3cks`
+- **Date:** `01/10/2025`
 
 ## Challenge Information
 
-- **Category:** ℹ️ Information
+- **Category:** `ℹ️ Information`
 
 - **Description:**
 > Please follow the rules for the Huntress CTF!
 > Read the rules at https://ctf.huntress.com/rules
 > If you look closely, you can find a flag!
 
-- **Author:** [John Hammond](https://www.youtube.com/@_JohnHammond)
+- **Author:** [`John Hammond`](https://www.youtube.com/@_JohnHammond)
 
-- **Given:** [Website link](https://ctf.huntress.com/rules)
+- **Given:** [`Website link`](https://ctf.huntress.com/rules)
 
 ## Analysis and Solution
 

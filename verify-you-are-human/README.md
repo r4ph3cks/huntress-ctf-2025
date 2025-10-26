@@ -1,11 +1,11 @@
 # Huntress CTF 2025 - 🐞 Verify You Are Human
 
-- **Team:** r4ph3cks
-- **Date:** 01/10/2025
+- **Team:** `r4ph3cks`
+- **Date:** `01/10/2025`
 
 ## Challenge Information
 
-- **Category:** 🐞 Malware
+- **Category:** `🐞 Malware`
 
 - **Description:**
 > My computer said I needed to update MS Teams, so that is what I have been trying to do...
@@ -19,9 +19,9 @@
 > (i.e., "remove the port" when you need to... you'll know what I mean 😜)
 
 
-- **Author:** [John Hammond](https://www.youtube.com/@_JohnHammond)
+- **Author:** [`John Hammond`](https://www.youtube.com/@_JohnHammond)
 
-- **Given:** [Website](assets/website/65cdd3d3.proxy.coursestack.com.html)
+- **Given:** [`Website`](assets/website/65cdd3d3.proxy.coursestack.com.html)
 
 ## Analysis and Solution
 

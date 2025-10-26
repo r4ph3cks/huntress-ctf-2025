@@ -1,11 +1,11 @@
 # Huntress CTF 2025 - ℹ️ Technical Support
 
-- **Team:** r4ph3cks
-- **Date:** 01/10/2025
+- **Team:** `r4ph3cks`
+- **Date:** `01/10/2025`
 
 ## Challenge Information
 
-- **Category:** ℹ️ Information
+- **Category:** `ℹ️ Information`
 
 - **Description:**
 > Want to join the party of GIFs, memes and emoji shenanigans? Or just want to ask a question for technical support regarding any challenges in the CTF? Be sure to join the Huntress CTF Discord server.
@@ -16,7 +16,7 @@
 >
 > Join the Discord!
 
-- **Author:** [John Hammond](https://www.youtube.com/@_JohnHammond)
+- **Author:** [`John Hammond`](https://www.youtube.com/@_JohnHammond)
 
 - **Given:** Discord server invitation link
 

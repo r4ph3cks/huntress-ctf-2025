@@ -1,11 +1,11 @@
 # Huntress CTF 2025 - 🐞 Sandy
 
-- **Team:** r4ph3cks
-- **Date:** 03/10/2025
+- **Team:** `r4ph3cks`
+- **Date:** `03/10/2025`
 
 ## Challenge Information
 
-- **Category:** 🐞 Malware
+- **Category:** `🐞 Malware`
 
 - **Description:**
 > My friend Sandy is really into cryptocurrencies! She's been trying to get me into it too, so she showed me a lot of Chrome extensions I could add to manage my wallets. Once I got everything sent up, she gave me this cool program!
@@ -14,9 +14,9 @@
 >
 >Sandy wouldn't lie to me, would she...? Sandy is the best!
 
-- **Author:** [John Hammond](https://www.youtube.com/@_JohnHammond)
+- **Author:** [`John Hammond`](https://www.youtube.com/@_JohnHammond)
 
-- **Given:** [SANDY.zip](https://github.com/r4ph3cks/huntress-ctf-2025/blob/main/sandy/assets/SANDY.zip)
+- **Given:** [`SANDY.zip`](https://github.com/r4ph3cks/huntress-ctf-2025/blob/main/sandy/assets/SANDY.zip)
 
 > [!IMPORTANT]
 > The ZIP archive password is `infected`

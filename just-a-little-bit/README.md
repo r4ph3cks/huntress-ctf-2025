@@ -1,11 +1,11 @@
 # Huntress CTF 2025 - 👶 Just a Little Bit
 
-- **Team:** r4ph3cks
-- **Date:** 01/10/2025
+- **Team:** `r4ph3cks`
+- **Date:** `01/10/2025`
 
 ## Challenge Information
 
-- **Category:** 👶 Warmups
+- **Category:** `👶 Warmups`
 
 - **Description:**
 > If just a little bit were to go missing... would it really even matter?
@@ -16,7 +16,7 @@
 1100100011010101110010110110011011011001000111001011001111001101111101
 ```
 
-- **Author:** [John Hammond](https://www.youtube.com/@_JohnHammond)
+- **Author:** [`John Hammond`](https://www.youtube.com/@_JohnHammond)
 
 ## Analysis and Solution
 The correct approach is to group the concatenated binary into 7-bit bytes (not 8-bit) and decode those as ASCII.

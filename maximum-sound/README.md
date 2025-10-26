@@ -1,18 +1,18 @@
 # Huntress CTF 2025 - 👶 Maximum Sound
 
-- **Team:** r4ph3cks
-- **Date:** 03/10/2025
+- **Team:** `r4ph3cks`
+- **Date:** `03/10/2025`
 
 ## Challenge Information
 
-- **Category:** 👶 Warmups
+- **Category:** `👶 Warmups`
 
 - **Description:**
 > Dang, this track really hits the target! It sure does get loud though, headphone users be warned!!
 
-- **Author:** [John Hammond](https://www.youtube.com/@_JohnHammond)
+- **Author:** [`John Hammond`](https://www.youtube.com/@_JohnHammond)
 
-- **Given:** [maximum_sound.wav](assets/maximum_sound.wav)
+- **Given:** [`maximum_sound.wav`](assets/maximum_sound.wav)
 
 ## Analysis and Solution
 

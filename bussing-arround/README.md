@@ -1,11 +1,11 @@
 # Huntress CTF 2025 - 🔍 Bussing Around
 
-- **Team:** r4ph3cks
-- **Date:** 01/10/2025
+- **Team:** `r4ph3cks`
+- **Date:** `01/10/2025`
 
 ## Challenge Information
 
-- **Category:** 🔍 Forensics
+- **Category:** `🔍 Forensics`
 
 - **Description:**
 > One of the engineers noticed that an HMI was going haywire.
@@ -13,9 +13,9 @@
 > For some reason, some of the traffic seems to be coming from someone's computer. Can you help us figure out what's going on?
 
 
-- **Author:** [@Soups71](https://github.com/Soups71)
+- **Author:** [`@Soups71`](https://github.com/Soups71)
 
-- **Given:** [bussing_around.pcapng](assets/bussing_around.pcapng)
+- **Given:** [`bussing_around.pcapng`](assets/bussing_around.pcapng)
 
 ## Analysis and Solution
 
