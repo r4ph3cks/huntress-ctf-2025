@@ -1,22 +1,3 @@
-#!/usr/bin/env python3
-"""
-azure_entra_search.py
-
-Search Microsoft Entra (Graph API) endpoints using the Azure CLI (`az rest`) and look for strings/regexes in returned JSON.
-
-Features:
-- Query multiple common Entra endpoints (servicePrincipals, users, groups, applications, etc.)
-- Follow @odata.nextLink for pagination
-- Search JSON text for a substring or regex
-- --dry-run to print the az commands without executing
-
-Requirements:
-- Azure CLI installed and `az login` performed with sufficient permissions to call the Graph endpoints you need.
-
-Usage:
-  python3 azure_entra_search.py --query "flag{" --endpoints servicePrincipals users
-
-"""
 import argparse
 import json
 import re
