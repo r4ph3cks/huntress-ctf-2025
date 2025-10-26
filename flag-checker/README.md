@@ -1,4 +1,4 @@
-# Huntress CTF 2025 -- 🌐 Flag Checker
+# Huntress CTF 2025 - 🌐 Flag Checker
 
 - **Team:** r4ph3cks
 - **Date:** 01/10/2025

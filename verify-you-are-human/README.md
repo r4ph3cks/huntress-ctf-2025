@@ -1,4 +1,4 @@
-# Huntress CTF 2025 -- 🐞 Verify You Are Human
+# Huntress CTF 2025 - 🐞 Verify You Are Human
 
 - **Team:** r4ph3cks
 - **Date:** 01/10/2025

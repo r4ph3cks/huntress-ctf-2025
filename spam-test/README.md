@@ -1,4 +1,4 @@
-# Huntress CTF 2025 -- 👶 Spam Test
+# Huntress CTF 2025 - 👶 Spam Test
 
 - **Team:** r4ph3cks
 - **Date:** 01/10/2025

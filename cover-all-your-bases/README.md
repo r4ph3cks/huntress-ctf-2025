@@ -1,4 +1,4 @@
-# Huntress CTF 2025 -- 👶 Cover All Your Bases
+# Huntress CTF 2025 - 👶 Cover All Your Bases
 
 - **Team:** r4ph3cks
 - **Date:** 01/10/2025

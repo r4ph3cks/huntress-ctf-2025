@@ -1,4 +1,4 @@
-# Huntress CTF 2025 -- 🐞 Sandy
+# Huntress CTF 2025 - 🐞 Sandy
 
 - **Team:** r4ph3cks
 - **Date:** 03/10/2025

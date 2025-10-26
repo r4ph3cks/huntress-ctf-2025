@@ -1,4 +1,4 @@
-# Huntress CTF 2025 -- 👶 Just a Little Bit
+# Huntress CTF 2025 - 👶 Just a Little Bit
 
 - **Team:** r4ph3cks
 - **Date:** 01/10/2025

@@ -1,4 +1,4 @@
-# Huntress CTF 2025 -- 🐞 Spaghetti 
+# Huntress CTF 2025 - 🐞 Spaghetti 
 
 - **Team:** r4ph3cks
 - **Date:** 02/10/2025

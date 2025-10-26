@@ -1,4 +1,4 @@
-# Huntress CTF 2025 -- ℹ️ Technical Support
+# Huntress CTF 2025 - ℹ️ Technical Support
 
 - **Team:** r4ph3cks
 - **Date:** 01/10/2025

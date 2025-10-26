@@ -1,4 +1,4 @@
-# Huntress CTF 2025 -- 🔍 Bussing Around
+# Huntress CTF 2025 - 🔍 Bussing Around
 
 - **Team:** r4ph3cks
 - **Date:** 01/10/2025
